@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////////////////////
 // Booking Form Javascript Code//
 
-$('.button').click(function(event) {
+$('.SingleTripSort').click(function(event) {
       /* Act on the event */
         var myThis = $(this);
         var item = $('.sortingDiv');
@@ -44,7 +44,19 @@ $('.button').click(function(event) {
 
       //   e.preventDefault();
   });
-
+  $(document).ready(function(){
+      $(".SingleTripSort").click(function(){
+            var className = $('.SingleTripSort').attr('class');
+           // alert(className);
+            if(className == "SingleTripSort ac"){
+                  $(".SingleTripSort").removeClass("ac");
+                  $(".SingleTripSort").addClass("dec");
+            }else{
+                  $(".SingleTripSort").removeClass("dec");
+                  $(".SingleTripSort").addClass("ac");
+            }
+      });
+});
 
   window.onload = function () {
       var booking_form_label_option = document.getElementById('booking_form_label_option');
@@ -120,9 +132,9 @@ $("#booking_form_check1").click(function() {
           //$('input[type=checkbox]').prop('checked', true);
           document.getElementById("booking_form_checkLabel1").style.color = "#0393FB";
           document.getElementById("booking_form_checkLabel2").style.color = "#000";
-          document.getElementById("Round_trip_pickUp_titleDivision").innerHTML = "Pick-Up Division";
-          document.getElementById("Round_trip_pickUp_titleDistrict").innerHTML = "Pick-Up District";
-          document.getElementById("Round_trip_pickUp_titleThana").innerHTML = "Pick-Up Thana";
+          document.getElementById("Round_trip_pickUp_titleDivision").innerHTML = "Division";
+          document.getElementById("Round_trip_pickUp_titleDistrict").innerHTML = "District";
+          document.getElementById("Round_trip_pickUp_titleThana").innerHTML = "Thana";
           document.getElementById("Round_trip_pickUp_titleAirport").innerHTML = "Via Destinations Airport";
   
          
@@ -179,3 +191,4 @@ $("#booking_form_check2").click(function() {
   
       }
   });
+

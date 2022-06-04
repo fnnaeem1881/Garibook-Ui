@@ -191,7 +191,7 @@ li.nav-item.booking_form_active button {
     display: inline-block !important;
 }
 .booking_form_village_name{
-    padding: 15px 29px;
+    padding: 16px 29px;
     border: none;
     color: #0393FB !important;
 }
@@ -207,14 +207,24 @@ li.nav-item.booking_form_active button {
 label.booking_form_label img {
     width: 17px;
 }
-.button.ran {
+.SingleTripSort.ac {
     position: absolute;
-    top: 50px;
-    left: 10px;
+    top: 84px;
+    right: 10px;
     cursor: pointer;
 }
 
-.button.ran img {
+.SingleTripSort.ac img {
+    width: 40px;
+}
+.SingleTripSort.dec {
+    position: absolute;
+    top: 85px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.SingleTripSort.dec img {
     width: 40px;
 }
 #booking_form_label_option {
@@ -253,4 +263,13 @@ label.booking_form_label img {
     color: #0393FB;
     left: 1%;
     font-weight: 500;
+}
+.booking_form_button_single_trip {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="0" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+    float: right;
+
 }
