@@ -1,0 +1,256 @@
+/* default */
+a{
+    text-decoration: none !important;
+}
+.default_color{
+    color: #0393FB !important;
+}
+.default_bg{
+    background: #0393FB !important;
+}
+.active_menu{
+    background: #0393FB !important;
+    color: white !important;
+    border-radius: 5px;
+}
+.active a{
+    color: white !important;
+}
+.tab-pane{
+    position: relative;
+}
+/* Header Css */
+header#header {
+height: 100px;
+background: #fff;
+box-shadow: -18px -19px 19px 11px #000;
+z-index: 99;
+position: fixed;
+width: 100%;
+}
+.header_icon_wrap img {
+    width: 200px;
+}
+
+.top_nav_wrap {
+    margin-top: 10px;
+}
+
+.header_icon_wrap {
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+.nav_hotline span {
+    background: #F9F9F9;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav_hotline {
+    font-size: 17px;
+    padding: 5px 0px;
+    margin-right: 7%;
+    margin-left: 5%;
+}
+.nav_apps_download{
+    background: #FFE351;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 3%;
+}
+.nav_apps_download .app_store_icon {
+    width: 9%;
+    margin-right: 2px;
+}
+.nav_select_language.d-inline-block {
+    margin-right: 2%;
+}
+ .nav_apps_download.d-inline-block button {
+    font-size: 13px;
+}
+.nav_select_language.d-inline-block button {
+    width: 150px;
+    border-radius: 10px;
+    background: #0393FB;
+    padding: 5px 0px;
+}
+ .nav_select_language.d-inline-block img {
+    width: 15%;
+    margin-right: 11px;
+    margin-top: -3px;
+}
+select.form-select.default_bg.text-light {
+    border-radius: 10px;
+}
+
+.nav_select_country.text-light.d-inline-block button {
+  padding: 5px 25px;
+  background: #0393FB;
+  border-radius: 10px;
+}
+.main_nav ul li a {
+    font-size: 18px!important;
+    color: #000;
+   padding: 5px 20px;
+   margin-left: 1px;
+   font-weight: 400;
+   letter-spacing: 1px;
+}
+
+#header .main_nav {
+    margin-top: 1%;
+}
+
+/* Header end */
+
+/* Booking Form Css */
+.booking_form_banner {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 745px;
+    /* display: flex;
+    align-items: center; */
+}
+section#booking_form {
+    position: relative;
+}
+.booking_form-select_tab {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: center;
+    border: none;
+}
+.booking_form_body {
+    padding-top: 200px;
+}
+.booking_nav_tabs{
+      background: #fff;
+      color:#000;
+      border-radius: 10px;
+}
+.booking_nav_tabs button{
+      color: #000;
+}
+.booking_form_active .active{
+      background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+}
+li.nav-item.booking_form_active button {
+    border: none;
+    padding: 15px 28px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.booking_nav_tabs img {
+    width: 12px;
+    margin-right: 7px;
+}
+
+.booking_form_content_wrap {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.single_trip_form_select {
+    border: solid 1px #ddd;
+}
+
+.single_trip_form_select:first-child {
+    border: solid 1px #ddd;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.single_trip_form_select:last-child {
+    border-radius: 0px 6px 6px 0px;
+}
+
+.single_trip_form_select select {
+    border: none;
+    border-radius: 0;
+}
+
+.form-select:focus {
+      box-shadow: none !important;
+}
+.booking_form_active_img_active{
+    display: none;
+}
+.booking_form_active .active img{
+    display: none;
+}
+.booking_form_active .active{
+    color: #fff;
+}
+.booking_form_active .active .booking_form_active_img_active {
+    display: inline-block !important;
+}
+.booking_form_village_name{
+    padding: 15px 29px;
+    border: none;
+    color: #0393FB !important;
+}
+.booking_form_village_name:focus{
+    outline: none;
+    box-shadow: none;
+    color: #0393FB !important;
+
+}
+.booking_form_village_name::placeholder{
+    color: #0393FB !important;
+}
+label.booking_form_label img {
+    width: 17px;
+}
+.button.ran {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.button.ran img {
+    width: 40px;
+}
+#booking_form_label_option {
+    margin-bottom: 13px;
+}
+
+#booking_form_label_option input {
+    margin-right: 6px;
+}
+
+#booking_form_label_option label {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+#booking_form_label_option2 {
+    margin-bottom: 13px;
+}
+
+#booking_form_label_option2 input {
+    margin-right: 6px;
+}
+
+#booking_form_label_option2 label {
+    margin-right: 20px;
+    font-weight: 500;
+}
+.booking_form_button {
+    position: absolute;
+    top: 125px;
+    font-size: 16px;
+    border: solid 1px #DDD;
+    border-radius: 48px;
+    width: 26px;
+    text-align: center;
+    color: #0393FB;
+    left: 1%;
+    font-weight: 500;
+}
