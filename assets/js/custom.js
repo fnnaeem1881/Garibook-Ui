@@ -72,22 +72,7 @@ $('.SingleTripSort').click(function(event) {
       }
       
   };
-//   window.onload = function () {
-//       var booking_form_label_option = document.getElementById('booking_form_label_option2');
-//       var chks = booking_form_label_option.getElementsByTagName("INPUT");
-//       for (var i = 0; i < chks.length; i++) {
-//           chks[i].onclick = function () {
-//               for (var i = 0; i < chks.length; i++) {
-//                   if (chks[i] != this && this.checked) {
-//                       chks[i].checked = false;
-//                   }
-//               }
-//           };
-//       }
-      
-//   };
-
-
+  
 $('.sortBtn').click(function(event) {
       var myThis = $(this);
       var item = $('.sortingDivRoundTrip');
@@ -148,6 +133,7 @@ $("#booking_form_check1").click(function() {
   
       }
   });
+
 $("#booking_form_check2").click(function() {
       if ($(this).is(':checked')) {
           //alert('asd');
@@ -192,3 +178,71 @@ $("#booking_form_check2").click(function() {
       }
   });
 
+// Multi City Add Row 
+
+  $('.multi-field-wrapper').each(function() {
+    var $wrapper = $('.multi-fields', this);
+    $(".AddMultiCityRoww", $(this)).click(function(e) {
+        document.getElementById("remove-field").style.display = "block";
+
+        $('.multi-field:first-child', $wrapper).clone(true).appendTo($wrapper).find('input').val('').focus();
+       
+    });
+    
+    $("body").on("click",".remove-field",function(e){
+  
+        if ($('.multi-field', $wrapper).length > 1){
+                $(this).parents('.multi-field').remove();
+            }
+            if ($('.multi-field', $wrapper).length > 1){
+            }else{
+                $(".remove-field").css({"display": "none"});
+    
+            }
+        });
+         $(".remove-field").css({"display": "none"});
+});
+
+window.onload = function () {
+    var booking_form_label_option = document.getElementById('booking_form_label_option2_multi_city');
+    var chks = booking_form_label_option.getElementsByTagName("INPUT");
+    for (var i = 0; i < chks.length; i++) {
+        chks[i].onclick = function () {
+            for (var i = 0; i < chks.length; i++) {
+                if (chks[i] != this && this.checked) {
+                    chks[i].checked = false;
+
+                }
+            }
+        };
+    }
+    
+};
+
+$("#multicityAirportToThanaCheck").click(function() {
+  if ($(this).is(':checked')) {
+      //alert('asd');
+      //$('input[type=checkbox]').prop('checked', true);
+      document.getElementById("multicityAirportToThanalabel").style.color = "#0393FB";
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
+
+  } else {
+     //alert('uncheck');
+      $('input[type=checkbox]').prop('checked', false);
+      document.getElementById("booking_form_checkLabel1").style.color = "#000";
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
+  }
+});
+$("#multicityThanaToAirportCheck").click(function() {
+  if ($(this).is(':checked')) {
+      //alert('asd');
+      //$('input[type=checkbox]').prop('checked', true);
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#0393FB";
+      document.getElementById("multicityAirportToThanalabel").style.color = "#000";
+  } else {
+     //alert('uncheck');
+      $('input[type=checkbox]').prop('checked', false);
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
+      document.getElementById("multicityAirportToThanalabel").style.color = "#000";
+  }
+});

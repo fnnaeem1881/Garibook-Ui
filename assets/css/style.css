@@ -239,7 +239,18 @@ label.booking_form_label img {
     margin-right: 20px;
     font-weight: 500;
 }
+.booking_form_label_option2 {
+    margin-bottom: 13px;
+}
 
+.booking_form_label_option2 input {
+    margin-right: 6px;
+}
+
+.booking_form_label_option2 label {
+    margin-right: 20px;
+    font-weight: 500;
+}
 #booking_form_label_option2 {
     margin-bottom: 13px;
 }
@@ -272,4 +283,38 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="0" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
     float: right;
 
+}
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 24 24"><path fill="%23bbbbbb" d="M20 3h-1V1h-2v2H7V1H5v2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13z"/></svg>');
+    float: right;
+    
+
+}
+input[type="datetime-local"] {
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 15px 20px;
+    height: auto;
+ }
+ label#AddMultiCityRow {
+    position: absolute;
+    top: 50px;
+    text-align: right;
+    cursor: pointer;
+    display: inline;
+    width: 20%;
+    right: 0;
+}
+label#AddMultiCityRow span {
+    background: #35B587;
+    color: #fff;
+    padding: 2px 20px 4px;
+    vertical-align: middle;
+    font-size: 13px;
+    border-radius: 6px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+label#AddMultiCityRow img {
+    width: 16px;
 }
