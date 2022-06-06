@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="assets/css/responsive.css">
       <!-- Bootstarp 5.2 Version Css Link -->
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
       <!-- Header Code -->
@@ -456,89 +457,413 @@
                                           <div class="tab-pane fade" id="multi-city-trip" role="tabpanel" aria-labelledby="multi-city-trip-tab">
                                                 <div class="multi-field-wrapper">
                                                       <div class="multi-fields">
-                                                        <div class="multi-field">
-                                                            <div class="booking_form_label_option2" id="booking_form_label_option2_multi_city">
-                                                                  <input type="checkbox" id="multicityAirportToThanaCheck" checked   name="form_home"><label id="multicityAirportToThanalabel"  style="color: #0393FB;">Airport To Thana</label>
-                                                                  <input type="checkbox" id="multicityThanaToAirportCheck"  class="" name="form_home"><label  id="multicityThanaToAirportLabel"> Thana To Airport</label>
-                                                                  
-                                                            </div>
-                                                            <div class="sortingDivMultiCity">
-                                                                
-                                                                  <div class="row g-2 mb-4 sort_item_round_trip position-relative" style="margin-top:30px;">
-                                                                        
-                                                                        <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="border-radius: 6px 0px 0px 6px; ">
-                                                                              <div class="row">
-                                                                                    <div class="col-md-1" style="margin: auto;padding-left: 25px;">
-                                                                                          <label class="booking_form_label" for="">
-                                                                                                <img src="assets/image/icon/plane.svg" alt="">
-                                                                                          </label>
-                                                                                    </div>
-                                                                                    <div class="col-md-10 p-0">
-                                                                                          <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option selected>Pick-Up Airport</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
-                                                                                          </div>
-                                                                                    </div>
-                                                                              </div>
-                                                                        </div>
-                                                                          
-                                                                        <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select">
-                                                                              <div class="row">
-                                                                                    <div class="col-md-2" style="margin: auto;padding-left: 25px;">
-                                                                                          <label class="booking_form_label" for="">
-                                                                                                <img src="assets/image/icon/location.svg" alt="">
-                                                                                          </label>
-                                                                                    </div>
-                                                                                    <div class="col-md-10">
-                                                                                          <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option id="Round_trip_pickUp_titleDistrict"  selected>Drop-Off Division/District</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
-                                                                                          </div>
-                                                                                    </div>
-                                                                              </div>
-                                                                        </div>
+                                                            <div class="multi-field" id="multiCityRow">
+                                                                  <div class="booking_form_label_option2" id="booking_form_label_option_multi_city">
+                                                                        <input type="checkbox" id="multicityAirportToThanaCheck" checked   name="form_home"><label id="multicityAirportToThanalabel"  style="color: #0393FB;">Airport To Thana</label>
+                                                                        <input type="checkbox" id="multicityThanaToAirportCheck"  class="" name="form_home"><label  id="multicityThanaToAirportLabel"> Thana To Airport</label>
+                                                                  </div>
+                                                                  <div class="sortingDivMultiCity">
+                                                                        <div class="row g-2 mb-4 sort_item_round_trip position-relative" style="margin-top:30px;">
                                                                               
-                                                                        <div class="col-md-3 p-0 m-0 single_trip_form_select">
-                                                                              <div class="row">
-                                                                                    <div class="col-md-2" style="margin: auto;padding-left: 25px;">
-                                                                                          <label class="booking_form_label" for="">
-                                                                                                <img src="assets/image/icon/location.svg" alt="">
-                                                                                          </label>
-                                                                                    </div>
-                                                                                    <div class="col-md-10">
-                                                                                          <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option id="Round_trip_pickUp_titleThana" selected>Drop-Off Thana</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="border-radius: 6px 0px 0px 6px; ">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-1" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/plane.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10 p-0">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option selected>Pick-Up Airport</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
                                                                                           </div>
                                                                                     </div>
                                                                               </div>
-                                                                        </div>
                                                                               
-                                                                        <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
-                                                                              <div class="form-group">
-                                                                                <input class="booking_form_village_name " type="datetime-local" placeholder="Date/Time" name="datetimemulticity">
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleDistrict"  selected>Drop-Off Division/District</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
                                                                               </div>
+                                                                                    
+                                                                              <div class="col-md-3 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleThana" selected>Drop-Off Thana</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
+                                                                                    <div class="form-group">
+                                                                                    <input type="text" name="date" class="datepicker booking_form_village_name" autocomplete="off" placeholder="Enter Date">
+                                                                                    </div>
+                                                                              </div>
+                                                                              <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
+                                                                              </label>
+                                                                              
                                                                         </div>
-                                                                        <label class="" id="AddMultiCityRow"><span class="AddMultiCityRoww"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
-                                                                        <br>
-                                                                        <p class="remove-field" id="remove-field" style="color: red;text-decoration: underline;font-size: 13px;font-weight: 300;margin-top: 2px;">Remove Destinations</p>
-                                                                        </label>
-                                                                        
                                                                   </div>
                                                             </div>
-                                                        </div>
+                                                            <div class="multi-field" id="multiCityRow1">
+                                                                  <div class="booking_form_label_option2" id="booking_form_label_option_multi_city1">
+                                                                        <input type="checkbox" id="multicityAirportToThanaCheck1" checked   name="form_home"><label id="multicityAirportToThanalabel1"  style="color: #0393FB;">Airport To Thana</label>
+                                                                        <input type="checkbox" id="multicityThanaToAirportCheck1"  class="" name="form_home"><label  id="multicityThanaToAirportLabel1"> Thana To Airport</label>
+                                                                  </div>
+                                                                  <div class="sortingDivMultiCity">
+                                                                  
+                                                                        <div class="row g-2 mb-4 sort_item_round_trip position-relative" style="margin-top:30px;">
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="border-radius: 6px 0px 0px 6px; ">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-1" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/plane.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10 p-0">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option selected>Pick-Up Airport</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleDistrict"  selected>Drop-Off Division/District</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleThana" selected>Drop-Off Thana</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
+                                                                                    <div class="form-group datetimepicker">
+                                                                                          <input type="text" name="date" class="  booking_form_village_name" autocomplete="off" placeholder="Enter Date">
+                                                                                    </div>
+                                                                              </div>
+                                                                              <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow1"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
+                                                                              <br>
+                                                                              <p class="remove-field" id="remove-field1" style="color: red;text-decoration: underline;font-size: 13px;font-weight: 300;margin-top: 2px;">Remove Destinations</p>
+                                                                              </label>
+                                                                              
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="multi-field" id="multiCityRow2">
+                                                                  <div class="booking_form_label_option2" id="booking_form_label_option_multi_city2">
+                                                                        <input type="checkbox" id="multicityAirportToThanaCheck2" checked   name="form_home"><label id="multicityAirportToThanalabel2"  style="color: #0393FB;">Airport To Thana</label>
+                                                                        <input type="checkbox" id="multicityThanaToAirportCheck2"  class="" name="form_home"><label  id="multicityThanaToAirportLabel2"> Thana To Airport</label>
+                                                                  </div>
+                                                                  <div class="sortingDivMultiCity">
+                                                                  
+                                                                        <div class="row g-2 mb-4 sort_item_round_trip position-relative" style="margin-top:30px;">
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="border-radius: 6px 0px 0px 6px; ">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-1" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/plane.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10 p-0">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option selected>Pick-Up Airport</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleDistrict"  selected>Drop-Off Division/District</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleThana" selected>Drop-Off Thana</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
+                                                                                    <div class="form-group">
+                                                                                    <input class="booking_form_village_name " type="datetime-local" placeholder="Date/Time" name="datetimemulticity">
+                                                                                    </div>
+                                                                              </div>
+                                                                              <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow2"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
+                                                                              <br>
+                                                                              <p class="remove-field" id="remove-field2" style="color: red;text-decoration: underline;font-size: 13px;font-weight: 300;margin-top: 2px;">Remove Destinations</p>
+                                                                              </label>
+                                                                              
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="multi-field" id="multiCityRow3">
+                                                                  <div class="booking_form_label_option2" id="booking_form_label_option_multi_city3">
+                                                                        <input type="checkbox" id="multicityAirportToThanaCheck3" checked   name="form_home"><label id="multicityAirportToThanalabel3"  style="color: #0393FB;">Airport To Thana</label>
+                                                                        <input type="checkbox" id="multicityThanaToAirportCheck3"  class="" name="form_home"><label  id="multicityThanaToAirportLabel3"> Thana To Airport</label>
+                                                                  </div>
+                                                                  <div class="sortingDivMultiCity">
+                                                                  
+                                                                        <div class="row g-2 mb-4 sort_item_round_trip position-relative" style="margin-top:30px;">
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="border-radius: 6px 0px 0px 6px; ">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-1" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/plane.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10 p-0">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option selected>Pick-Up Airport</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleDistrict"  selected>Drop-Off Division/District</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleThana" selected>Drop-Off Thana</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
+                                                                                    <div class="form-group">
+                                                                                    <input class="booking_form_village_name " type="datetime-local" placeholder="Date/Time" name="datetimemulticity">
+                                                                                    </div>
+                                                                              </div>
+                                                                              <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow3"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
+                                                                              <br>
+                                                                              <p class="remove-field" id="remove-field3" style="color: red;text-decoration: underline;font-size: 13px;font-weight: 300;margin-top: 2px;">Remove Destinations</p>
+                                                                              </label>
+                                                                              
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="multi-field" id="multiCityRow4">
+                                                                  <div class="booking_form_label_option2" id="booking_form_label_option_multi_city4">
+                                                                        <input type="checkbox" id="multicityAirportToThanaCheck4" checked   name="form_home"><label id="multicityAirportToThanalabel4"  style="color: #0393FB;">Airport To Thana</label>
+                                                                        <input type="checkbox" id="multicityThanaToAirportCheck4"  class="" name="form_home"><label  id="multicityThanaToAirportLabel4"> Thana To Airport</label>
+                                                                  </div>
+                                                                  <div class="sortingDivMultiCity">
+                                                                  
+                                                                        <div class="row g-2 mb-4 sort_item_round_trip position-relative" style="margin-top:30px;">
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="border-radius: 6px 0px 0px 6px; ">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-1" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/plane.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10 p-0">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option selected>Pick-Up Airport</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                              
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleDistrict"  selected>Drop-Off Division/District</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 p-0 m-0 single_trip_form_select">
+                                                                                    <div class="row">
+                                                                                          <div class="col-md-2" style="margin: auto;padding-left: 25px;">
+                                                                                                <label class="booking_form_label" for="">
+                                                                                                      <img src="assets/image/icon/location.svg" alt="">
+                                                                                                </label>
+                                                                                          </div>
+                                                                                          <div class="col-md-10">
+                                                                                                <div class="form-group">
+                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
+                                                                                                      <option id="Round_trip_pickUp_titleThana" selected>Drop-Off Thana</option>
+                                                                                                      <option value="1">One</option>
+                                                                                                      <option value="2">Two</option>
+                                                                                                      <option value="3">Three</option>
+                                                                                                      </select>
+                                                                                                </div>
+                                                                                          </div>
+                                                                                    </div>
+                                                                              </div>
+                                                                                    
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
+                                                                                    <div class="form-group">
+                                                                                    <input class="booking_form_village_name " type="datetime-local" placeholder="Date/Time" name="datetimemulticity">
+                                                                                    </div>
+                                                                              </div>
+                                                                              <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow4"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
+                                                                              <br>
+                                                                              <p class="remove-field" id="remove-field4" style="color: red;text-decoration: underline;font-size: 13px;font-weight: 300;margin-top: 2px;">Remove Destinations</p>
+                                                                              </label>
+                                                                              
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
                                                       </div>
                                                   </div>
 
@@ -557,6 +882,11 @@
       <script src="assets/js/jquery-3.6.0.min.js"></script>
       <!-- Bootstarp 5.2 Js Link -->
       <script src="assets/js/bootstrap.min.js"></script>
+      <!-- DateTime  -->
+      <script src="assets/js/moment.min.js"></script>
+      <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+      <script src="assets/js/nl.js"></script>
+      <script src="assets/js/bootstrap-datepicker.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="assets/js/custom.js"></script>
 </body>
 </html>
