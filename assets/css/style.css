@@ -163,7 +163,7 @@ li.nav-item.booking_form_active button {
     width: 80%;
     margin: auto;
     background: #fff;
-    padding: 50px 40px;
+    padding: 25px 35px 30px;
     border-radius: 10px;
 }
 
@@ -308,7 +308,7 @@ input[type="datetime-local"] {
  }
  label#AddMultiCityRow {
     position: absolute;
-    top: 50px;
+    top: 60px;
     text-align: right;
     cursor: pointer;
     display: inline;

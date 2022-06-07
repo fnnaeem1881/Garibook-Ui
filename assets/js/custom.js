@@ -130,6 +130,30 @@ window.onload = function () {
               }
           };
       }
+      var CarRentalCheckbox = document.getElementById('CarRentalCheckbox');
+      var CarRentalCheckboxchks = CarRentalCheckbox.getElementsByTagName("INPUT");
+      for (var i = 0; i < CarRentalCheckboxchks.length; i++) {
+          CarRentalCheckboxchks[i].onclick = function () {
+              for (var i = 0; i <CarRentalCheckboxchks.length; i++) {
+                  if (CarRentalCheckboxchks[i] != this && this.checked) {
+                      CarRentalCheckboxchks[i].checked = false;
+      
+                  }
+              }
+          };
+      }
+      var CarRentalFooterCheckbox = document.getElementById('CarRentalFooterCheckbox');
+      var CarRentalFooterCheckboxchks = CarRentalFooterCheckbox.getElementsByTagName("INPUT");
+      for (var i = 0; i < CarRentalFooterCheckboxchks.length; i++) {
+          CarRentalFooterCheckboxchks[i].onclick = function () {
+              for (var i = 0; i <CarRentalFooterCheckboxchks.length; i++) {
+                  if (CarRentalFooterCheckboxchks[i] != this && this.checked) {
+                      CarRentalFooterCheckboxchks[i].checked = false;
+      
+                  }
+              }
+          };
+      }
   };
   
 $('.sortBtn').click(function(event) {
@@ -274,6 +298,8 @@ $("#booking_form_check2").click(function() {
 //     }
 $("#multicityAirportToThanaCheck").click(function() {
   if ($(this).is(':checked')) {
+    $('#multicityAirportToThanaSection').show();
+    $('#multicityThanaToAirportSection').hide();
       document.getElementById("multicityAirportToThanalabel").style.color = "#0393FB";
       document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
   } else {
@@ -283,6 +309,8 @@ $("#multicityAirportToThanaCheck").click(function() {
 });
 $("#multicityThanaToAirportCheck").click(function() {
   if ($(this).is(':checked')) {
+    $('#multicityAirportToThanaSection').hide();
+    $('#multicityThanaToAirportSection').show();
       document.getElementById("multicityThanaToAirportLabel").style.color = "#0393FB";
       document.getElementById("multicityAirportToThanalabel").style.color = "#000";
   } else {
@@ -292,6 +320,8 @@ $("#multicityThanaToAirportCheck").click(function() {
 });
 $("#multicityAirportToThanaCheck1").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection1').show();
+        $('#multicityThanaToAirportSection1').hide();
         document.getElementById("multicityAirportToThanalabel1").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel1").style.color = "#000";
     } else {
@@ -301,6 +331,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck1").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection1').hide();
+        $('#multicityThanaToAirportSection1').show();
         document.getElementById("multicityThanaToAirportLabel1").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel1").style.color = "#000";
     } else {
@@ -310,6 +342,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityAirportToThanaCheck2").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection2').show();
+        $('#multicityThanaToAirportSection2').hide(); 
         document.getElementById("multicityAirportToThanalabel2").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel2").style.color = "#000";
     } else {
@@ -319,6 +353,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck2").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection2').hide();
+        $('#multicityThanaToAirportSection2').show();  
         document.getElementById("multicityThanaToAirportLabel2").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel2").style.color = "#000";
     } else {
@@ -328,6 +364,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityAirportToThanaCheck3").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection3').show();
+        $('#multicityThanaToAirportSection3').hide();
         document.getElementById("multicityAirportToThanalabel3").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel3").style.color = "#000";
     } else {
@@ -337,6 +375,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck3").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection3').hide();
+        $('#multicityThanaToAirportSection3').show();
         document.getElementById("multicityThanaToAirportLabel3").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel3").style.color = "#000";
     } else {
@@ -346,6 +386,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityAirportToThanaCheck4").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection4').show();
+        $('#multicityThanaToAirportSection4').hide();
         document.getElementById("multicityAirportToThanalabel4").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel4").style.color = "#000";
     } else {
@@ -355,6 +397,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck4").click(function() {
     if ($(this).is(':checked')) {
+        $('#multicityAirportToThanaSection4').hide();
+        $('#multicityThanaToAirportSection4').show();
         document.getElementById("multicityThanaToAirportLabel4").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel4").style.color = "#000";
     } else {
@@ -366,6 +410,14 @@ $('#multiCityRow1').hide();
 $('#multiCityRow2').hide();
 $('#multiCityRow3').hide();
 $('#multiCityRow4').hide();
+
+
+$('#multicityThanaToAirportSection').hide();
+$('#multicityThanaToAirportSection1').hide();
+$('#multicityThanaToAirportSection2').hide();
+$('#multicityThanaToAirportSection3').hide();
+$('#multicityThanaToAirportSection4').hide();
+
 
 $(".AddMultiCityRow").click(function() {
     $('#multiCityRow1').show();
@@ -408,3 +460,48 @@ $("#remove-field4").click(function() {
     
 //   });
 
+$('#CarRentalFullDayCheck').click(function(){
+    if ($(this).is(':checked')) {
+          document.getElementById("CarRentalFullDayLabel").style.color = "#0393FB";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#000";
+    }
+});
+$('#CarRentalHalfDayCheck').click(function(){
+    if ($(this).is(':checked')) {
+          document.getElementById("CarRentalFullDayLabel").style.color = "#000";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#0393FB";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#000";
+    }
+});
+$('#CarRentalWeeklyCheck').click(function(){
+    if ($(this).is(':checked')) {
+          document.getElementById("CarRentalFullDayLabel").style.color = "#000";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#0393FB";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#000";
+    }
+});
+$('#CarRentalMonthlyCheck').click(function(){
+    if ($(this).is(':checked')) {
+          document.getElementById("CarRentalFullDayLabel").style.color = "#000";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#0393FB";
+    }
+});
+
+$('#CarRentalInsideDhakaCheck').click(function(){
+    if ($(this).is(':checked')) {
+          document.getElementById("CarRentalInsideDhakaLabel").style.color = "#0393FB";
+          document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#000";
+    }
+});
+$('#CarRentalOutsideDhakaCheck').click(function(){
+    if ($(this).is(':checked')) {
+          document.getElementById("CarRentalInsideDhakaLabel").style.color = "#000";
+          document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#0393FB";
+    }
+});
