@@ -408,37 +408,3 @@ $("#remove-field4").click(function() {
     
 //   });
 
-
-  // An array of highlighting dates ( 'dd-mm-yyyy' )
-var disableDates = ["11-6-2022", "16-11-2020", "17-11-2020","27-12-2020"];
-      
-    $('.datepicker').datepicker({
-        format: 'mm/dd/yyyy',
-        beforeShowDay: function(date){
-            dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
-            if(disableDates.indexOf(dmy) != -1){
-                 return true,'highlight';
-            }
-                return true;
-            
-        }
-    });
-
-    $(document).ready(function(){
-
-        var picker = $('#myDatePicker').datetimepicker({
-            date: new Date(),
-            viewMode: 'YMDHMS',
-            firstDayOfWeek: 0,
-            onDateChange: function() {
-                $('#date-text').text(this.getText());
-            },
-            onClose: function() {
-                this.element.remove();
-            }
-        });
-        // console.log(picker.getText());
-        // console.log(picker.getValue());
-    
-        picker.hide();
-    });

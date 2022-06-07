@@ -13,7 +13,11 @@
       <link rel="stylesheet" href="assets/css/responsive.css">
       <!-- Bootstarp 5.2 Version Css Link -->
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- DateTimePicker Css Link -->
+      <link rel="stylesheet" href="assets/css/dateTimePicker.css">
+      <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+      
+      
 </head>
 <body>
       <!-- Header Code -->
@@ -143,12 +147,7 @@
                                                                                     </div>
                                                                                     <div class="col-md-10">
                                                                                           <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option selected>Date</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
+                                                                                                <input type="text" name="date" class="datepicker booking_form_village_name" autocomplete="off" placeholder="Enter Date">
                                                                                           </div>
                                                                                     </div>
                                                                               </div>
@@ -164,12 +163,9 @@
                                                                                     </div>
                                                                                     <div class="col-md-10">
                                                                                           <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option selected>Time</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
+                                                                                                <div class="dateTimePicker" id="TmePicker">
+                                                                                                      <input  name="date" class=" booking_form_village_name" autocomplete="off" placeholder="Time">
+                                                                                                </div>
                                                                                           </div>
                                                                                     </div>
                                                                               </div>
@@ -365,7 +361,7 @@
                                                                                           </div>
                                                                                           <div class="col-md-10">
                                                                                                 <div class="form-group">
-                                                                                                      <input class="booking_form_village_name " type="date" placeholder="Type Village Name" name="village_name">
+                                                                                                      <input type="text" name="date" class="datepicker booking_form_village_name" autocomplete="off" placeholder="Enter Date">
 
                                                                                                 </div>
                                                                                           </div>
@@ -382,12 +378,9 @@
                                                                                           </div>
                                                                                           <div class="col-md-10">
                                                                                                 <div class="form-group">
-                                                                                                      <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                        <option selected>Time</option>
-                                                                                                        <option value="1">One</option>
-                                                                                                        <option value="2">Two</option>
-                                                                                                        <option value="3">Three</option>
-                                                                                                      </select>
+                                                                                                      <div class="dateTimePicker" id="TmePicker2">
+                                                                                                      <input  name="date" class=" booking_form_village_name" autocomplete="off" placeholder="Time">
+                                                                                                </div>
                                                                                                 </div>
                                                                                           </div>
                                                                                     </div>
@@ -416,12 +409,10 @@
                                                                                     </div>
                                                                                     <div class="col-md-10">
                                                                                           <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option selected>Date</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
+                                                                                                <div class="form-group">
+                                                                                                      <input type="text" name="date" class="datepicker booking_form_village_name" autocomplete="off" placeholder="Enter Date">
+
+                                                                                                </div>
                                                                                           </div>
                                                                                     </div>
                                                                               </div>
@@ -438,12 +429,9 @@
                                                                                     </div>
                                                                                     <div class="col-md-10">
                                                                                           <div class="form-group">
-                                                                                                <select class="form-select p-3 default_color" id="floatingSelectGrid" aria-label="Floating label select example">
-                                                                                                  <option selected>Time</option>
-                                                                                                  <option value="1">One</option>
-                                                                                                  <option value="2">Two</option>
-                                                                                                  <option value="3">Three</option>
-                                                                                                </select>
+                                                                                                <div class="dateTimePicker" id="TmePicker3">
+                                                                                                      <input  name="date" class=" booking_form_village_name" autocomplete="off" placeholder="Time">
+                                                                                                </div>
                                                                                           </div>
                                                                                     </div>
                                                                               </div>
@@ -527,7 +515,9 @@
                                                                                     
                                                                               <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
                                                                                     <div class="form-group">
-                                                                                    <input type="text" name="date" class="datepicker booking_form_village_name" autocomplete="off" placeholder="Enter Date">
+                                                                                          <div class="dateTimePicker" id="DateTimeMultiCity1">
+                                                                                                <input class="booking_form_village_name" placeholder="Enter Date /Time" />
+                                                                                          </div>
                                                                                     </div>
                                                                               </div>
                                                                               <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
@@ -605,9 +595,9 @@
                                                                                     </div>
                                                                               </div>
                                                                                     
-                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden">
-                                                                                    <div class="form-group datetimepicker">
-                                                                                          <input type="text" name="date" class="  booking_form_village_name" autocomplete="off" placeholder="Enter Date">
+                                                                              <div class="col-md-3 col-sm-6 p-0 m-0 single_trip_form_select" style="overflow: hidden;z-index: 11;">
+                                                                                    <div class="dateTimePicker" id="DateTimeMultiCity2">
+                                                                                          <input class="booking_form_village_name" placeholder="Enter Date /Time" />
                                                                                     </div>
                                                                               </div>
                                                                               <label class="" id="AddMultiCityRow"><span class="AddMultiCityRow1"><img src="assets/image/icon/plus.svg" alt=""> Add Destinations</span>
@@ -888,5 +878,6 @@
       <script src="assets/js/nl.js"></script>
       <script src="assets/js/bootstrap-datepicker.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <script src="assets/js/custom.js"></script>
+      <script src="assets/js/dateTimeCustom.js"></script>
 </body>
 </html>
