@@ -1,0 +1,1174 @@
+/* responsive design*/
+@media (max-width:1400px){
+      .main_nav ul li a {
+            font-size: 14px !important;
+            color: #000;
+            padding: 5px 20px;
+            margin-left: 1px;
+            font-weight: 400;
+            letter-spacing: 1px;
+      }
+      .nav_hotline {
+            font-size: 13px;
+            padding: 5px 0px;
+            margin-right: 1%;
+            margin-left: 3%;
+      }
+      label#AddMultiCityRow span {
+            background: #35B587;
+            color: #fff;
+            padding: 2px 18px 4px;
+            vertical-align: middle;
+            font-size: 9px;
+            border-radius: 6px;
+            font-weight: 300;
+            letter-spacing: 1px;
+      }
+}
+
+@media (min-width:1200px){
+      .nav_select_country.text-light.display_inline_block button img {
+            width: 15%;
+      }
+}
+
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media (max-width: 1200px){
+    
+      #header .main_nav {
+            margin-top: 2%;
+      }
+      .main_nav ul li a {
+            font-size: 12px !important;
+            color: #000;
+            padding: 5px 5px;
+            margin-left: 1px;
+            font-weight: 400;
+            letter-spacing: 1px;
+      }
+      .nav_select_country.text-light.display_inline_block button {
+            padding: 5px 10px;
+            background: #0393FB;
+            border-radius: 10px;
+      }
+      .nav_select_country.text-light.display_inline_block button img {
+            width: 15%;
+      }
+      .nav_select_country.text-light.display_inline_block button {
+            padding: 5px 10px;
+            background: #0393FB;
+            border-radius: 10px;
+            font-size: 12px;
+      }
+      .nav_select_language.display_inline_block button {
+            width: 120px;
+            border-radius: 10px;
+            background: #0393FB;
+            padding: 5px 0px;
+            font-size: 12px;
+      }
+      .nav_hotline {
+            font-size: 12px;
+            padding: 5px 0px;
+            margin-right: 1%;
+            margin-left: 0%;
+      }
+      .nav_apps_download.display_inline_block button {
+            font-size: 12px;
+      }
+      .nav_apps_download {
+            background: #FFE351;
+            height: 30px;
+            border-radius: 7px;
+            margin-right: 0%;
+      }
+      .nav_select_language.display_inline_block {
+            margin-right: 0%;
+      }
+      .main_nav_wrap .display_inline_block {
+            margin: 0;
+            padding: 0;
+      
+      }
+      .booking_form_content_wrap {
+            width: 90%;
+            margin: auto;
+            background: #fff;
+            padding: 25px 35px 30px;
+            border-radius: 10px;
+      }
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media (min-width: 991px) and (max-width: 1200px){
+      #header .container, .container-md, .container-sm {
+            max-width: 90%;
+      }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width: 992px){
+      #header .main_nav {
+            margin-top: 1%;
+            display: none;
+      }
+      .nav_hotline.display_inline_block {
+            display: none;
+      }
+      .nav_apps_download.display_inline_block {
+            display: none;
+      }
+      .header_icon_wrap img {
+            width: 160px;
+      }
+      
+      #header .col-md-3.col-sm-6 {
+      width: 40%;
+      overflow: hidden;
+      }
+    
+    #header .col-md-9.col-sm-6 {
+      width: 50%;
+      float: left;
+    }
+    .nav_select_language.display_inline_block button {
+      width: 115px;
+      border-radius: 10px;
+      color: #0393FB;
+      padding: 5px 0px;
+      border: none;
+      background: transparent;
+    }
+    .nav_select_country.text-light.display_inline_block button {
+        padding: 5px 0px;
+        color: #0393FB;
+        border-radius: 10px;
+        border: none;
+        background: transparent;
+        margin-left: -14px;
+      }
+    
+        .nav_select_language.display_inline_block {
+        width: 50%;
+        float: left;
+        margin: 0;
+        }
+      .nav_select_country.text-light.display_inline_block {
+        width: 50%;
+        float: left;
+      }
+      .top_nav_wrap {
+        margin-top: 35px;
+      }
+      .mobile_view_aps_download{
+        display: block !important;
+        background: #FFE351;
+        padding: 10px 0px;
+        text-align: center;
+      }
+      .mobile_view_aps_download.dispaly-none img {
+        width: 75px;
+      }
+      .mobile_view_aps_download.dispaly-none span {
+        color: #000;
+        font-weight: 500;
+        font-size: 12px;
+      }
+      .nav_select_language.display_inline_block img {
+        width: 15%;
+        margin-right: 2px;
+        margin-top: -3px;
+      }
+      .nav_select_country.text-light.display_inline_block button img {
+        width: 17px;
+      }
+      .mobile_view_aps_download.dispaly-none.mobile_view_aps_download_sticky {
+            display: none !important;
+      }
+      .single_trip_form_select .col-md-1, .col-md-2 {
+            padding-left: 14px !important;
+      }
+      .single_trip_form_select .col-md-1 {
+            padding-left: 13px !important;
+      }
+      label.booking_form_label img {
+            width: 13px !important;
+            margin-left: 9px !important;
+      }
+      #booking_form_label_option2 label {
+            margin-right: 16px;
+            font-weight: 500;
+      }
+      .single_trip_form_select select {
+            border: none;
+            border-radius: 0;
+            font-size: 12px;
+      }
+      .booking_form_village_name {
+            padding: 18px 18px !important;
+            border: none;
+            color: #0393FB !important;
+            font-size: 12px;
+      }
+      label#AddMultiCityRow {
+            position: absolute;
+            top: 60px;
+            text-align: right;
+            cursor: pointer;
+            display: inline;
+            width: 40%;
+            right: 0;
+      }
+      .SingleTripSort.ac {
+            position: absolute;
+            top: 78px;
+            right: 10px;
+            cursor: pointer;
+      }
+      .booking_form_button {
+            position: absolute;
+            top: 115px;
+            font-size: 16px;
+            border: solid 1px #DDD;
+            border-radius: 48px;
+            width: 26px;
+            text-align: center;
+            color: #0393FB;
+            left: 1%;
+            font-weight: 500;
+      }
+      #multi-city-trip .col-md-1 img {
+            margin: 0 !important;
+      }
+      #multi-city-trip .single_trip_form_select .col-md-2.display_inline_block {
+            padding-left: 14px !important;
+      }
+      span.CarRentalMobileView {
+            width: 50%;
+            float: left;
+        }
+        
+        span.CarRentalMobileView1 {
+            width: 50%;
+            float: left;
+        }
+        
+        span.CarRentalMobileView2 {
+            width: 50%;
+            float: left;
+        }
+        
+        span.CarRentalMobileView3 {
+            width: 50%;
+        }
+  }
+
+
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+@media(min-width: 768px){
+
+   
+}
+
+@media(max-width: 768px){
+    #header .main_nav {
+          margin-top: 1%;
+          display: none;
+    }
+    .nav_hotline.display_inline_block {
+          display: none;
+    }
+    .nav_apps_download.display_inline_block {
+          display: none;
+    }
+    .header_icon_wrap img {
+          width: 160px;
+    }
+    
+    #header .col-md-3.col-sm-6 {
+    width: 40%;
+    overflow: hidden;
+    }
+  
+  #header .col-md-9.col-sm-6 {
+    width: 50%;
+    float: left;
+  }
+  .nav_select_language.display_inline_block button {
+    width: 115px;
+    border-radius: 10px;
+    color: #0393FB;
+    padding: 5px 0px;
+    border: none;
+    background: transparent;
+  }
+  .nav_select_country.text-light.display_inline_block button {
+      padding: 5px 0px;
+      color: #0393FB;
+      border-radius: 10px;
+      border: none;
+      background: transparent;
+      margin-left: -14px;
+    }
+  
+      .nav_select_language.display_inline_block {
+      width: 50%;
+      float: left;
+      margin: 0;
+      }
+    .nav_select_country.text-light.display_inline_block {
+      width: 50%;
+      float: left;
+    }
+    .top_nav_wrap {
+      margin-top: 35px;
+    }
+    .mobile_view_aps_download{
+      display: block !important;
+      background: #FFE351;
+      padding: 10px 0px;
+      text-align: center;
+    }
+    .mobile_view_aps_download.dispaly-none img {
+      width: 75px;
+    }
+    .mobile_view_aps_download.dispaly-none span {
+      color: #000;
+      font-weight: 500;
+      font-size: 12px;
+    }
+    .nav_select_language.display_inline_block img {
+      width: 15%;
+      margin-right: 2px;
+      margin-top: -3px;
+    }
+    .nav_select_country.text-light.display_inline_block button img {
+      width: 17px;
+    }
+    .booking_form_active .active .booking_form_active_img_active {
+      display: block !important;
+      margin: auto;
+      width: 20px !important;
+      margin-bottom: 5px;
+      }
+      .booking_nav_tabs img {
+            width: 20px;
+            margin-right: 7px;
+            display: block;
+            margin: auto;
+            margin-bottom: 3px;
+          
+      }
+      .booking_form_active_img_active {
+            display: none;
+            width: 0px !important;
+      }
+      li.nav-item.booking_form_active button {
+            border: none;
+            padding: 15px 28px;
+            background: #fff;
+            border-radius: 10px;
+            width: 128px;
+            height: 90px;
+            line-height: 20px;
+            font-size: 15px;
+      }
+      
+      .RoundTripTab img {
+      width: 32px !important;
+    }
+    
+    .RoundTripTab  .booking_form_active_img_active {
+      width: 0 !important;
+    }
+    .RoundTripTab .active .booking_form_active_img_active {
+      width: 33px !important;
+    }
+    .singleTripTab img {
+      width: 25px !important;
+    }
+    
+    .singleTripTab  .booking_form_active_img_active {
+      width: 0 !important;
+    }
+    .singleTripTab .active .booking_form_active_img_active {
+      width: 25px !important;
+    }
+    .single_trip_form_select .col-md-1 {
+      padding-left: 13px !important;
+      width: 10%;
+      float: left;
+    }
+    .single_trip_form_select .col-md-11 {
+      width: 90%;
+      float: left;
+    }
+    #single-trip .col-md-6 {
+      width: 100%;
+    }
+    #single-trip .p-0.m-0.single_trip_form_select {
+      margin-top: 10px !important;
+      border-radius: 6px !important;
+    }
+    .single_trip_form_select select {
+      border: none;
+      border-radius: 0;
+      font-size: 15px;
+    }
+    .single_trip_form_select .col-md-2 {
+      padding-left: 13px !important;
+      width: 10%;
+      float: left;
+    }
+    .single_trip_form_select .col-md-10 {
+      width: 85%;
+      float: left;
+    }
+    .col-md-6.col-sm-6.p-0.m-0.singleTripMobileView .col-md-6 {
+      width: 48% !important;
+      margin: auto !important;
+    }   
+    .booking_form_button_single_trip {
+      top: 155px !important;
+    }
+    .SingleTripSort.ac {
+      position: absolute;
+      top: 150px;
+      right: 10px;
+      cursor: pointer;
+    }
+    .SingleTripSort.dec {
+      position: absolute;
+      top: 150px;
+      right: 10px;
+      cursor: pointer;
+    }
+    #single-trip .singleTripMobileView2 .p-0.m-0.single_trip_form_select {
+      margin-top: 10px !important;
+      border-radius: 6px !important;
+      width: 48%;
+      margin: auto !important;
+        margin-bottom: auto;
+      margin-bottom: 10px !important;
+    }
+    #single-trip .p-0.m-0.single_trip_form_select {
+      margin-top: 10px !important;
+      border-radius: 6px !important;
+      width: 97%;
+      margin: auto !important;
+        margin-bottom: auto;
+      margin-bottom: 10px !important;
+    }
+    #round-trip .col-md-3 {
+      width: 48%;
+      margin: auto !important;
+      margin-bottom: 10px !important;
+    }
+    .col-md-6.col-sm-6.p-0.m-0.RoundTripMovieView .col-md-6 {
+      width: 48%;
+      margin: auto !important;
+      margin-top: 10px !important;
+    }
+    #booking_form_label_option label {
+      margin-right: 7px;
+      font-weight: 500;
+      font-size: 13px;
+    }
+    .row.g-2.mb-4.sort_item_round_trip .col-md-6 {
+      width: 97%;
+      margin: auto !important;
+    }
+    .col-md-6.col-sm-6.p-0.m-0.RoundTripMovieView {
+      width: 99%;
+    }
+    .single_trip_form_select {
+      border-radius: 6px !important;
+    }
+    #booking_form_label_option2 label {
+      /* margin-right: 90px; */
+      font-weight: 500;
+      font-size: 14px;
+    }
+    #OtherPickUpDate .col-md-6 {
+      width: 48%;
+      margin: auto !important;
+    }
+    .booking_form_button {
+      position: absolute;
+      top: 193px;
+      font-size: 16px;
+      border: solid 1px #DDD;
+      border-radius: 48px;
+      width: 26px;
+      text-align: center;
+      color: #0393FB;
+      left: 1%;
+      font-weight: 500;
+    }
+    div#booking_form_label_option label:last-child {
+      font-size: 15px;
+      font-weight: 700;
+  }
+  #booking_form_label_option2 label:first-child {
+      font-size: 15px;
+      width: 50%;
+      float: left;
+      font-weight: bold;
+    }
+    #OtherPickUpDate {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 10px !important;
+    }
+    .mibile_view {
+      display: block;
+    }
+    .desktop_view {
+      display: none;
+    }
+    
+      #booking_form_label_option2 span:nth-child(3) {
+      width: 50%;
+      display: block;
+      float: left;
+      position: relative;
+      margin-top: 10px;
+    }
+    .mibile_view span {
+      display: block;
+      font-size: 10px;
+      color: #847a7a;
+    }
+    
+    #retureSameasdate {
+      margin: 0 !important;
+      width: 80%;
+      float: left;
+    }
+    #retureSameasdateCheck {
+      width: 10%;
+      float: left;
+      margin-top: 4px;
+    }
+
+    #booking_form_label_option2 span:nth-child(4) {
+      width: 50%;
+      display: block;
+      float: left;
+      position: relative;
+      margin-top: 10px;
+    }
+
+    #otherreturndate {
+      margin: 0 !important;
+      width: 80%;
+      float: left;
+    }
+    #OthePickUp {
+      width: 10%;
+      float: left;
+      margin-top: 4px;
+    }
+    div#CarRental .col-md-6:last-child .col-md-6 {
+      width: 44%;
+      margin: auto !important;
+      padding: 0px;
+  }
+  div#CarRental .col-md-6:first-child {
+      margin: 0;
+      padding: 0px 8px;
+  }
+  /* #multicityAirportToThanaSection{
+        display:block;
+  }
+  #multicityAirportToThanaSection1{
+      display:block; 
+  } 
+  #multicityAirportToThanaSection2{
+      display:block; 
+  } 
+  #multicityAirportToThanaSection3{
+      display:block; 
+  } 
+   #multicityAirportToThanaSection4{
+      display:block; 
+  } */
+  div#multicityAirportToThanaSection .col-md-3 {
+      width: 47%;
+      float: left;
+      margin-left: 9px !important;
+      margin-top: 10px !important;
+      border-radius: 6px !important;
+  }
+  label#AddMultiCityRow {
+        position: absolute;
+        top: 135px;
+        text-align: right;
+        cursor: pointer;
+        display: inline;
+        width: 40%;
+        right: 0;
+      }
+      div#multicityAirportToThanaSection .col-md-3:first-child select {width: 92%;}
+      div#multicityThanaToAirportSection .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityThanaToAirportSection .col-md-3:first-child select {width: 92%;}
+
+      /*  */
+      div#multicityAirportToThanaSection1 .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityAirportToThanaSection1 .col-md-3:first-child select {width: 92%;}
+      div#multicityThanaToAirportSection1  .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityThanaToAirportSection1 .col-md-3:first-child select {width: 92%;}
+      /*  */
+      div#multicityAirportToThanaSection2 .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityAirportToThanaSection2 .col-md-3:first-child select {width: 92%;}
+      div#multicityThanaToAirportSection2  .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityThanaToAirportSection2 .col-md-3:first-child select {width: 92%;}
+      /*  */
+      div#multicityAirportToThanaSection3 .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityAirportToThanaSection3 .col-md-3:first-child select {width: 92%;}
+      div#multicityThanaToAirportSection3  .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityThanaToAirportSection3 .col-md-3:first-child select {width: 92%;}
+      /*  */
+      div#multicityAirportToThanaSection4 .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityAirportToThanaSection4 .col-md-3:first-child select {width: 92%;}
+      div#multicityThanaToAirportSection4  .col-md-3 {
+            width: 47%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+      }
+      div#multicityThanaToAirportSection4 .col-md-3:first-child select {width: 92%;}
+      .multi-field{
+            padding-top: 24px !important;
+      }
+      .multicityAirportToThanaSection{
+            display: block !important;
+        }
+        .multicityAirportToThanaSection1{
+          display: block !important;
+        }
+        .multicityAirportToThanaSection2{
+          display: block !important;
+        }
+        .multicityAirportToThanaSection3{
+          display: block !important;
+        }
+        .multicityAirportToThanaSection4{
+          display: block !important;
+        }
+        
+        .multicityThanaToAirportSection {
+            display: block !important;
+        }
+        
+        .multicityThanaToAirportSection1 {
+            display: block !important;
+        }
+        
+        .multicityThanaToAirportSection2 {
+            display: block !important;
+        }
+        
+        .multicityThanaToAirportSection3 {
+            display: block !important;
+        }
+        
+        .multicityThanaToAirportSection4 {
+            display: block !important;
+        }
+
+}
+/*-----------------------768---------------------------------*/
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width: 575px){
+      .nav_select_country.text-light.display_inline_block button {
+        padding: 5px 0px;
+        color: #0393FB;
+        border-radius: 10px;
+        border: none;
+        background: transparent;
+        margin-left: 4px;
+        font-size: 10px;
+      }
+      .nav_select_language.display_inline_block button {
+            width: 115px;
+            border-radius: 10px;
+            color: #0393FB;
+            padding: 5px 0px;
+            border: none;
+            background: transparent;
+            font-size: 10px;
+          }
+          .nav_select_language.display_inline_block img {
+            width: 17px;
+            margin-right: 2px;
+            margin-top: -3px;
+          }
+          .nav_select_language.display_inline_block button {
+            width: 80px;
+            border-radius: 10px;
+            color: #0393FB;
+            padding: 5px 0px;
+            border: none;
+            background: transparent;
+            font-size: 10px;
+          }
+          li.nav-item.booking_form_active button {
+            border: none;
+            padding: 15px 28px;
+            background: #fff;
+            border-radius: 10px;
+            width: 105px;
+            height: 90px;
+            line-height: 20px;
+            font-size: 12px;
+            }
+            #booking_form_label_option2 label {
+                  margin-right: 5px;
+                  font-weight: 500;
+                  font-size: 11px;
+            }  
+            .booking_form_label_option2 label {
+                  margin-right: 20px;
+                  font-weight: 500;
+                  font-size: 11px;
+              }
+              div#multiCityRow .single_trip_form_select .col-md-10 {
+                  width: 83%;
+              }
+              label#AddMultiCityRow {
+                  position: absolute;
+                  top: 135px;
+                  text-align: right;
+                  cursor: pointer;
+                  display: inline;
+                  width: 73%;
+                  right: 0;
+                  height: 10px;
+              }
+              div#multicityAirportToThanaSection .col-md-3:first-child select {
+                  width: 90%;
+              }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+
+@media(min-width: 576px){
+ 
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media(max-width:500px){
+
+      #booking_form_label_option2 label {
+            margin-right: 5px;
+            font-weight: 500;
+            font-size: 11px;
+      }  
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width:450px){
+      .header_icon_wrap img {
+            width: 123px;
+          }
+      li.nav-item.booking_form_active button {
+            border: none;
+            padding: 15px 10px;
+            background: #fff;
+            border-radius: 10px;
+            width: 80px;
+            height: 90px;
+            line-height: 20px;
+            font-size: 12px;
+      }
+      .single_trip_form_select .col-md-10 {
+            width: 80%;
+            float: left;
+      }
+      .single_trip_form_select .col-md-11 {
+            width: 89%;
+            float: left;
+      }
+      .single_trip_form_select select {
+            border: none;
+            border-radius: 0;
+            font-size: 11px;
+      }
+      .booking_form_button_single_trip {
+            top: 150px !important;
+      }
+      .SingleTripSort.ac {
+            position: absolute;
+            top: 145px;
+            right: 10px;
+            cursor: pointer;
+      }
+      .SingleTripSort.dec {
+            position: absolute;
+            top: 145px;
+            right: 10px;
+            cursor: pointer;
+      }   
+      #booking_form_label_option2 label {
+            margin-right: 5px;
+            font-weight: 500;
+            font-size: 10px;
+      }   
+      .booking_form_button {
+            position: absolute;
+            top: 175px;
+            font-size: 16px;
+            border: solid 1px #DDD;
+            border-radius: 48px;
+            width: 26px;
+            text-align: center;
+            color: #0393FB;
+            left: 1%;
+            font-weight: 500;
+          }
+          label#CarRentalFullDayLabel span {
+            font-size: 8px !important;
+        }
+        
+        label#CarRentalHalfDayLabel span {
+            font-size: 8px !important;
+        }
+        .booking_form_label_option2 label {
+            margin-right: 0;
+            font-weight: 500;
+            font-size: 11px;
+        }
+        div#CarRental .col-md-6:last-child .col-md-6 label {
+            font-size: 10px !important;
+        }
+        div#CarRental .col-md-6:last-child .col-md-6 input {
+            font-size: 10px;
+            padding: 10px 10px 10px 5px !important;
+        }
+        div#CarRental .col-md-6:first-child input {
+            font-size: 12px;
+        }
+ 
+        div#multiCityRow .single_trip_form_select .col-md-10 {
+            width: 78%;
+        }
+     .booking_form_village_name {
+            padding: 15px 18px !important;
+            border: none;
+            color: #0393FB !important;
+            font-size: 12px;
+        }
+        div#multicityThanaToAirportSection .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityAirportToThanaSection .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        /*  */
+        div#multicityThanaToAirportSection1 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityAirportToThanaSection1 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        /*  */
+        div#multicityThanaToAirportSection2 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityAirportToThanaSection2 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityThanaToAirportSection3 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityAirportToThanaSection3 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityThanaToAirportSection4 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        div#multicityAirportToThanaSection4 .col-md-3 {
+            width: 44%;
+            float: left;
+            margin-left: 9px !important;
+            margin-top: 10px !important;
+            border-radius: 6px !important;
+        }
+        .multi-field {
+            padding-top: 33px !important;
+        }
+        label#AddMultiCityRow {
+            position: absolute;
+            top: 125px;
+            text-align: right;
+            cursor: pointer;
+            display: inline;
+            width: 73%;
+            right: 0;
+        }
+        div#car-rental .col-md-6:first-child label {
+            font-size: 10px !important;
+        }
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+
+@media(max-width: 350px){
+      .header_icon_wrap img {
+            width: 115px;
+      }
+      li.nav-item.booking_form_active button {
+            border: none;
+            padding: 15px 10px;
+            background: #fff;
+            border-radius: 10px;
+            width: 74px;
+            height: 90px;
+            line-height: 20px;
+            font-size: 12px;
+      }
+      .single_trip_form_select .col-md-11 {
+            width: 87%;
+            float: left;
+      }
+      .single_trip_form_select .col-md-10 {
+            width: 76%;
+            float: left;
+      }
+      .single_trip_form_select select {
+            border: none;
+            border-radius: 0;
+            font-size: 10px;
+            padding-left: 0 !important;
+      }
+      .booking_form_village_name {
+            padding: 16px 3px !important;
+            border: none;
+            color: #0393FB !important;
+            font-size: 10px;
+      }
+      .booking_form_button_single_trip {
+            top: 145px !important;
+      }
+      .SingleTripSort.ac {
+            position: absolute;
+            top: 140px;
+            right: 10px;
+            cursor: pointer;
+      }
+      .SingleTripSort.dec {
+            position: absolute;
+            top: 140px;
+            right: 10px;
+            cursor: pointer;
+      }
+      #booking_form_label_option2 label:first-child {
+            font-size: 13px;
+            width: 38%;
+            float: left;
+            font-weight: bold;
+          }
+          #booking_form_label_option label {
+            margin-right: 7px;
+            font-weight: 500;
+            font-size: 11px;
+          }
+          span.CarRentalMobileView input {
+            width: 10%;
+            float: left;
+        }
+        
+        span.CarRentalMobileView label {
+            width: 80%;
+            float: left;
+        }
+        span.CarRentalMobileView1 input {
+            width: 10%;
+            float: left;
+        }
+        
+        span.CarRentalMobileView1 label {
+            width: 80%;
+            float: left;
+        }
+        div#CarRental .col-md-6:last-child .col-md-6 input {
+            font-size: 9px;
+            padding: 10px 10px 10px 5px !important;
+        }
+        .booking_form_label_option2 label {
+            margin-right: 0;
+            font-weight: 500;
+            font-size: 10px;
+        }
+        div#CarRentalFooterCheckbox {
+            margin: 0 !important;
+            padding: 0 !important;
+            margin-top: 10px !important;
+        }
+        .booking_form_content_wrap {
+            width: 90%;
+            margin: auto;
+            background: #fff;
+            padding: 25px 20px 30px;
+            border-radius: 10px;
+        }
+        div#multiCityRow .single_trip_form_select .col-md-10 {
+            width: 78%;
+        }
+      
+}
+@media(max-width: 320px){
+      .header_icon_wrap img {
+            width: 100px;
+          }
+      #header .col-md-3.col-sm-6 {
+      width: 37%;
+       overflow: hidden;
+      }
+      li.nav-item.booking_form_active button {
+            border: none;
+            padding: 15px 5px;
+            background: #fff;
+            border-radius: 10px;
+            width: 66px;
+            height: 90px;
+            line-height: 20px;
+            font-size: 11px;
+      }
+      #booking_form_label_option label {
+            margin-right: 7px;
+            font-weight: 500;
+            font-size: 9px;
+          }
+          div#multiCityRow .single_trip_form_select .col-md-10 {
+            width: 76%;
+        }
+        label#AddMultiCityRow {
+            position: absolute;
+            top: 125px;
+            text-align: right;
+            cursor: pointer;
+            display: inline;
+            width: 85%;
+            right: 0;
+        }
+        .booking_form_label_option2 label {
+            margin-right: 0;
+            font-weight: 500;
+            font-size: 9px;
+        }
+  }
+  
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/

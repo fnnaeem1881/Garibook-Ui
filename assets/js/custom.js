@@ -223,7 +223,7 @@ $("#booking_form_check2").click(function() {
           //$('input[type=checkbox]').prop('checked', true);
           document.getElementById("booking_form_checkLabel2").style.color = "#0393FB";
           document.getElementById("booking_form_checkLabel1").style.color = "#000";
-      //     $('#Round_trip_pickUp_title').hide();
+      //     $('#Round_trip_pickUp_title').css("display", "none");
             //alert(conceptName);
             document.getElementById("Round_trip_pickUp_titleDivision").innerHTML = "Division";
             document.getElementById("Round_trip_pickUp_titleDistrict").innerHTML = "District";
@@ -240,14 +240,14 @@ $("#booking_form_check2").click(function() {
       }
   });
 
-  $('#OtherPickUpDate').hide();
+  $('#OtherPickUpDate').css("display", "none");
 
   $('#OthePickUp').click(function(){
       if ($(this).is(':checked')) {
-            $('#OtherPickUpDate').show();
+            $('#OtherPickUpDate').css("display", "block");
             document.getElementById("otherreturndate").style.color = "#0393FB";
       }else{
-            $('#OtherPickUpDate').hide(); 
+            $('#OtherPickUpDate').css("display", "none"); 
             document.getElementById("otherreturndate").style.color = "#000";
   
       }
@@ -298,8 +298,8 @@ $("#booking_form_check2").click(function() {
 //     }
 $("#multicityAirportToThanaCheck").click(function() {
   if ($(this).is(':checked')) {
-    $('#multicityAirportToThanaSection').show();
-    $('#multicityThanaToAirportSection').hide();
+    $('#multicityAirportToThanaSection').addClass("multicityAirportToThanaSection");
+    $('#multicityThanaToAirportSection').removeClass("multicityThanaToAirportSection");
       document.getElementById("multicityAirportToThanalabel").style.color = "#0393FB";
       document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
   } else {
@@ -309,8 +309,8 @@ $("#multicityAirportToThanaCheck").click(function() {
 });
 $("#multicityThanaToAirportCheck").click(function() {
   if ($(this).is(':checked')) {
-    $('#multicityAirportToThanaSection').hide();
-    $('#multicityThanaToAirportSection').show();
+    $('#multicityAirportToThanaSection').removeClass("multicityAirportToThanaSection");
+    $('#multicityThanaToAirportSection').addClass("multicityThanaToAirportSection");
       document.getElementById("multicityThanaToAirportLabel").style.color = "#0393FB";
       document.getElementById("multicityAirportToThanalabel").style.color = "#000";
   } else {
@@ -320,8 +320,8 @@ $("#multicityThanaToAirportCheck").click(function() {
 });
 $("#multicityAirportToThanaCheck1").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection1').show();
-        $('#multicityThanaToAirportSection1').hide();
+        $('#multicityAirportToThanaSection1').addClass("multicityAirportToThanaSection1");
+        $('#multicityThanaToAirportSection1').removeClass("multicityThanaToAirportSection1");
         document.getElementById("multicityAirportToThanalabel1").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel1").style.color = "#000";
     } else {
@@ -331,8 +331,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck1").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection1').hide();
-        $('#multicityThanaToAirportSection1').show();
+        $('#multicityAirportToThanaSection1').removeClass("multicityAirportToThanaSection1");
+        $('#multicityThanaToAirportSection1').addClass("multicityThanaToAirportSection1");
         document.getElementById("multicityThanaToAirportLabel1").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel1").style.color = "#000";
     } else {
@@ -342,8 +342,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityAirportToThanaCheck2").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection2').show();
-        $('#multicityThanaToAirportSection2').hide(); 
+        $('#multicityAirportToThanaSection2').addClass("multicityAirportToThanaSection2");
+        $('#multicityThanaToAirportSection2').removeClass("multicityThanaToAirportSection2"); 
         document.getElementById("multicityAirportToThanalabel2").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel2").style.color = "#000";
     } else {
@@ -353,8 +353,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck2").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection2').hide();
-        $('#multicityThanaToAirportSection2').show();  
+        $('#multicityAirportToThanaSection2').removeClass("multicityAirportToThanaSection2");
+        $('#multicityThanaToAirportSection2').addClass("multicityThanaToAirportSection2");  
         document.getElementById("multicityThanaToAirportLabel2").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel2").style.color = "#000";
     } else {
@@ -364,8 +364,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityAirportToThanaCheck3").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection3').show();
-        $('#multicityThanaToAirportSection3').hide();
+        $('#multicityAirportToThanaSection3').addClass("multicityAirportToThanaSection3");
+        $('#multicityThanaToAirportSection3').removeClass("multicityThanaToAirportSection3");
         document.getElementById("multicityAirportToThanalabel3").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel3").style.color = "#000";
     } else {
@@ -375,8 +375,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck3").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection3').hide();
-        $('#multicityThanaToAirportSection3').show();
+        $('#multicityAirportToThanaSection3').removeClass("multicityAirportToThanaSection3");
+        $('#multicityThanaToAirportSection3').addClass("multicityThanaToAirportSection3");
         document.getElementById("multicityThanaToAirportLabel3").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel3").style.color = "#000";
     } else {
@@ -386,8 +386,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityAirportToThanaCheck4").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection4').show();
-        $('#multicityThanaToAirportSection4').hide();
+        $('#multicityAirportToThanaSection4').addClass('multicityAirportToThanaSection4');
+        $('#multicityThanaToAirportSection4').removeClass("multicityThanaToAirportSection4");
         document.getElementById("multicityAirportToThanalabel4").style.color = "#0393FB";
         document.getElementById("multicityThanaToAirportLabel4").style.color = "#000";
     } else {
@@ -397,8 +397,8 @@ $("#multicityAirportToThanaCheck1").click(function() {
   });
   $("#multicityThanaToAirportCheck4").click(function() {
     if ($(this).is(':checked')) {
-        $('#multicityAirportToThanaSection4').hide();
-        $('#multicityThanaToAirportSection4').show();
+        $('#multicityAirportToThanaSection4').removeClass("multicityAirportToThanaSection4");
+        $('#multicityThanaToAirportSection4').addClass('multicityThanaToAirportSection4');
         document.getElementById("multicityThanaToAirportLabel4").style.color = "#0393FB";
         document.getElementById("multicityAirportToThanalabel4").style.color = "#000";
     } else {
@@ -406,47 +406,47 @@ $("#multicityAirportToThanaCheck1").click(function() {
         document.getElementById("multicityAirportToThanalabel4").style.color = "#000";
     }
   });
-$('#multiCityRow1').hide();
-$('#multiCityRow2').hide();
-$('#multiCityRow3').hide();
-$('#multiCityRow4').hide();
+$('#multiCityRow1').css("display", "none");
+$('#multiCityRow2').css("display", "none");
+$('#multiCityRow3').css("display", "none");
+$('#multiCityRow4').css("display", "none");
 
 
-$('#multicityThanaToAirportSection').hide();
-$('#multicityThanaToAirportSection1').hide();
-$('#multicityThanaToAirportSection2').hide();
-$('#multicityThanaToAirportSection3').hide();
-$('#multicityThanaToAirportSection4').hide();
+$('#multicityThanaToAirportSection').removeClass("multicityThanaToAirportSection");
+$('#multicityThanaToAirportSection1').removeClass("multicityThanaToAirportSection1");
+$('#multicityThanaToAirportSection2').removeClass("multicityThanaToAirportSection2e");
+$('#multicityThanaToAirportSection3').removeClass("multicityThanaToAirportSection3");
+$('#multicityThanaToAirportSection4').removeClass("multicityThanaToAirportSection4");
 
 
 $(".AddMultiCityRow").click(function() {
-    $('#multiCityRow1').show();
+    $('#multiCityRow1').css("display", "block");
 
 });
 $("#remove-field1").click(function() {
-    $('#multiCityRow1').hide();
+    $('#multiCityRow1').css("display", "none");
 });
 
 $(".AddMultiCityRow1").click(function() {
-    $('#multiCityRow2').show();
+    $('#multiCityRow2').css("display", "block");
 
 });
 $("#remove-field2").click(function() {
-    $('#multiCityRow2').hide();
+    $('#multiCityRow2').css("display", "none");
 });
 $(".AddMultiCityRow2").click(function() {
-    $('#multiCityRow3').show();
+    $('#multiCityRow3').css("display", "block");
 
 });
 $("#remove-field3").click(function() {
-    $('#multiCityRow3').hide();
+    $('#multiCityRow3').css("display", "none");
 });
 $(".AddMultiCityRow3").click(function() {
-    $('#multiCityRow4').show();
+    $('#multiCityRow4').css("display", "block");
 
 });
 $("#remove-field4").click(function() {
-    $('#multiCityRow4').hide();
+    $('#multiCityRow4').css("display", "none");
 });
 // $(document).ready(function(){
   
@@ -505,3 +505,15 @@ $('#CarRentalOutsideDhakaCheck').click(function(){
           document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#0393FB";
     }
 });
+
+
+// Mobile Header Sticky Setup
+$(window).on('scroll',function(){
+	var scroll = $(window).scrollTop();
+	if(scroll<10){
+		$(".mobile_view_aps_download").removeClass("mobile_view_aps_download_sticky");
+	}else{
+		$(".mobile_view_aps_download").addClass("mobile_view_aps_download_sticky");
+	}
+});
+// Mobile Header Sticky Setup

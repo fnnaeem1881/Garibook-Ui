@@ -29,15 +29,79 @@ a{
 .tab-pane{
     position: relative;
 }
-/* Header Css */
-header#header {
-height: 100px;
-background: #fff;
-box-shadow: -18px -19px 19px 11px #000;
-z-index: 99;
-position: fixed;
-width: 100%;
+.dispaly-none{
+    display: none;
 }
+.mibile_view {
+    display: none;
+  }
+  #multicityAirportToThanaSection{
+      display: none;
+  }
+  #multicityAirportToThanaSection1{
+    display: none;
+}
+#multicityAirportToThanaSection2{
+    display: none;
+}
+#multicityAirportToThanaSection3{
+    display: none;
+}
+#multicityAirportToThanaSection4{
+    display: none;
+}
+#multicityThanaToAirportSection{
+    display: none; 
+}
+#multicityThanaToAirportSection1{
+    display: none; 
+}
+#multicityThanaToAirportSection2{
+    display: none; 
+}
+#multicityThanaToAirportSection3{
+    display: none; 
+}
+#multicityThanaToAirportSection4{
+    display: none; 
+}
+.multicityAirportToThanaSection{
+    display: inline-flex !important;
+}
+.multicityAirportToThanaSection1{
+  display: inline-flex !important;
+}
+.multicityAirportToThanaSection2{
+  display: inline-flex !important;
+}
+.multicityAirportToThanaSection3{
+  display: inline-flex !important;
+}
+.multicityAirportToThanaSection4{
+  display: inline-flex !important;
+}
+
+.multicityThanaToAirportSection {
+    display: inline-flex !important;
+}
+
+.multicityThanaToAirportSection1 {
+    display: inline-flex !important;
+}
+
+.multicityThanaToAirportSection2 {
+    display: inline-flex !important;
+}
+
+.multicityThanaToAirportSection3 {
+    display: inline-flex !important;
+}
+
+.multicityThanaToAirportSection4 {
+    display: inline-flex !important;
+}
+/* Header Css */
+header#header {height: 100px;background: #fff;box-shadow: 3px 8px 11px -11px #000;z-index: 99;position: fixed;width: 100%;}
 .header_icon_wrap img {
     width: 200px;
 }
@@ -60,7 +124,7 @@ width: 100%;
     font-size: 17px;
     padding: 5px 0px;
     margin-right: 7%;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 .nav_apps_download{
     background: #FFE351;
@@ -72,19 +136,19 @@ width: 100%;
     width: 9%;
     margin-right: 2px;
 }
-.nav_select_language.d-inline-block {
+.nav_select_language.display_inline_block {
     margin-right: 2%;
 }
- .nav_apps_download.d-inline-block button {
+ .nav_apps_download.display_inline_block button {
     font-size: 13px;
 }
-.nav_select_language.d-inline-block button {
+.nav_select_language.display_inline_block button {
     width: 150px;
     border-radius: 10px;
     background: #0393FB;
     padding: 5px 0px;
 }
- .nav_select_language.d-inline-block img {
+ .nav_select_language.display_inline_block img {
     width: 15%;
     margin-right: 11px;
     margin-top: -3px;
@@ -93,7 +157,7 @@ select.form-select.default_bg.text-light {
     border-radius: 10px;
 }
 
-.nav_select_country.text-light.d-inline-block button {
+.nav_select_country.text-light.display_inline_block button {
   padding: 5px 25px;
   background: #0393FB;
   border-radius: 10px;
@@ -110,7 +174,9 @@ select.form-select.default_bg.text-light {
 #header .main_nav {
     margin-top: 1%;
 }
-
+.display_inline_block{
+    display: inline-block;
+}
 /* Header end */
 
 /* Booking Form Css */
@@ -346,5 +412,8 @@ label#AddMultiCityRow img {
 }
 .perfect-datetimepicker-remove{
     display: none !important;
+}
+#multi-city-trip .single_trip_form_select .col-md-2.display_inline_block {
+    padding-left: 20px !important;
 }
 
