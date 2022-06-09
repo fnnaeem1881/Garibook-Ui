@@ -12,6 +12,9 @@
 a{
     text-decoration: none !important;
 }
+li.display_inline_block.active_menu a {
+    color:#fff !important
+}
 .default_color{
     color: #0393FB !important;
 }
@@ -68,15 +71,19 @@ a{
 .multicityAirportToThanaSection{
     display: inline-flex !important;
 }
+
 .multicityAirportToThanaSection1{
   display: inline-flex !important;
 }
+
 .multicityAirportToThanaSection2{
   display: inline-flex !important;
 }
+
 .multicityAirportToThanaSection3{
   display: inline-flex !important;
 }
+
 .multicityAirportToThanaSection4{
   display: inline-flex !important;
 }
@@ -184,7 +191,7 @@ select.form-select.default_bg.text-light {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 745px;
+    /* height: 745px; */
     /* display: flex;
     align-items: center; */
 }
@@ -210,14 +217,35 @@ section#booking_form {
 .booking_nav_tabs button{
       color: #000;
 }
-.booking_form_active .active{
-      background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+.booking_form_active .active .slide {
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-radius: 10px;
+    top: 0;
+    transition: all 0.9s ease;
+
+}
+.booking_form_active .slide {
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+    z-index: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    border-radius: 10px;
+    top: 0;
+
 }
 li.nav-item.booking_form_active button {
     border: none;
     padding: 15px 28px;
     background: #fff;
     border-radius: 10px;
+    position: relative;
 }
 
 .booking_nav_tabs img {
@@ -262,6 +290,7 @@ li.nav-item.booking_form_active button {
 }
 .booking_form_active .active{
     color: #fff;
+    z-index: 2;
 }
 .booking_form_active .active .booking_form_active_img_active {
     display: inline-block !important;
@@ -417,3 +446,99 @@ label#AddMultiCityRow img {
     padding-left: 20px !important;
 }
 
+/* View Rent Button Css */
+
+.view_rent_button {
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 10%;
+}
+.view_rent_button button {
+    width: 200px;
+    position: relative;
+}
+span.view_rent_span1 {
+    width: 80px;
+    background: #fbda2c;
+    height: 45px;
+    border-radius: 10px 55px 0px 10px;
+    position: absolute;
+    left: 0;
+}
+span.view_rent_span2 {
+    width: 100%;
+    background: #F4CE02;
+    height: 45px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 0px 10px 10px 0px;
+}
+span.view_rent_text {
+    position: absolute;
+    left: 50px;
+    top: 13px;
+    font-weight: 700;
+}
+button.rent_button {
+    border: none;
+    background: transparent;
+}
+div#offer img {
+    width: 300px;
+}
+.offer{
+    width: 90%;
+    margin: 100px auto;
+    
+}
+
+.offer_section {
+    position: relative;
+}
+
+.offer_section_button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.offer_section_button button {
+    border: none;
+    background: #0366FB;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+
+.offer_section_button a {
+    color: #fff;
+    font-size: 12px;
+}
+.offer_section_button a:hover {
+    color: #fff;
+    font-size: 12px;
+}
+.offer_section_button img {
+    width: 10px !important;
+    display: inline-block !important;
+}
+
+#services{
+    background: #D8EEFF;
+}
+.section_title h4 {
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 35px;
+    background-clip: text;
+ }
+ .section_title p {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
+}

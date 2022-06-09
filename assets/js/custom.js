@@ -516,4 +516,71 @@ $(window).on('scroll',function(){
 		$(".mobile_view_aps_download").addClass("mobile_view_aps_download_sticky");
 	}
 });
+$(window).on('scroll',function(){
+	var scroll = $(window).scrollTop();
+	if(scroll<10){
+		$("#header").removeClass("header");
+	}else{
+		$("#header").addClass("header");
+	}
+});
 // Mobile Header Sticky Setup
+
+$(document).on('ready', function() {
+    $(".offer").slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        variableWidth: true
+    });
+});
+
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("menu_active");
+var btns = header.getElementsByTagName("li");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active_menu");
+  current[0].className = current[0].className.replace(" active_menu", "");
+  this.className += " active_menu";
+  });
+}
+// $(document).ready(function () {
+//     $(document).on("scroll", onScroll);
+    
+//     //smoothscroll
+//     $('a[href^="#"]').on('click', function (e) {
+//         e.preventDefault();
+//         $(document).off("scroll");
+        
+//         $('a').each(function () {
+//             $(this).removeClass('active_menu');
+//         })
+//         $(this).addClass('active_menu');
+      
+//         var target = this.hash,
+//             menu = target;
+//         $target = $(target);
+//         $('html, body').stop().animate({
+//             'scrollTop': $target.offset().top+2
+//         }, 500, 'swing', function () {
+//             window.location.hash = target;
+//             $(document).on("scroll", onScroll);
+//         });
+//     });
+// });
+// function onScroll(event){
+//     var scrollPos = $(document).scrollTop();
+//     $('#menu_active a').each(function () {
+//         var currLink = $(this);
+//         var refElement = $(currLink.attr("href"));
+//         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+//             $('#menu_active ul li a').removeClass("active_menu");
+//             currLink.addClass("active_menu");
+//         }
+//         else{
+//             currLink.removeClass("active_menu");
+//         }
+//     });
+// }

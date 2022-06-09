@@ -16,10 +16,13 @@
       <!-- DateTimePicker Css Link -->
       <link rel="stylesheet" href="assets/css/dateTimePicker.css">
       <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
-      
+
+      <!-- Slick Slider -->
+      <link rel="stylesheet" type="text/css" href="assets/plugin/slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="assets/plugin/slick/slick-theme.css">
       
 </head>
-<body>
+<body id="home">
       <!-- Header Code -->
       <div class="mobile_view_aps_download dispaly-none ">
             <div class="container">
@@ -81,11 +84,11 @@
                                           </div>
                                     </div>
                                     <div class="main_nav">
-                                          <div class="main_nav_wrap">
+                                          <div id="menu_active" class="main_nav_wrap">
                                                 <ul class="display_inline_block">
-                                                      <li  class="display_inline_block active_menu"><a href="#">Home</a></li>
-                                                      <li  class="display_inline_block"><a href="#">Offer</a></li>
-                                                      <li  class="display_inline_block"><a href="#">Service</a></li>
+                                                      <li  class="display_inline_block active_menu"><a href="#home">Home</a></li>
+                                                      <li  class="display_inline_block"><a href="#offer">Offer</a></li>
+                                                      <li  class="display_inline_block"><a href="#services">Service</a></li>
                                                       <li  class="display_inline_block"><a href="#">Vehicle</a></li>
                                                       <li  class="display_inline_block"><a href="#">Locations</a></li>
                                                       <li  class="display_inline_block"><a href="#">Contact</a></li>
@@ -106,16 +109,24 @@
                               <div class="booking_form-select_tab">
                                     <ul class="nav booking_nav_tabs nav-tabs" id="booking_form_tab" role="tablist">
                                           <li class="nav-item booking_form_active singleTripTab" role="presentation">
-                                            <button class="active booking_form_active" id="single-trip-tab" data-bs-toggle="tab" data-bs-target="#single-trip" type="button" role="tab" aria-controls="single-trip" aria-selected="true"><img src="assets/image/icon/car.svg"><img class="booking_form_active_img_active" src="assets/image/icon/carActive.svg"> Single Trip</button>
+                                            <button class="active booking_form_active" id="single-trip-tab" data-bs-toggle="tab" data-bs-target="#single-trip" type="button" role="tab" aria-controls="single-trip" aria-selected="true">
+                                                <div class="slide"></div>  
+                                                <img src="assets/image/icon/car.svg"><img class="booking_form_active_img_active" src="assets/image/icon/carActive.svg"> Single Trip</button>
                                           </li>
                                           <li class="nav-item booking_form_active RoundTripTab" role="presentation">
-                                            <button class="" id="round-trip-tab" data-bs-toggle="tab" data-bs-target="#round-trip" type="button" role="tab" aria-controls="round-trip" aria-selected="false"><img src="assets/image/icon/round_trip_icon.png"style="width: 20px;"><img class="booking_form_active_img_active" src="assets/image/icon/round_trip_iconActive.svg"style="width: 20px;">Round Trop</button>
+                                            <button class="" id="round-trip-tab" data-bs-toggle="tab" data-bs-target="#round-trip" type="button" role="tab" aria-controls="round-trip" aria-selected="false">
+                                                <div class="slide"></div>  
+                                                <img src="assets/image/icon/round_trip_icon.png"style="width: 20px;"><img class="booking_form_active_img_active" src="assets/image/icon/round_trip_iconActive.svg"style="width: 20px;">Round Trop</button>
                                           </li>
                                           <li class="nav-item booking_form_active MultiCityTab" role="presentation">
-                                            <button class="" id="multi-city-trip-tab" data-bs-toggle="tab" data-bs-target="#multi-city-trip" type="button" role="tab" aria-controls="multi-city-trip" aria-selected="false"> <img src="assets/image/icon/multi_city_icon.png"><img class="booking_form_active_img_active" src="assets/image/icon/multi_city_iconActive.svg">Multi City Trip</button>
+                                            <button class="" id="multi-city-trip-tab" data-bs-toggle="tab" data-bs-target="#multi-city-trip" type="button" role="tab" aria-controls="multi-city-trip" aria-selected="false">
+                                                <div class="slide"></div>  
+                                                <img src="assets/image/icon/multi_city_icon.png"><img class="booking_form_active_img_active" src="assets/image/icon/multi_city_iconActive.svg">Multi City Trip</button>
                                           </li>
                                           <li class="nav-item booking_form_active CarRentalTab" role="presentation">
-                                                <button class="" id="car-rental-tab" data-bs-toggle="tab" data-bs-target="#car-rental" type="button" role="tab" aria-controls="car-rental" aria-selected="false"><img src="assets/image/icon/car_rentel_icon.png"><img class="booking_form_active_img_active" src="assets/image/icon/car_rentel_iconActive.png">Car Rental</button>
+                                                <button class="" id="car-rental-tab" data-bs-toggle="tab" data-bs-target="#car-rental" type="button" role="tab" aria-controls="car-rental" aria-selected="false">
+                                                      <div class="slide"></div>
+                                                      <img src="assets/image/icon/car_rentel_icon.png"><img class="booking_form_active_img_active" src="assets/image/icon/car_rentel_iconActive.png">Car Rental</button>
                                           </li>
                                     </ul>
                               </div>
@@ -1316,22 +1327,125 @@
                                           </div>
                                     </div>
                               </div>
+                              <div class="view_rent_button">
+                                    <button class="rent_button">
+                                          <span class="view_rent_span1"></span>
+                                          <span class="view_rent_span2"></span>
+                                          <span class="view_rent_text"> <img src="assets/image/icon/Search.svg" alt=""> View Rent</span>
+                                    </button>
+                              </div>
                         </div>
                   </div>
             </div>
       </section>
 
+      <!-- Offer Section -->
+      <div id="offer">
+            <div class="container">
+                  <section class="offer">
+                        <div>
+                              <div class="offer_section">
+                                    <div class="offer_section_img">
+                                          <img src="assets/image/Free.png">
+                                    </div>
+                                    <div class="offer_section_button">
+                                          <button>
+                                                <a href="#"> <img src="assets/image/icon/offer_ico.svg" alt=""> Learn More</a>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="offer_section">
+                                    <div class="offer_section_img">
+                                          <img src="assets/image/offer.png">
+                                    </div>
+                                    <div class="offer_section_button">
+                                          <button>
+                                                <a href="#"> <img src="assets/image/icon/offer_ico.svg" alt=""> Learn More</a>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="offer_section">
+                                    <div class="offer_section_img">
+                                          <img src="assets/image/Free.png">
+                                    </div>
+                                    <div class="offer_section_button">
+                                          <button>
+                                                <a href="#"> <img src="assets/image/icon/offer_ico.svg" alt=""> Learn More</a>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="offer_section">
+                                    <div class="offer_section_img">
+                                          <img src="assets/image/offer.png">
+                                    </div>
+                                    <div class="offer_section_button">
+                                          <button>
+                                                <a href="#"> <img src="assets/image/icon/offer_ico.svg" alt=""> Learn More</a>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="offer_section">
+                                    <div class="offer_section_img">
+                                          <img src="assets/image/Free.png">
+                                    </div>
+                                    <div class="offer_section_button">
+                                          <button>
+                                                <a href="#"> <img src="assets/image/icon/offer_ico.svg" alt=""> Learn More</a>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="offer_section">
+                                    <div class="offer_section_img">
+                                          <img src="assets/image/offer.png">
+                                    </div>
+                                    <div class="offer_section_button">
+                                          <button>
+                                                <a href="#"> <img src="assets/image/icon/offer_ico.svg" alt=""> Learn More</a>
+                                          </button>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+            </div>
+      </div>
+
+      <!-- Service Section -->
+      <div id="services" style="height: 800px;">
+            <div class="container">
+                  <div class="section_title">
+                        <h4>Our Services</h4>
+                        <p> Often passengers face difficulties picking up a car from Airport. Garibook.com is giving a hassle-free ride-booking platform from Airport pickup to your home drop. Now you can book your desired car before coming to Bangladesh and complete the entire journey smoother.</p>
+                  </div>
+            
+            </div>
+      </div>
 
       <!-- Jquery Version 3.6.0 Link -->
       <script src="assets/js/jquery-3.6.0.min.js"></script>
       <!-- Bootstarp 5.2 Js Link -->
       <script src="assets/js/bootstrap.min.js"></script>
+      <!-- Slick Css Link --->     
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="assets/plugin/slick/slick.js"></script>
+      <script src="assets/plugin/slick/slick.min.js"></script>
       <!-- DateTime  -->
       <script src="assets/js/moment.min.js"></script>
       <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
       <script src="assets/js/nl.js"></script>
       <script src="assets/js/bootstrap-datepicker.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Custom Js -->
       <script src="assets/js/custom.js"></script>
       <script src="assets/js/dateTimeCustom.js"></script>
+
 </body>
 </html>

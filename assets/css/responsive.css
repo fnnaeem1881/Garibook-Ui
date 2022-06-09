@@ -165,7 +165,7 @@
         float: left;
       }
       .top_nav_wrap {
-        margin-top: 35px;
+        margin-top: 24px;
       }
       .mobile_view_aps_download{
         display: block !important;
@@ -268,6 +268,19 @@
         span.CarRentalMobileView3 {
             width: 50%;
         }
+        header#header {
+            height: 75px;
+            background: #fff;
+            box-shadow: 3px 8px 11px -11px #000;
+            z-index: 99;
+            position: fixed;
+            width: 100%;
+        }
+        .header_icon_wrap {
+            align-items: center;
+            display: flex;
+            height: 75px;
+        }
   }
 
 
@@ -330,7 +343,7 @@
       float: left;
     }
     .top_nav_wrap {
-      margin-top: 35px;
+      margin-top: 24px;
     }
     .mobile_view_aps_download{
       display: block !important;
@@ -734,6 +747,13 @@
         .multicityThanaToAirportSection4 {
             display: block !important;
         }
+        .section_title p {
+            width: 90%;
+            text-align: center;
+            margin: auto;
+            margin-top: -20px;
+        }
+    
 
 }
 /*-----------------------768---------------------------------*/
@@ -1167,6 +1187,9 @@
             margin-right: 0;
             font-weight: 500;
             font-size: 9px;
+        }
+        div#offer img {
+            width: 225px;
         }
   }
   
