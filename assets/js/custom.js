@@ -673,3 +673,21 @@ for (var i = 0; i < btns.length; i++) {
 //         }
 //     });
 // }
+
+ $(document).ready(function(){
+    $('#agent_form').css('display', 'none');
+ });
+ $('.becomeAgentButton').on('click', function(){
+    $('#agent_form').css('display', 'block');
+    $('#conttact_form').css('display', 'none');
+    $('.becomeAgentButton').addClass('buttonActive');
+    $('.contactUsButton ').removeClass('buttonActive');
+ });
+
+ $('.contactUsButton').on('click', function(){
+    $('#agent_form').css('display', 'none');
+    $('#conttact_form').css('display', 'block');
+    $('.becomeAgentButton').removeClass('buttonActive');
+    $('.contactUsButton ').addClass('buttonActive');
+ });
+ 

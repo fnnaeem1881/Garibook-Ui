@@ -21,6 +21,10 @@ li.display_inline_block.active_menu a {
 .default_bg{
     background: #0393FB !important;
 }
+.buttonActive{
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+    color: white !important;
+}
 .active_menu{
     background: #0393FB !important;
     color: white !important;
@@ -114,7 +118,7 @@ input[type="checkbox"]{
     display: inline-flex !important;
 }
 /* Header Css */
-header#header {height: 100px;background: #fff;box-shadow: 3px 8px 11px -11px #000;z-index: 99;position: fixed;width: 100%;}
+header#header {height: 100px;background: #fff;box-shadow: 3px 8px 11px -11px #000;z-index: 9999;position: fixed;width: 100%;}
 .header_icon_wrap img {
     width: 200px;
 }
@@ -698,4 +702,175 @@ div#CarRentalFooterCheckbox {
 }
 div#apps_download img {
     width: 100%;
+}
+/* Contact */
+#contact{
+    background: #E5F2FC;
+    padding: 30px 0px;
+}
+.contatctFormTabButtonWrap {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contactFormWrap {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+button.contactUsButton {
+    padding: 10px 25px;
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    border: solid 1px rgba(0, 173, 238, 1);
+}
+
+button.becomeAgentButton {
+    padding: 10px 25px;
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    border: solid 1px rgba(0, 173, 238, 1);
+}
+button.ccontactSubmitButton {border: none;padding: 8px 40px;background: #0366FB;border-radius: 6px;color: #fff;}
+
+.ContactSubmutButtonWrap {
+    text-align: center;
+}
+.contactForminfoWrap {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.hotlineHeaderImage img {
+    width: 100px;
+}
+.hotlineHeaderinfo {
+    margin-top: 15px;
+}
+
+.hotlineHeaderinfo h4:first-child {
+    color: #0393FB!important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hotlineHeaderinfo h4:last-child {
+    color: #000!important;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contactHotlineHeader {
+    padding-bottom: 31px;
+    border-bottom: 1px solid #000;
+}
+.contactHotlinetitle {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.contactHotlinetitle img {
+    width: 25px;
+    margin-left: 10px;
+}
+.contactHotlinetitlechild {
+    font-size: 15px;
+    color: #0393FB !important;
+}
+
+.contactHotlinetitlechild img {
+    width: 20px;
+    margin-right: 10px;
+}
+.contactFormFooterWrap {
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+    border-radius: 10px;
+    padding: 17px;
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+}
+.contactFormFooterWrap h4 {
+    font-size: 20px;
+}
+.contactFormFootericon span img {
+    width: 40px;
+    margin-left: 10px;
+}
+.contactFormFooteinfo {
+    margin-top: 10px;
+}
+.ContactSubmutButtonWrap{
+    padding-top: 25px;
+}
+.contact_form_wrap textarea {
+    height: 255px;
+}
+
+/* Footer */
+
+.footer_logo img {
+    width: 210px;
+}
+
+
+#footer{
+    background: #0366FB;
+    padding: 40px 0px;
+}
+.footer_coluom_one {
+    color: #fff;
+    padding: 25px 0px 0px 0px;
+}
+
+.footer_coluom_one p {
+    font-size: 13px;
+}
+.footer_coluom_two {
+    color: #fff;
+    padding: 25px 0px 0px 50px;
+}
+
+.footer_coluom_two p {
+    font-size: 13px;
+}
+.footer_coluom_two img {
+    width: 15px;
+}
+
+.footer_coluom_two span {
+    display: block;
+    padding-top: 12px;
+}
+.footer_coluom_three {
+    color: #fff;
+    padding: 25px 0px 0px 50px;
+
+}
+.footer_coluom_three img {
+    width: 25px;
+}
+.footer_aps_download {
+    padding: 7px 20px;
+    background: #FFE351;
+    border-radius: 6px;
+}
+
+span.footer_aps_download a {
+    color: #000;
+    font-size: 13px;
+}
+
+span.footer_aps_download img {
+    width: 13px;
+    margin-right: 8px;
+}
+.footer_coluom_three p {
+    margin-bottom: 40px;
 }

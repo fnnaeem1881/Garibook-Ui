@@ -89,9 +89,8 @@
                                                       <li  class="display_inline_block active_menu"><a href="#home">Home</a></li>
                                                       <li  class="display_inline_block"><a href="#offer">Offer</a></li>
                                                       <li  class="display_inline_block"><a href="#services">Service</a></li>
-                                                      <li  class="display_inline_block"><a href="#">Vehicle</a></li>
                                                       <li  class="display_inline_block"><a href="#">Locations</a></li>
-                                                      <li  class="display_inline_block"><a href="#">Contact</a></li>
+                                                      <li  class="display_inline_block"><a href="#contact">Contact</a></li>
                                                       <li  class="display_inline_block"><a class="default_color" href="#">Sing In/Register</a></li>
                                                 </ul>
                                           </div>
@@ -1530,10 +1529,225 @@
 
       <!-- Apss Download Section -->
       <div id="apps_download">
-            <div class="d-mobile_none">
+            <div class="d_mobile_none">
                   <img src="assets/image/App-Download.png" alt="App Download">
             </div>
       </div>
+
+      <!-- Contact Section  -->
+
+      <section id="contact" >
+            <div class="container">
+                  <div class="row">
+                        <div class="col-md-8">
+                              <div class="contactFormWrap">
+                                    <div class="contatctFormTabButtonWrap ">
+                                          <button class="contactUsButton buttonActive">
+                                                Contact Us
+                                          </button>
+                                          <button class="becomeAgentButton">
+                                                Become Agent
+                                          </button>
+                                    </div>
+                                    <div class="contactFormtabContent">
+                                          <div id="conttact_form">
+                                                <div class="contact_form_wrap">
+                                                      <div class="row">
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="text" name="first-name" class="form-control" id="contactFormFirstName" placeholder="First Name" required>
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="text" name="last-name" class="form-control" id="contactFormLastName" placeholder="Last Name" required>
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <input type="tel" class="form-control telephone text-field" name="telephone" placeholder="Mobile Number" autocomplete="off" required>
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <input type="email" class="form-control telephone text-field" name="email" placeholder="Email" autocomplete="off" required>
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <textarea rows="6" class="form-control message" name="message" placeholder="Message:" required></textarea>
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <div class="ContactSubmutButtonWrap">
+                                                                        <button class="ccontactSubmitButton" type="submit">
+                                                                              Submit
+                                                                        </button>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div id="agent_form">
+                                                <div class="contact_form_wrap">
+                                                      <div class="row">
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="text" name="first_name" class="form-control" id="contactFormFirstName" placeholder="First Name*:" required>
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="text" name="last_name" class="form-control" id="contactFormLastName" placeholder="Last Name*:" required>
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="email" class="form-control telephone text-field" name="email" placeholder="Email*:" autocomplete="off" required>
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="text" class="form-control " name="username" value="" placeholder="User Name * :" required="" autocomplete="off">
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="password" class="form-control first-name text-field" name="password" value="" placeholder="Password * :" required="" autocomplete="off">
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <input type="password" class="form-control last-name text-field" name="password_confimation" value="" placeholder="Confirm Password * :" required="" autocomplete="off">
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <input type="tel" class="form-control telephone text-field" value="" name="mobile" placeholder="Telephone * :" required="" autocomplete="off">
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <input type="text" class="form-control password text-field" value="" name="passport_no" placeholder="Passport No. * :" required="" autocomplete="off">
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <input type="text" class="form-control " value="" name="refer_code" placeholder="Referral code:" autocomplete="off">
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <select type="text" value="" name="country" class="form-control first-name text-field" placeholder="Country * :" required="" autocomplete="off">
+                                                                        <option value="">Select Country</option>
+                                                                        <option value="Aruba">Aruba</option>
+                                                                        <option value="Afghanistan">Afghanistan</option>
+                                                                        <option value="Angola">Angola</option>
+                                                                  </select>
+                                                            </div>
+                                                            <div class="col-md-6 mb-3">
+                                                                  <select type="text" class="form-control last-name text-field" value="" name="nationality" placeholder="Nationality * :" required="" autocomplete="off">
+                                                                        <option value="">Select Country</option>
+                                                                        <option value="Aruba">Aruba</option>
+                                                                        <option value="Afghanistan">Afghanistan</option>
+                                                                        <option value="Angola">Angola</option>
+                                                                  </select>
+                                                            </div>
+                                                            <div class="col-md-12 mb-3">
+                                                                  <input accept="image/*" onchange="loadFile(event)" type="file" class="form-control email text-field" value="" name="doc" placeholder="Document(Passport). * :" required="" autocomplete="off">
+                                                            </div>
+                                                           
+                                                            
+                                                            <div class="col-md-12 mb-3 ">
+                                                                  <div class="ContactSubmutButtonWrap">
+                                                                        <button class="ccontactSubmitButton" type="submit">
+                                                                              Submit
+                                                                        </button>
+                                                                  </div>
+                                                            </div>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 d_mobile_none">
+                              <div class="contactForminfoWrap">
+                                    <div class="contactHotlineHeader">
+                                          <div class="row">
+                                                <div class="col-md-4">
+                                                      <div class="hotlineHeaderImage">
+                                                            <img src="assets/image/icon/hotline_user.png" alt="">
+                                                      </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                      <div class="hotlineHeaderinfo">
+                                                            <h4>Garibook 24/7</h4>
+                                                            <h4>Customer Service</h4>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="hotlineForInternational">
+                                          <h4 class="contactHotlinetitle">Hotline(International) <img src="assets/image/icon/Global.png" alt=""></h4>
+                                          <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+8801869575896</h5>
+                                          <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/email.png" alt="">support@garibook.com</h5>
+                                    </div>
+                                    <div class="hotlineForMalaysia">
+                                          <h4 class="contactHotlinetitle">Hotline(Malaysia) <img src="assets/image/icon/malaysia.png" alt=""> </h4>
+                                          <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+60147353020</h5>
+                                          <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+60147353040 </h5>
+                                          <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/email.png" alt="">support@garibook.com</h5>
+                                    </div>
+                                    <div class="hotlineForMaldives">
+                                          <h4 class="contactHotlinetitle">Hotline(Maldives)<img src="assets/image/icon/maldives.png" alt=""></h4>
+                                          <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+0000000000</h5>
+                                    </div>
+                                    
+                              </div>
+                              <div class="contactFormFooterWrap">
+                                    <h4>+8801810198969</h4>
+                                    <div class="contactFormFootericon">
+                                          <span> <img src="assets/image/icon/whatsapp.png" alt=""> </span>
+                                          <span> <img src="assets/image/icon/imo.png" alt=""> </span>
+                                          <span> <img src="assets/image/icon/fb.png" alt=""> </span>
+                                    </div>
+                                    <div class="contactFormFooteinfo">
+                                          <span>(All Messenger are available)</span>
+                                          <br>
+                                          <span>You can direct message from anywhere anytime </span>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </section>
+
+      <!-- footer -->
+
+      <div id="footer">
+            <footer>
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-md-12">
+                                    <div class="footer_logo">
+                                          <img src="assets/image/icon/footer_logo.png" alt="Garibook">
+                                    </div>
+                                    
+                              </div>
+                              <div class="row">
+                                    <div class="col-md-4">
+                                          <div class="footer_coluom_one">
+                                                <h5><b>About Garibook</b></h5>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                          <div class="footer_coluom_two">
+                                                <h5><b>Need Help</b></h5>
+                                                <p>
+                                                      <span> Contact us via phone or email: </span>
+                                                    
+                                                      <span> <img src="assets/image/icon/Call.png" alt=""> +880 19 0000 0000</span>
+                                                      <span> <img src="assets/image/icon/email.png" alt=""> garibook@gmail.com</span>
+                                                </p>
+                                          </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                          <div class="footer_coluom_three">
+                                                <h5><b>Follow Us</b></h5>
+                                                <p>
+                                                    
+                                                      <span> <img src="assets/image/icon/facebook.png" alt=""></span>
+                                                      <span> <img src="assets/image/icon/linkedin.png" alt=""></span>
+                                                      <span> <img src="assets/image/icon/twiter.png" alt=""></span>
+                                                      <span> <img src="assets/image/icon/youtube.png" alt=""></span>
+                                                      <span> <img src="assets/image/icon/messenger.png" alt=""> </span>
+                                                </p>
+                                                <span class="footer_aps_download">
+                                                      <a href="#">
+                                                            <img src="assets/image/icon/app_store.png" alt="">Apps Download
+                                                      </a>
+                                                </span>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </footer>
+      </div>
+      
 
       <!-- Jquery Version 3.6.0 Link -->
       <script src="assets/js/jquery-3.6.0.min.js"></script>
