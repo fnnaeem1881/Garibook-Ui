@@ -276,10 +276,15 @@
                                           <div class="tab-pane fade " id="round-trip" role="tabpanel" aria-labelledby="round-trip-tab">
                                                 <div class="sortingDivRoundTrip">
                                                       <div id="booking_form_label_option">
-                                                            <input type="checkbox" checked class="sortBtn ac" id="booking_form_check1" name="form_home"><label  id="booking_form_checkLabel1" style="color: #0393FB;">Form Home</label>
-                                                            <input type="checkbox" class="sortBtn dec" id="booking_form_check2" name="form_home"><label  id="booking_form_checkLabel2">Form Airport</label>
-                                                            <br>
-                                                            <label class="mt-2" for="">Pick-Up</label>
+                                                            <div class="roundTripHeaderWrap labelActive">
+                                                                  <input type="checkbox" checked class="sortBtn ac" id="booking_form_check1" name="form_home"><label  id="booking_form_checkLabel1" for="booking_form_check1" style="color: #0393FB;">Form Home</label>
+                                                            </div>
+                                                           <div class="roundTripHeaderWrap2">
+                                                                  <input type="checkbox" class="sortBtn dec" id="booking_form_check2" name="form_home"><label  id="booking_form_checkLabel2" for="booking_form_check2">Form Airport</label>
+                                                           </div>
+                                                      </div>
+                                                      <div class="rondTripLabelmain">
+                                                            <label class="" for="" >Pick-Up</label>
                                                       </div>
                                                       <div class="row g-2 mb-4 sort_item_round_trip">
                                                             
@@ -1278,17 +1283,17 @@
 
                                                 <div class="otherRoundTripDiv">
                                                       <div id="CarRentalCheckbox" class="booking_form_label_option2" style="margin-left: 15px;">
-                                                            <span class="CarRentalMobileView">
-                                                                  <input type="checkbox" id="CarRentalFullDayCheck" checked  name="form_home"><label id="CarRentalFullDayLabel"   style="color: #0393FB;">Full Day <span style="font-weight: 300;font-size:13px">(8 hours)</span> </label>
+                                                            <span class="CarRentalMobileView labelActive">
+                                                                  <input type="checkbox" id="CarRentalFullDayCheck" checked  name="form_home"><label id="CarRentalFullDayLabel" for="CarRentalFullDayCheck"   style="color: #0393FB;">Full Day <span style="font-weight: 300;font-size:13px">(8 hours)</span> </label>
                                                             </span>
                                                             <span class="CarRentalMobileView1">
-                                                                  <input type="checkbox" id="CarRentalHalfDayCheck"  class="" name="form_home"><label  id="CarRentalHalfDayLabel">Half Day <span style="font-weight: 300;font-size:13px">(4 hours)</span> </label>
+                                                                  <input type="checkbox" id="CarRentalHalfDayCheck"  class="" name="form_home"><label  for="CarRentalHalfDayCheck" id="CarRentalHalfDayLabel">Half Day <span style="font-weight: 300;font-size:13px">(4 hours)</span> </label>
                                                             </span>
                                                             <span class="CarRentalMobileView2">
-                                                                  <input type="checkbox" class="" id="CarRentalWeeklyCheck" name="form_home"><label  id="CarRentalWeeklyLabel"> Weekly</label>
+                                                                  <input type="checkbox" class="" id="CarRentalWeeklyCheck" name="form_home"><label for="CarRentalWeeklyCheck" id="CarRentalWeeklyLabel"> Weekly</label>
                                                             </span>
                                                             <span class="CarRentalMobileView3">
-                                                                  <input type="checkbox" class="" id="CarRentalMonthlyCheck" name="form_home"><label  id="CarRentalMonthlyLabel"> Monthly</label>
+                                                                  <input type="checkbox" class="" id="CarRentalMonthlyCheck" name="form_home"><label for="CarRentalMonthlyCheck" id="CarRentalMonthlyLabel"> Monthly</label>
                                                             </span>
                                                       </div>
                                                       <div class="col-md-12  p-0 m-0" id="CarRental">
@@ -1318,8 +1323,12 @@
                                                             </div>
                                                       </div>
                                                       <div id="CarRentalFooterCheckbox" class="booking_form_label_option2" style="margin-left: 15px;margin-top: 15px;">
-                                                            <input type="checkbox" id="CarRentalInsideDhakaCheck" checked  name="form_home"><label id="CarRentalInsideDhakaLabel"   style="color: #0393FB;">Inside Dhaka</label>
-                                                            <input type="checkbox" id="CarRentalOutsideDhakaCheck"  class="" name="form_home"><label  id="CarRentalOutsideDhakaLabel">Outside Dhaka</label>
+                                                            <div class="insideDhakaCarRental labelActive">
+                                                                  <input type="checkbox" id="CarRentalInsideDhakaCheck" checked  name="form_home"><label for="CarRentalInsideDhakaCheck" id="CarRentalInsideDhakaLabel"   style="color: #0393FB;">Inside Dhaka</label>
+                                                            </div>
+                                                            <div class="outsideDhakaCarRental">
+                                                                  <input type="checkbox" id="CarRentalOutsideDhakaCheck"  class="" name="form_home"><label for="CarRentalOutsideDhakaCheck" id="CarRentalOutsideDhakaLabel">Outside Dhaka</label>
+                                                            </div>
                                                            
                                                       </div>
                                                 </div>
@@ -1420,13 +1429,71 @@
       </div>
 
       <!-- Service Section -->
-      <div id="services" style="height: 800px;">
+      <div id="services" >
             <div class="container">
                   <div class="section_title">
                         <h4>Our Services</h4>
                         <p> Often passengers face difficulties picking up a car from Airport. Garibook.com is giving a hassle-free ride-booking platform from Airport pickup to your home drop. Now you can book your desired car before coming to Bangladesh and complete the entire journey smoother.</p>
                   </div>
-            
+                  <div class="services_box_wrap">
+                        <div class="services_box_slide">
+                              <div>
+                                    <div class="services_box">
+                                          <div class="services_box_ico">
+                                                <img src="assets\image\icon\secvice_box_1.png" alt="">
+                                          </div>
+                                          <div class="services_box_description">
+                                                <h4>Get Pick up & Drop</h4>
+                                                <p>Maximum Arrangements Proper Support.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div>
+                                    <div class="services_box">
+                                          <div class="services_box_ico services_box_ico2">
+                                                <img src="assets\image\icon\secvice_box_2.png" alt="">
+                                          </div>
+                                          <div class="services_box_description">
+                                                <h4>Country-wise Network </h4>
+                                                <p>City based agent, Easy customer solution Calculation in local currency.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div>
+                                    <div class="services_box">
+                                          <div class="services_box_ico services_box_ico3">
+                                                <img src="assets\image\icon\secvice_box_3.png" alt="">
+                                          </div>
+                                          <div class="services_box_description">
+                                                <h4>Worldwide Coverage</h4>
+                                                <p>10 Countries • 30 Cities 20 Airports </p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div>
+                                    <div class="services_box">
+                                          <div class="services_box_ico services_box_ico4">
+                                                <img src="assets\image\icon\secvice_box_1.png" alt="">
+                                          </div>
+                                          <div class="services_box_description">
+                                                <h4>Safty & Security</h4>
+                                                <p>Quality, safe & licensed vehicles Professional & licensed Drivers </p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div>
+                                    <div class="services_box">
+                                          <div class="services_box_ico services_box_ico5">
+                                                <img src="assets\image\icon\secvice_box_1.png" alt="">
+                                          </div>
+                                          <div class="services_box_description">
+                                                <h4>Get Pick up & Drop</h4>
+                                                <p>Maximum Arrangements Proper Support.</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
             </div>
       </div>
 

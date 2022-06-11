@@ -24,6 +24,23 @@
             font-weight: 300;
             letter-spacing: 1px;
       }
+      .roundTripHeaderWrap {
+            width: 25%;
+            float: left;
+            background: #f7f7f7;
+            padding: 15px 28px;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
+      }
+      .roundTripHeaderWrap2 {
+            width: 25%;
+            float: left;
+            padding: 15px 27px;
+            border: solid 1px #0393fb;
+            border-radius: 0px 10px 10px 0px;
+            background: #f7f7f7;
+      }
+
 }
 
 @media (min-width:1200px){
@@ -99,6 +116,22 @@
             background: #fff;
             padding: 25px 35px 30px;
             border-radius: 10px;
+      }
+      .roundTripHeaderWrap {
+            width: 27%;
+            float: left;
+            background: #f7f7f7;
+            padding: 15px 28px;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
+      }
+      .roundTripHeaderWrap2 {
+            width: 27%;
+            float: left;
+            padding: 15px 27px;
+            border: solid 1px #0393fb;
+            border-radius: 0px 10px 10px 0px;
+            background: #f7f7f7;
       }
 }
 /*--------------------------------------------------------*/
@@ -267,6 +300,7 @@
         
         span.CarRentalMobileView3 {
             width: 50%;
+            display: inline-block;
         }
         header#header {
             height: 75px;
@@ -280,6 +314,56 @@
             align-items: center;
             display: flex;
             height: 75px;
+        }
+        .roundTripHeaderWrap {
+            width: 35%;
+            float: left;
+            background: #f7f7f7;
+            padding: 15px 28px;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
+      }
+      .roundTripHeaderWrap2 {
+            width: 35%;
+            float: left;
+            padding: 15px 27px;
+            border: solid 1px #0393fb;
+            border-radius: 0px 10px 10px 0px;
+            background: #f7f7f7;
+      }
+      .CarRentalMobileView2 {
+            background: #f9f9f9;
+            padding: 15px 20px;
+            border: solid #0393fb 1px;
+            margin-top: 5px;
+            border-radius: 10px 0px 0px 10px;
+
+
+        }
+        .CarRentalMobileView1{
+            border-radius: 0px 10px 10px 0px;
+        }
+        .CarRentalMobileView3 {
+            background: #f9f9f9;
+            padding: 15px 20px;
+            border: solid #0393fb 1px;
+            margin-top: 5px;
+            border-radius: 0px 10px 10px 0px;
+            border-left: none;
+        }
+        .insideDhakaCarRental {
+            width: 37%;
+            padding: 9px 20px;
+            border: solid #0393fb 1px;
+            background: #f9f9f9;
+            border-radius: 10px 0px 0px 10px;
+        }
+        .outsideDhakaCarRental {
+            width: 37%;
+            padding: 9px 20px;
+            border: solid #0393fb 1px;
+            background: #f9f9f9;
+            border-radius: 0px 10px 10px 0px;
         }
   }
 
@@ -753,7 +837,49 @@
             margin: auto;
             margin-top: -20px;
         }
-    
+        .roundTripHeaderWrap {
+            width: 45%;
+            float: left;
+            background: #f7f7f7;
+            padding: 15px 28px;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
+      }
+      .roundTripHeaderWrap2 {
+            width: 45%;
+            float: left;
+            padding: 15px 27px;
+            border: solid 1px #0393fb;
+            border-radius: 0px 10px 10px 0px;
+            background: #f7f7f7;
+      }
+      .CarRentalMobileView {
+            background: #f9f9f9;
+            padding: 15px 10px;
+            border-radius: 10px 0px 0px 10px;
+            border-left: solid 1px #0393fb;
+            border-top: solid 1px #0393fb;
+            border-bottom: solid 1px #0393fb;
+        }
+        .CarRentalMobileView1 {
+            background: #f9f9f9;
+            padding: 15px 8px;
+            border: solid 1px #0393fb;
+        }
+        .insideDhakaCarRental {
+            width: 50%;
+            padding: 9px 15px;
+            border: solid #0393fb 1px;
+            background: #f9f9f9;
+            border-radius: 10px 0px 0px 10px;
+        }
+        .outsideDhakaCarRental {
+            width: 50%;
+            padding: 9px 15px;
+            border: solid #0393fb 1px;
+            background: #f9f9f9;
+            border-radius: 0px 10px 10px 0px;
+        }
 
 }
 /*-----------------------768---------------------------------*/
@@ -833,6 +959,52 @@
               }
               div#multicityAirportToThanaSection .col-md-3:first-child select {
                   width: 90%;
+              }
+              .roundTripHeaderWrap {
+                  width: 45%;
+                  float: left;
+                  background: #f7f7f7;
+                  padding: 15px 10px;
+                  border: solid 1px #0393fb;
+                  border-radius: 10px 0px 0px 10px;
+            }
+            .roundTripHeaderWrap2 {
+                  width: 45%;
+                  float: left;
+                  padding: 15px 10px;
+                  border: solid 1px #0393fb;
+                  border-radius: 0px 10px 10px 0px;
+                  background: #f7f7f7;
+            }
+            .CarRentalMobileView1 {
+                  background: #f9f9f9;
+                  padding: 15px 2px;
+                  border: solid 1px #0393fb;
+              }
+              .CarRentalMobileView {
+                  background: #f9f9f9;
+                  padding: 15px 2px;
+                  border-radius: 10px 0px 0px 10px;
+                  border-left: solid 1px #0393fb;
+                  border-top: solid 1px #0393fb;
+                  border-bottom: solid 1px #0393fb;
+              }
+              span.CarRentalMobileView1 span {
+                  font-size: 10px !important;
+              }
+              .insideDhakaCarRental {
+                  width: 50%;
+                  padding: 9px 14px;
+                  border: solid #0393fb 1px;
+                  background: #f9f9f9;
+                  border-radius: 10px 0px 0px 10px;
+              }
+              .outsideDhakaCarRental {
+                  width: 50%;
+                  padding: 9px 14px;
+                  border: solid #0393fb 1px;
+                  background: #f9f9f9;
+                  border-radius: 0px 10px 10px 0px;
               }
 }
 
@@ -929,7 +1101,7 @@
         .booking_form_label_option2 label {
             margin-right: 0;
             font-weight: 500;
-            font-size: 11px;
+            font-size: 10px;
         }
         div#CarRental .col-md-6:last-child .col-md-6 label {
             font-size: 10px !important;
@@ -1038,6 +1210,42 @@
         div#car-rental .col-md-6:first-child label {
             font-size: 10px !important;
         }
+        .roundTripHeaderWrap {
+            width: 50%;
+            float: left;
+            background: #f7f7f7;
+            padding: 8px 2px;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
+      }
+      .roundTripHeaderWrap2 {
+            width: 50%;
+            float: left;
+            padding: 8px 2px;
+            border: solid 1px #0393fb;
+            border-radius: 0px 10px 10px 0px;
+            background: #f7f7f7;
+      }
+      div#booking_form_label_option label {
+            font-size: 12px !important;
+        }
+        .CarRentalMobileView , .CarRentalMobileView1 , .CarRentalMobileView2 , .CarRentalMobileView3{
+              padding: 8px 2px;
+        }
+        .insideDhakaCarRental {
+            width: 50%;
+            padding: 8px 2px;
+            border: solid #0393fb 1px;
+            background: #f9f9f9;
+            border-radius: 10px 0px 0px 10px;
+        }
+        .outsideDhakaCarRental {
+            width: 50%;
+            padding: 8px 2px;
+            border: solid #0393fb 1px;
+            background: #f9f9f9;
+            border-radius: 0px 10px 10px 0px;
+        }
 }
 
 /*--------------------------------------------------------*/
@@ -1145,6 +1353,9 @@
         }
         div#multiCityRow .single_trip_form_select .col-md-10 {
             width: 78%;
+        }
+        div#booking_form_label_option label {
+            font-size: 11px !important;
         }
       
 }

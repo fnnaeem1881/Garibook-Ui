@@ -35,6 +35,12 @@ li.display_inline_block.active_menu a {
 .dispaly-none{
     display: none;
 }
+label{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
 .mibile_view {
     display: none;
   }
@@ -333,7 +339,9 @@ label.booking_form_label img {
     width: 40px;
 }
 #booking_form_label_option {
-    margin-bottom: 13px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 #booking_form_label_option input {
@@ -345,7 +353,8 @@ label.booking_form_label img {
     font-weight: 500;
 }
 .booking_form_label_option2 {
-    margin-bottom: 13px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .booking_form_label_option2 input {
@@ -370,7 +379,7 @@ label.booking_form_label img {
 }
 .booking_form_button {
     position: absolute;
-    top: 125px;
+    top: 165px;
     font-size: 16px;
     border: solid 1px #DDD;
     border-radius: 48px;
@@ -488,8 +497,7 @@ div#offer img {
 }
 .offer{
     width: 90%;
-    margin: 100px auto;
-    
+    margin: 50px auto;
 }
 
 .offer_section {
@@ -522,10 +530,11 @@ div#offer img {
     width: 10px !important;
     display: inline-block !important;
 }
-
-#services{
+div#services {
     background: #D8EEFF;
+    padding: 0px 0px 40px 0px;
 }
+
 .section_title h4 {
     background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%);
     -webkit-background-clip: text;
@@ -541,4 +550,123 @@ div#offer img {
     text-align: center;
     margin: auto;
     margin-top: -20px;
+}
+.services_box {
+    background: #0366FB;
+    padding: 19px;
+    text-align: center;
+    /* width: 220px; */
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    height: 190px;
+}
+
+.services_box_ico img {
+    width: 65px !important;
+    margin: auto !important;
+    margin-top: 15px;
+}
+
+.services_box_description h4 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+.services_box_description p {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 100;
+    opacity: 0.7;
+}
+.services_box_wrap {
+    margin-top: 30px;
+}
+.services_box_ico.services_box_ico2 img {
+    width: 41px !important;
+}
+.services_box_ico.services_box_ico3 img {
+    width: 50px !important;
+}
+
+/*  */
+.roundTripHeaderWrap {
+    width: 20%;
+    float: left;
+    background: #f7f7f7;
+    padding: 15px 28px;
+    border: solid 1px #0393fb;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.roundTripHeaderWrap2 {
+    width: 20%;
+    float: left;
+    padding: 15px 27px;
+    border: solid 1px #0393fb;
+    border-radius: 0px 10px 10px 0px;
+    background: #f7f7f7;
+}
+.rondTripLabelmain {
+    overflow: hidden;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+.labelActive {
+    background: #0393fb !important;
+}
+
+.labelActive label {
+    color: #fff !important;
+}
+.labelActive input {
+    accent-color: #fff;
+}
+.CarRentalMobileView  {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 10px 0px 0px 10px;
+    border-left: solid 1px #0393fb;
+    border-top: solid 1px #0393fb;
+    border-bottom: solid 1px #0393fb;
+}
+.CarRentalMobileView3  {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border: solid #0393fb 1px;
+    border-radius: 0px 10px 10px 0px;
+}
+.CarRentalMobileView1  {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border: solid 1px #0393fb;
+}
+.CarRentalMobileView2  {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border-top: solid #0393fb 1px;
+    border-bottom: solid 1px #0393fb;
+}
+.insideDhakaCarRental {
+    width: 28%;
+    padding: 9px 20px;
+    border: solid #0393fb 1px;
+    background: #f9f9f9;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.outsideDhakaCarRental {
+    width: 28%;
+    padding: 9px 20px;
+    border: solid #0393fb 1px;
+    background: #f9f9f9;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+div#CarRentalFooterCheckbox {
+    display: flex;
+    justify-content: center;
 }

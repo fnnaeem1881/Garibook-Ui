@@ -196,6 +196,8 @@ $('.sortBtn').click(function(event) {
 });
 $("#booking_form_check1").click(function() {
       if ($(this).is(':checked')) {
+        $('.roundTripHeaderWrap').addClass("labelActive");
+        $('.roundTripHeaderWrap2').removeClass("labelActive");
           //alert('asd');
           //$('input[type=checkbox]').prop('checked', true);
           document.getElementById("booking_form_checkLabel1").style.color = "#0393FB";
@@ -221,6 +223,9 @@ $("#booking_form_check2").click(function() {
       if ($(this).is(':checked')) {
           //alert('asd');
           //$('input[type=checkbox]').prop('checked', true);
+          $('.roundTripHeaderWrap2').addClass("labelActive");
+          $('.roundTripHeaderWrap').removeClass("labelActive");
+
           document.getElementById("booking_form_checkLabel2").style.color = "#0393FB";
           document.getElementById("booking_form_checkLabel1").style.color = "#000";
       //     $('#Round_trip_pickUp_title').css("display", "none");
@@ -462,6 +467,10 @@ $("#remove-field4").click(function() {
 
 $('#CarRentalFullDayCheck').click(function(){
     if ($(this).is(':checked')) {
+        $('.CarRentalMobileView').addClass("labelActive");
+        $('.CarRentalMobileView1').removeClass("labelActive");
+        $('.CarRentalMobileView2').removeClass("labelActive");
+        $('.CarRentalMobileView3').removeClass("labelActive");
           document.getElementById("CarRentalFullDayLabel").style.color = "#0393FB";
           document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
           document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
@@ -470,6 +479,10 @@ $('#CarRentalFullDayCheck').click(function(){
 });
 $('#CarRentalHalfDayCheck').click(function(){
     if ($(this).is(':checked')) {
+        $('.CarRentalMobileView').removeClass("labelActive");
+        $('.CarRentalMobileView1').addClass("labelActive");
+        $('.CarRentalMobileView2').removeClass("labelActive");
+        $('.CarRentalMobileView3').removeClass("labelActive");
           document.getElementById("CarRentalFullDayLabel").style.color = "#000";
           document.getElementById("CarRentalHalfDayLabel").style.color = "#0393FB";
           document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
@@ -478,6 +491,10 @@ $('#CarRentalHalfDayCheck').click(function(){
 });
 $('#CarRentalWeeklyCheck').click(function(){
     if ($(this).is(':checked')) {
+        $('.CarRentalMobileView').removeClass("labelActive");
+        $('.CarRentalMobileView1').removeClass("labelActive");
+        $('.CarRentalMobileView2').addClass("labelActive");
+        $('.CarRentalMobileView3').removeClass("labelActive");
           document.getElementById("CarRentalFullDayLabel").style.color = "#000";
           document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
           document.getElementById("CarRentalWeeklyLabel").style.color = "#0393FB";
@@ -486,6 +503,10 @@ $('#CarRentalWeeklyCheck').click(function(){
 });
 $('#CarRentalMonthlyCheck').click(function(){
     if ($(this).is(':checked')) {
+        $('.CarRentalMobileView').removeClass("labelActive");
+        $('.CarRentalMobileView1').removeClass("labelActive");
+        $('.CarRentalMobileView2').removeClass("labelActive");
+        $('.CarRentalMobileView3').addClass("labelActive");
           document.getElementById("CarRentalFullDayLabel").style.color = "#000";
           document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
           document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
@@ -495,12 +516,16 @@ $('#CarRentalMonthlyCheck').click(function(){
 
 $('#CarRentalInsideDhakaCheck').click(function(){
     if ($(this).is(':checked')) {
+        $('.insideDhakaCarRental').addClass("labelActive");
+        $('.outsideDhakaCarRental').removeClass("labelActive");
           document.getElementById("CarRentalInsideDhakaLabel").style.color = "#0393FB";
           document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#000";
     }
 });
 $('#CarRentalOutsideDhakaCheck').click(function(){
     if ($(this).is(':checked')) {
+        $('.insideDhakaCarRental').removeClass("labelActive");
+        $('.outsideDhakaCarRental').addClass("labelActive");
           document.getElementById("CarRentalInsideDhakaLabel").style.color = "#000";
           document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#0393FB";
     }
@@ -532,6 +557,11 @@ $(document).on('ready', function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         variableWidth: true
+    });   
+    $(".services_box_slide").slick({
+        infinite: false,
+        slidesToShow: 5,
+        slidesToScroll: 1,
     });
 });
 
