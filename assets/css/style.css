@@ -688,3 +688,11 @@ div#CarRentalFooterCheckbox {
     border-left: none;
     border-radius: 0px 10px 10px 0px;
 }
+.services_box_ico.services_box_ico4 img {
+    width: 45px !important;
+    margin-top: 15px !important;
+}
+.services_box_ico.services_box_ico6 img {
+    width: 40px !important;
+    margin-top: 18px !important;
+}
