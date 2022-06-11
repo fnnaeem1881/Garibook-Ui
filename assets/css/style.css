@@ -669,4 +669,22 @@ div#services {
 div#CarRentalFooterCheckbox {
     display: flex;
     justify-content: center;
+}#booking_form_label_option_multi_city , #booking_form_label_option_multi_city1 , #booking_form_label_option_multi_city2 , #booking_form_label_option_multi_city3 ,  #booking_form_label_option_multi_city4{
+    display: flex;
+    justify-content: center;
+}
+
+.multiCityAirportToThanaLabelWrap {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    border: solid 1px #0393fb;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.multicityThanaToArportLabelWrap {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    border: solid 1px #0393fb;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
 }

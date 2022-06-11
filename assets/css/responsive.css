@@ -365,6 +365,12 @@
             background: #f9f9f9;
             border-radius: 0px 10px 10px 0px;
         }
+        .multi-field {
+            margin-top: 50px;
+        }
+        .multi-field:first-child {
+            margin-top: 0px;
+        }
   }
 
 
@@ -880,6 +886,19 @@
             background: #f9f9f9;
             border-radius: 0px 10px 10px 0px;
         }
+        .multicityThanaToArportLabelWrap {
+            padding: 10px 4px;
+            background: #f9f9f9;
+            border: solid 1px #0393fb;
+            border-left: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .multiCityAirportToThanaLabelWrap {
+            padding: 10px 4px;
+            background: #f9f9f9;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
+        }
 
 }
 /*-----------------------768---------------------------------*/
@@ -1047,7 +1066,7 @@
             font-size: 12px;
       }
       .single_trip_form_select .col-md-10 {
-            width: 80%;
+            width: 79%;
             float: left;
       }
       .single_trip_form_select .col-md-11 {
@@ -1356,6 +1375,19 @@
         }
         div#booking_form_label_option label {
             font-size: 11px !important;
+        }
+        .multicityThanaToArportLabelWrap {
+            padding: 8px 2px;
+            background: #f9f9f9;
+            border: solid 1px #0393fb;
+            border-left: none;
+            border-radius: 0px 10px 10px 0px;
+        }
+        .multiCityAirportToThanaLabelWrap {
+            padding: 8px 2px;
+            background: #f9f9f9;
+            border: solid 1px #0393fb;
+            border-radius: 10px 0px 0px 10px;
         }
       
 }
