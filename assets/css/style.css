@@ -696,3 +696,6 @@ div#CarRentalFooterCheckbox {
     width: 40px !important;
     margin-top: 18px !important;
 }
+div#apps_download img {
+    width: 100%;
+}

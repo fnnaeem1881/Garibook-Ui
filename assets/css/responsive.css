@@ -899,6 +899,9 @@
             border: solid 1px #0393fb;
             border-radius: 10px 0px 0px 10px;
         }
+        .d-mobile_none{
+            display: none;
+        }
 
 }
 /*-----------------------768---------------------------------*/
