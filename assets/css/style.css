@@ -1247,3 +1247,6 @@ ul.otherBookingdateList .slick-dots {
     justify-content: space-between;
     margin-bottom: 20px;
 }
+div#PassengerDetails input, select ,label {
+    font-size: 13px !important;
+}
