@@ -15,6 +15,9 @@ a{
 li.display_inline_block.active_menu a {
     color:#fff !important
 }
+li{
+    list-style: none;
+}
 .default_color{
     color: #0393FB !important;
 }
@@ -834,7 +837,7 @@ button.ccontactSubmitButton {border: none;padding: 8px 40px;background: #0366FB;
 }
 .footer_coluom_two {
     color: #fff;
-    padding: 25px 0px 0px 50px;
+    padding: 25px 0px 0px 0px;
 }
 
 .footer_coluom_two p {
@@ -850,11 +853,11 @@ button.ccontactSubmitButton {border: none;padding: 8px 40px;background: #0366FB;
 }
 .footer_coluom_three {
     color: #fff;
-    padding: 25px 0px 0px 50px;
-
+    padding: 25px 0px 0px 0px;
 }
 .footer_coluom_three img {
     width: 25px;
+    cursor: pointer;
 }
 .footer_aps_download {
     padding: 7px 20px;
@@ -873,4 +876,369 @@ span.footer_aps_download img {
 }
 .footer_coluom_three p {
     margin-bottom: 40px;
+}
+.footer_hotline_info h4 {
+    color: #fff !important;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.footer_hotline_info h5 {
+    color: #fff !important;
+    font-size: 13px;
+    opacity: .9;
+}
+.mobile_footer_logo img {
+    width: 200px;
+}
+.footer_hotline_info {padding: 0px 20px;}
+
+
+/* Booking Form Step 2 */
+/* Booking Form Step 2 */
+
+
+section#bookingFormApsDownload img {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.changeSelectionButton {text-align: right;}
+
+.changeSelectionButton button {
+    background: #32B9AE;
+    color: #fff;
+    border: none;
+    padding: 5px 35px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+
+
+
+
+#stepSection .wizard .nav-tabs {
+        position: relative;
+        margin-bottom: 0;
+        border-bottom-color: transparent;
+}
+
+#stepSection .wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 7%;
+}
+
+#stepSection .connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    /* margin: 0 auto; */
+    left: 0;
+    right: 0;
+    top: 23px;
+    z-index: 1;
+}
+
+#stepSection .wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+#stepSection span.round-tab {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #0000004a;
+    font-weight: 500;
+    border: 1px solid #dddddd8f;
+}
+#stepSection span.round-tab i{
+    color:#555555;
+}
+#stepSection .wizard li.active span.round-tab {
+    background: #0366FB;
+    color: #fff;
+    border-color: #0366FB;
+}
+#stepSection .wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+#stepSection .wizard .nav-tabs > li.compelete > a i{
+	color: #0366FB;
+}
+
+#stepSection .wizard .nav-tabs > li {
+    width: 20%;
+}
+#stepSection .wizard .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+.compelete span.round-tab {
+    color: #0366FB !important;
+    border-color: #0366FB !important;
+}
+
+#stepSection .wizard .nav-tabs > li > a i{
+	color: #00000052;
+	position: absolute;
+	top: 45px;
+	width: 150px !important;
+	left: -50px;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+#stepSection .wizard .nav-tabs > li > a i {
+    color: #00000052;
+    position: absolute;
+    top: 45px;
+    width: 150px !important;
+    left: -50px;
+    font-size: 12px;
+    text-align: center;
+}
+i {
+    font-family: finex;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+* {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    font-family: 'Poppins' !important;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+#stepSection .wizard .nav-tabs > li.active > a i{
+	color: #000 !important;
+}
+.wizard-inner .round-tab img {
+    width: 20px;
+}
+.wizard-inner .compelete .completeTaskImg {
+    display: block !important;
+}
+.wizard-inner .completeTaskImg {
+    display: none !important;
+}
+#summerySection{
+    background: #D9D9D9;
+    padding: 16px;
+    border-radius: 7px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+.summeryHeader {
+    padding: 15px 0px;
+}
+.summaryPickUpLocation h6 {
+    color: #939393;
+    font-size: 15px;
+}
+
+.summaryPickUpLocation span {
+    font-size: 15px;
+}
+#breadcrumb a{
+    color:#000;
+}
+
+.bookingFormStepCarDetailsWrap  a{
+    color: #000 !important;
+}
+
+ul.PackageList li {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: solid 1px #ddd;
+    margin-left: -5px;
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+ul.PackageList li:first-child {
+    border-radius: 6px 0px 0px 6px;
+}
+
+ul.PackageList li:last-child {
+    border-radius: 0px 6px 6px 0px;
+}
+ul.PackageList {
+    padding: 0;
+}
+.PackageList .PackageActive {
+    background: #C2F9F3 !important;
+}
+#stepSection{
+    overflow: hidden;
+}
+ul.otherBookingdateList li {
+    padding: 3px;
+    background: #fff;
+    border: solid 1px #ddd;
+    text-align: center;
+    border-radius: 6px;
+}
+.otherBookingdate {
+    margin-left: -12px;
+}
+.otherBookingdate .DateActive {
+    background:#0393FB !important;
+    color: #fff !important;
+}
+.carDetailsimg img {
+    width: 100%;
+}
+.carDetailsPrice {
+    padding: 10px;
+    border: solid 1px #ddd;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.BookingFormDetailsCarName h3 {
+    font-size: 24px;
+    padding-top: 5px;
+}
+.bookingFormDetailsCarDescription img {
+    width: 15px;
+    margin-right: 5px;
+    float: left;
+}
+.bookingFormDetailsCarDescription ul li {
+    width: 50%;
+    float: left;
+    padding: 5px 0px;
+}
+
+.bookingFormDetailsCarDescription ul {
+    padding: 0;
+    overflow: hidden;
+}
+.bookingFormDetailsCarDescription span {
+    display: block;
+    width: 70%;
+    float: left;
+    overflow: hidden;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.bookingFormDetailsCarDescription a {
+    color: #0366FB !important;
+    font-size: 12px;
+}
+.BookingFormpriceWrap {
+    background: #D9D9D9;
+    padding: 15px;
+    height: 115%;
+    border-radius: 6px;
+    margin-top: -10px;
+    margin-right: -12px;
+    text-align: center;
+}
+.BookingFormpriceWrap h4 {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.BookingFormpriceWrap label {
+    padding: 4px 10px;
+    background: #fff;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.pagination_nexRightButtonWrap .page-link {
+    border: none !important;
+    font-size: 11px;
+}
+.active>.page-link {
+    background: #D9D9D9 !important;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+.page-link:hover {
+border-radius: 100%;
+}
+.nextAndPreviousButtonWrap button {
+    border: solid 2px #0366FB !important;
+    padding: 10px 30px;
+}
+.nextAndPreviousButtonWrap button:hover {
+    border: solid 2px #0366FB !important;
+}
+
+
+.nextAndPreviousButtonWrap a:last-child button {
+    background: #0366FB;
+    color: #fff;
+}
+.nextAndPreviousButtonWrap {
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.BookingFormpriceWrap .carSelected{
+    background: #008363 !important;
+    color:#fff !important;
+}
+.BookingFormpriceWrap .carSelected img {
+    width: 8px;
+    display: inline-block;
+}
+.BookingFormpriceWrap img {
+    display: none;
+}
+ul.otherBookingdateList .slick-dots {
+    display: none !important;
+}
+.otherBookingdateList .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: .25;
+    display: inline-block !important;
+}
+.otherBookingdateList .slick-prev {
+    left: -10px !important;
+}
+#Standard.PackageActive {
+    background: #A1C2F3!important;
+    color: #0348FB;
+    font-weight: 700;
+}
+#Premium.PackageActive {
+    background: #EFD9A4!important;
+    color: #955900;
+    font-weight: 700;
 }

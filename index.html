@@ -422,10 +422,10 @@
                                                       <div id="booking_form_label_option2">
                                                             <label class="" for="">Drop-Off</label>
                                                             <span>
-                                                                  <input type="checkbox" checked  name="form_home"><label   style="color: #0393FB;">Same as Pick-Up</label>
+                                                                  <input type="checkbox" checked id="sameasPickUp"  name="form_home"><label for="sameasPickUp"  style="color: #0393FB;">Same as Pick-Up</label>
                                                             </span>
                                                             <span>
-                                                                  <input type="checkbox" id="retureSameasdateCheck"  class="" name="form_home"><label  id="retureSameasdate"> <span class="desktop_view">
+                                                                  <input type="checkbox" id="retureSameasdateCheck"  class="" name="form_home"><label for="retureSameasdateCheck"  id="retureSameasdate"> <span class="desktop_view">
                                                                         Return (Same as pick-up Date)
                                                                   </span>
                                                                   <span class="mibile_view">
@@ -433,7 +433,7 @@
                                                                   </span> </label>
                                                             </span>
                                                             <span>
-                                                                  <input type="checkbox" class="" id="OthePickUp" name="form_home"><label  id="otherreturndate">
+                                                                  <input type="checkbox" class="" id="OthePickUp" name="form_home"><label for="OthePickUp"  id="otherreturndate">
                                                                         <span class="desktop_view">
                                                                               Other Return  Date
                                                                         </span>
@@ -1699,7 +1699,53 @@
       <div id="footer">
             <footer>
                   <div class="container">
-                        <div class="row">
+                        <div class="row d_desktop_none">
+                              <div class="col-sm-12">
+                                    <div class="footer_hotline_info">
+                                          <div class="hotlineForInternational">
+                                                <h4 class="contactHotlinetitle">Hotline(Bangladesh) <img src="assets/image/icon/banglaicon.svg" alt=""></h4>
+                                                <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+8801869575896</h5>
+                                                <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/email.png" alt="">support@garibook.com</h5>
+                                          </div>
+                                          <div class="hotlineForMalaysia">
+                                                <h4 class="contactHotlinetitle">Hotline(Malaysia) <img src="assets/image/icon/malaysia.png" alt=""> </h4>
+                                                <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+60147353020</h5>
+                                                <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/call.png" alt="">+60147353040 </h5>
+                                                <h5 class="contactHotlinetitlechild"><img src="assets/image/icon/email.png" alt="">support@garibook.com</h5>
+                                          </div>
+                                          <div class="footer_coluom_three">
+                                                <h5><b>Follow Us</b></h5>
+                                                <p>
+                                                    
+                                                      <span> <a href="#"><img src="assets/image/icon/facebook.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/linkedin.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/twiter.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/youtube.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/messenger.png" alt=""></a> </span>
+                                                </p>
+                                                <!-- <span class="footer_aps_download">
+                                                      <a href="#">
+                                                            <img src="assets/image/icon/app_store.png" alt="">Apps Download
+                                                      </a>
+                                                </span> -->
+                                                <hr style="border-top: 2px solid;opacity: .6;">
+                                                <div class="footer_coluom_two">
+                                                      <h5><b>Need Help</b></h5>
+                                                      <p class="mb-3">
+                                                            We are Always here for you! Knock us on Messenger anytime or Call our Hotline (24/7)
+                                                      </p>
+                                                </div>
+                                                <div class="mobile_footer_logo">
+                                                      <img src="assets/image/icon/footer_logo.png" alt="Garibook">
+                                                </div>
+                                                <div class="mobile_copiright text-center mt-2 " style="font-weight: 400;">
+                                                      &copy;<span>Garibook</span>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="row d_mobile_none">
                               <div class="col-md-12">
                                     <div class="footer_logo">
                                           <img src="assets/image/icon/footer_logo.png" alt="Garibook">
@@ -1729,11 +1775,11 @@
                                                 <h5><b>Follow Us</b></h5>
                                                 <p>
                                                     
-                                                      <span> <img src="assets/image/icon/facebook.png" alt=""></span>
-                                                      <span> <img src="assets/image/icon/linkedin.png" alt=""></span>
-                                                      <span> <img src="assets/image/icon/twiter.png" alt=""></span>
-                                                      <span> <img src="assets/image/icon/youtube.png" alt=""></span>
-                                                      <span> <img src="assets/image/icon/messenger.png" alt=""> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/facebook.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/linkedin.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/twiter.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/youtube.png" alt=""></a> </span>
+                                                      <span> <a href="#"><img src="assets/image/icon/messenger.png" alt=""></a> </span>
                                                 </p>
                                                 <span class="footer_aps_download">
                                                       <a href="#">
@@ -1754,7 +1800,7 @@
       <!-- Bootstarp 5.2 Js Link -->
       <script src="assets/js/bootstrap.min.js"></script>
       <!-- Slick Css Link --->     
-      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
       <script src="assets/plugin/slick/slick.js"></script>
       <script src="assets/plugin/slick/slick.min.js"></script>
       <!-- DateTime  -->
