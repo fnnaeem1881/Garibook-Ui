@@ -1242,3 +1242,8 @@ ul.otherBookingdateList .slick-dots {
     color: #955900;
     font-weight: 700;
 }
+.totalAmountWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
