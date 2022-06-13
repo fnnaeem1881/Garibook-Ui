@@ -1327,3 +1327,18 @@ input.form-control.subtotal {
     margin-top: 0%;
     padding-bottom: 2%;
 }
+section#booking_page_wrap {
+    padding-top: 120px;
+}
+.booking_button {
+    border: none;
+    padding: 5px 20px;
+    background: transparent;
+    color: #939393;
+}
+.booking_page_button_wrap {
+    padding: 20px 0px;
+}
+#footer{
+    margin-top:20px;
+}
