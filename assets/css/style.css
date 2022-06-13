@@ -1250,3 +1250,62 @@ ul.otherBookingdateList .slick-dots {
 div#PassengerDetails input, select ,label {
     font-size: 13px !important;
 }
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff !important;
+    opacity: 1;
+}
+.couponSubmitButton {
+    background: #32B9AE !important;
+    border:none  !important;
+    color: #fff  !important;
+    text-transform: uppercase;
+}
+.couponSubmitButton:hover{
+    border:none !important;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+input.form-control.subtotal {
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%)!important;
+    color: #fff !important;
+}
+
+.payment_succes_message img {
+    width: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.payment_success_img_wrap {
+    width: 85px;
+    height: 85px;
+    border: solid 1px #0366FB;
+    margin: auto;
+    position: relative;
+    border-radius: 100%;
+}
+
+.payment_succes_message {
+    text-align: center;
+    display: block;
+    margin: 5% auto;
+}
+
+.payment_success_img_wrap span {
+    background: #DAEFFF;
+    width: 70px !important;
+    height: 70px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 100%;
+}
+.payment_success_title {
+    margin: 20px 0px;
+}

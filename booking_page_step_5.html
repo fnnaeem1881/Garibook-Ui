@@ -119,7 +119,6 @@
             </div>
       </section> 
 
-
       <!-- step section -->
       <section id="stepSection">
             <div class="container">
@@ -138,10 +137,10 @@
                                     <li role="presentation" id="BookingFormStepTab3" class="compelete">
                                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab"><span class="round-tab">3</span> <span class="round-tab completeTaskImg"> <img src="assets/image/icon/ok.png" alt=""> </span> <i>Passenger Details</i></a>
                                     </li>
-                                    <li role="presentation" id="BookingFormStepTab4" class="active">
+                                    <li role="presentation" id="BookingFormStepTab4" class="compelete">
                                        <a href="#step4" data-toggle="tab" aria-controls="step4" role="tab"><span class="round-tab">4</span> <span class="round-tab completeTaskImg"> <img src="assets/image/icon/ok.png" alt=""> </span> <i>Flight Informations</i></a>
                                     </li>
-                                    <li role="presentation" id="BookingFormStepTab5" class="disabled">
+                                    <li role="presentation" id="BookingFormStepTab5" class="active">
                                           <a href="#step5" data-toggle="tab" aria-controls="step4" role="tab"><span class="round-tab">5</span> <span class="round-tab completeTaskImg"> <img src="assets/image/icon/ok.png" alt=""> </span> <i>Payment</i></a>
                                        </li>
                                  </ul>
@@ -193,57 +192,64 @@
                                                 <div class="bookingFormStepCarDetailsWrap">
                                                        <div id="PassengerDetails" class="PassengerDetails">
                                                             <div class="passengerDetailsHeader">
-                                                                  <b>Flight Information</b>
+                                                                  <b>Payment</b>
                                                                   <hr class="mt-3 mb-3">
                                                             </div>
                                                             <div class="passengerDetailsFormWrap mb-5">
                                                                   <div class="row">
                                                                         <div class="col-md-6 mb-3">
                                                                               <div class="form-group">
-                                                                                    <label>Departure Country <b style="color:red">*</b> </label>
-                                                                                    <select class="form-control form-select" name="departure_country">
-                                                                                          <option>Select Country</option>
+                                                                                    <label>Payment Method <b style="color:red">*</b> </label>
+                                                                                    <select class="form-control form-select" name="payment_method">
+                                                                                          <option>Select Payment Method</option>
                                                                                           <option value="BD">Bangladesh</option>
                                                                                     </select>
-                                                                              </div>
-                                                                        </div>
-                                                                        <div class="col-md-6 mb-3">
-                                                                              <div class="form-group">
-                                                                                    <label>Airlines <b style="color:red">*</b> </label>
-                                                                                    <select class="form-control form-select" name="airlines">
-                                                                                          <option>Select Airlines</option>
-                                                                                          <option value="BD">Bangladesh</option>
-                                                                                    </select>
-                                                                              </div>
-                                                                        </div>
-                                                                        <div class="col-md-6 mb-3">
-                                                                              <div class="form-group">
-                                                                                    <label>Flight Number <b style="color:red">*</b> </label>
-                                                                                    <input type="text" Placeholder="Flight Number" name="passenger_flight_number" class="form-control" requird>
                                                                               </div>
                                                                         </div>
                                                                         
                                                                         <div class="col-md-6 mb-3">
                                                                               <div class="form-group">
-                                                                                    <label>Ticket Number <b style="color:red">*</b> </label>
-                                                                                    <input type="tel" Placeholder="Ticket Number" name="passenger_ticket_number" class="form-control" requird>
-                                                                              </div>
-                                                                        </div>
-                                                                        <div class="col-md-12 mb-3">
-                                                                              <div class="passengerDetailsHeader">
-                                                                                    <b>Relative Information (Bangladesh)</b>
+                                                                                    <label>Wallet Ballance  </label>
+                                                                                    <input type="text" disabled value="RM 200" name="" class="form-control wallet_balance  font-weight-bold">
                                                                               </div>
                                                                         </div>
                                                                         <div class="col-md-6 mb-3">
                                                                               <div class="form-group">
-                                                                                    <label>Full Name <b style="color:red">*</b> </label>
-                                                                                    <input type="text" Placeholder="Full Name" name="relative_full_name" class="form-control" requird>
+                                                                                    <label>Booking Total  </label>
+                                                                                    <input type="text" disabled value="RM 200" name="" class="form-control booking_total font-weight-bold" >
+                                                                              </div>
+                                                                        </div>
+                                                                        
+                                                                        <div class="col-md-6 mb-3">
+                                                                              <div class="row">
+                                                                                    <div class="col-md-8">
+                                                                                          <div class="form-group">
+                                                                                                <label>Coupon  </label>
+                                                                                                <input type="tel" Placeholder="Enter Valid Coupon" name="coupun_number" class="form-control">
+                                                                                          </div>
+                                                                                    </div>
+                                                                                    <div class="col-md-4">
+                                                                                          <label></label>
+                                                                                          <button class="couponSubmitButton btn form-control">Apply</button>
+                                                                                    </div>
                                                                               </div>
                                                                         </div>
                                                                         <div class="col-md-6 mb-3">
                                                                               <div class="form-group">
-                                                                                    <label>Phone Number <b style="color:red">*</b> </label>
-                                                                                    <input type="tel" Placeholder="Phone Number" name="relative_phone_number" class="form-control" requird>
+                                                                                    <label>Coupon Balance  </label>
+                                                                                    <input type="text" Placeholder="Coupon Balance" name="coupon_balance" disabled class="form-control coupon_balance" >
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="col-md-6 mb-3">
+                                                                              <div class="form-group">
+                                                                                    <label>Subtotal  </label>
+                                                                                    <input type="text" disabled value="150 RM" name="subtotal" class="form-control subtotal" >
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="col-md-6 mb-3">
+                                                                              <div class="form-group">
+                                                                                    <label>New Wallet Balance  </label>
+                                                                                    <input type="text" disabled value="150 RM" name="" class="form-control new_balance font-weight-bold text-center" >
                                                                               </div>
                                                                         </div>
                                                                   </div>
@@ -252,11 +258,11 @@
                                                             <div class="pagination_nexRightButtonWrap">
                                                                  
                                                                   <div class="nextAndPreviousButtonWrap">
-                                                                        <a href="booking_page_step_3.html">
-                                                                              <button class="btn"> < Passenger Details</button>
+                                                                        <a href="booking_page_step_4.html">
+                                                                              <button class="btn"> < Flight Information</button>
                                                                         </a>
-                                                                        <a href="booking_page_step_5.html">
-                                                                              <button class="btn">Payment > </button>
+                                                                        <a href="payment_succes.html">
+                                                                              <button class="btn">Pay Now > </button>
                                                                         </a>
                                                                   </div>
                                                             </div>
