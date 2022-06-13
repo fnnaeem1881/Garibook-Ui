@@ -734,4 +734,7 @@ for (var i = 0; i < btns.length; i++) {
     $('.becomeAgentButton').removeClass('buttonActive');
     $('.contactUsButton ').addClass('buttonActive');
  });
- 
+ $("#changeSelectionFormShowButton").click(function(){
+  $("#changeSelectionForm").toggle();
+});
+$("#changeSelectionForm").hide();

@@ -309,7 +309,7 @@ li.nav-item.booking_form_active button {
     display: inline-block !important;
 }
 .booking_form_village_name{
-    padding: 16px 18px !important;
+    padding: 14px 18px !important;
     border: none;
     color: #0393FB !important;
 }
@@ -1308,4 +1308,22 @@ input.form-control.subtotal {
 }
 .payment_success_title {
     margin: 20px 0px;
+}
+.changeSelectionForm .booking_form_body {
+    padding-top: 20px;
+    border: solid 2px #0393fb;
+    margin: 20px 0px 40px 0px;
+    border-radius: 10px;
+}
+.changeSelectionForm .booking_form_content_wrap {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 0px 35px 0px;
+    border-radius: 10px;
+}
+.changeSelectionForm .view_rent_button {
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 2%;
 }
