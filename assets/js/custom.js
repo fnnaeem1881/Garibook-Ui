@@ -739,35 +739,7 @@ for (var i = 0; i < btns.length; i++) {
 });
 $("#changeSelectionForm").hide();
 
-// Upload File Show
-// $("#uploadFile").change(function() {
-//   filename = this.files[0].name;
-//   console.log(filename);
-// });
-//       const filesInput = document.getElementById("uploadFile");
-//   filesInput.addEventListener("change", function (event) {
-//     const files = event.target.files; //FileList object
-//     const output = document.getElementById("output");
-//     for (let i = 0; i < files.length; i++) {
-//       const file = files[i];
-//       //Only pics
-//       if (!file.type.match("image")) continue;
-//       const picReader = new FileReader();
-//       picReader.addEventListener("load", function (event) {
-//         const picFile = event.target;
-//         const div = document.createElement("div");
-//         div.innerHTML =
-//           `
-//           <img class='thumbnail' src='${picFile.result}'/>
-//             <p>${file.name}</p>
-//           `;
-//         output.insertBefore(div, null);
-//         console.log(file);
-//       });
-//       //Read the image
-//       picReader.readAsDataURL(file);
-//     }
-//   });
+
      
   $('.wallet_deposit_slip').bind('change', function() {
       var a=(this.files[0].size);
@@ -788,4 +760,67 @@ $('.wallet_deposit_slip').change(function(e) {
   // alert('The file "' + file + '" has been selected.');
   $('#custom_fil_input_value').html(file);
   $('#custom_fil_input_value').show();
+});
+
+
+
+
+// Profile Upload File Show
+
+
+const filesInput = document.getElementById("profile_img");
+filesInput.addEventListener("change", function (event) {
+  const files = event.target.files; 
+  for (let i = 0; i < files.length; i++) {
+    const file = files[i];
+    if (!file.type.match("image")) continue;
+    const picReader = new FileReader();
+    picReader.addEventListener("load", function (event) {
+      const picFile = event.target;
+      $('.profile_image_main'). attr("src",picFile.result);
+    });
+    picReader.readAsDataURL(file);
+  }
+});
+
+
+// password Show
+
+function newPassword() {
+  var newPassword = document.getElementById("newPassword");
+  if (newPassword.type === "password") {
+    newPassword.type = "text";
+  } else {
+    newPassword.type = "password";
+  }
+}
+function confirm_password() {
+  var confirm_password = document.getElementById("confirm_password");
+  if (confirm_password.type === "password") {
+    confirm_password.type = "text";
+  } else {
+    confirm_password.type = "password";
+  }
+}
+
+$('#new_password_open_eye').hide();
+$('#confirm_password_open_eye').hide();
+
+
+$('#new_password_close_eye').on('click', function(){
+  $('#new_password_open_eye').show();
+  $('#new_password_close_eye').hide();
+});
+$('#new_password_open_eye').on('click', function(){
+  $('#new_pasword_open_eye').hide();
+  $('#new_password_close_eye').show();
+});
+
+$('#confirm_password_close_eye').on('click', function(){
+  $('#confirm_password_open_eye').show();
+  $('#confirm_password_close_eye').hide();
+});
+$('#confirm_password_open_eye').on('click', function(){
+  $('#confirm_password_open_eye').hide();
+  $('#confirm_password_close_eye').show();
 });

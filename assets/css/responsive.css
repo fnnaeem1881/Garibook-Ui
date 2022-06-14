@@ -467,6 +467,9 @@
     .summaryPickUpLocation span {
         font-size: 10px;
     }
+    section#profileSection {
+      padding-top: 72px;
+    }
 }
 
 
@@ -1213,6 +1216,9 @@ label#AddMultiCityRow {
               font-size: 10px;
               text-align: center;
           }
+          .profile_info_update {
+            padding: 0 !important;
+        }
 }
 
 /*--------------------------------------------------------*/
@@ -1496,6 +1502,9 @@ label#AddMultiCityRow {
       border-radius: 6px;
       letter-spacing: 1px;
       font-size: 10px;
+  }
+  .password_update_form {
+    padding: 0;
   }
 }
 

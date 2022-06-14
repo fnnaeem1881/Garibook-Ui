@@ -1394,3 +1394,223 @@ p#custom_fil_input_value {
     margin: 0;
     padding-top: 2px;
 }
+
+/* My Earning */
+#MyEarningSection{
+    padding-top: 150px;
+}
+.my_earning_wrap {
+    background: #A1C2F3;
+    border: solid 1px #0393fb;
+    border-radius: 6px;
+    padding: 15px;
+    color: #0348FB;
+    margin-top: 15px;
+}
+.my_earning_body_title h4 {
+    color: #0348FB;
+    font-weight: 600;
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.my_earning_body_title {position: relative;height: 120px;}
+.my_earning_table td , th {
+    color: #0348fb;
+    border-left: none !important;
+    padding-left: 3% !important;
+}
+
+.my_earning_table table {
+    background: #fff;
+    border-radius: 6px !important;
+    margin: 0;
+}
+.my_earning_table tr:first-child {
+    border-top: none !important;
+}
+.my_earning_table tr:last-child {
+    border-bottom: none !important;
+}
+.commissions_table tr:first-child {
+    border-top: solid 1px #ddd !important;;
+}
+
+.my_earning_table th{
+    color: #000;
+    font-size: 13px;
+}
+.my_earning_table th span {
+    font-size: 10px;
+    color: #000000a3;
+    font-weight: 500;
+}
+.commissions_table{
+    text-align: center;
+}
+.my_earning_body_title.commissions_body_title {
+    height: 175px;
+}
+.my_earning_datatable {
+    margin: 20px 0px;
+}
+
+/* Profile */
+
+.profile_background_wrap{background-size: cover !important;height: 350px;background-repeat: no-repeat !important;}
+section#profileSection {
+    padding-top: 100px;
+}
+.profile_wrap {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 5%;
+}
+.profile_image_main {
+    overflow: hidden;
+    width: 110%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 110%;
+    border-radius: 50%;
+}
+
+.profile_image {
+    width: 130px;
+    margin: auto;
+    height: 130px;
+    border-radius: 100%;
+    border: solid 3px #fff;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50% , -50%);
+}
+.profile_image_wrap {
+    width: 144px;
+    height: 144px;
+    margin: auto;
+    border: solid 1px #fff;
+    overflow: hidden;
+    background: #ffffff3b;
+    border-radius: 50%;
+    position: relative;
+}
+.profile_name {
+    padding-top: 10px;
+}
+
+.profile_name h4 {
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.profile_name p {
+    font-size: 11px;
+}
+.profile_name img {
+    width: 7px !important;
+    margin-right: 3px;
+}
+.camera_icon {
+    background: #dddddd94;
+    padding: 5px 0px;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    width: 100%;
+    z-index: 0;
+}
+.camera_icon img {
+    width: 20px;
+}
+.profile_information_wrap {
+    background: #fff;
+    margin-top: -60px;
+    border: solid 1px #0348FB;
+    border-radius: 6px;
+    padding: 30px;
+}
+.profile_information_wrap ul li {
+    display: inline-block;
+    width: 24%;
+}
+.profile_information_wrap span {
+    font-size: 12px;
+}
+
+.profile_information_wrap h6 {
+    margin: 0;
+    color: #0348FB;
+    font-weight: 700;
+}
+.updateProfileButton {
+    display: block !important;
+    margin: auto !important;
+    background: #0366FB !important;
+    margin-top: 20px !important;
+    color: #fff !important;
+    padding: 5px 35px !important;
+    border: none !important;
+}
+.profile_information_wrap input {
+    font-size: 13px;
+}
+.password_update {
+    font-size: 13px;
+    text-decoration: underline !important;
+    position: absolute;
+    bottom: 0;
+}
+.password_update_moidel_header img {
+    width: 40px;
+}
+
+.password_update_moidel_header {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.password_update_moidel_header h2 {
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 10px;
+}
+#PasswordUpdateModal .modal-header{
+    border: none !important;
+    padding: 0 !important;
+}
+#PasswordUpdateModal .modal-footer{
+    border: none !important;
+}
+#PasswordUpdateModal .modal{
+    --bs-modal-width: 400px !important;
+}
+.password_update_form {
+    padding: 0px 30px;
+}
+.password_show_wrap {
+    position: relative;
+}
+
+.password_show_wrap img {
+    width: 12px;
+    position: absolute;
+    top: 38%;
+    right: 3%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+.password_update_form input {
+    font-size: 13px;
+}

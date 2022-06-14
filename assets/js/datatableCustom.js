@@ -2,6 +2,7 @@ $(document).ready(function () {
       $('#AllBookingTable').DataTable();
       $('#DraftBookingTable').DataTable();
       $('#DepositList').DataTable();
+      $('#MyEearning').DataTable();
 });
 $('.draftBookingTableWrap').hide();
 
