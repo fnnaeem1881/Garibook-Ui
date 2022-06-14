@@ -1614,3 +1614,41 @@ section#profileSection {
 .password_update_form input {
     font-size: 13px;
 }
+/* Forgot Password */
+#forgotPassword{
+    padding: 130px 0;
+}
+.forgot_password_wrap {
+    border: solid 1px #0366FB;
+    border-radius: 6px;
+    padding: 20px;
+}
+.forgot_password_title h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+.forgot_password_form span {
+    font-size: 12px;
+}
+
+.forgot_password_form button {
+    background: #0366FB;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px 25px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.forgot_password_form input {
+    font-size: 13px;
+}
+img.sendSuccessImg {
+    margin-left: 9px;
+    width: 15px;
+}
+#resetSuccessMessage{
+    padding: 120px 0px;
+}
