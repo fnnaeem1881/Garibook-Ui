@@ -14,6 +14,18 @@
       }
   });
 
+  $('.wallet_deposit_date').datepicker({
+    format: 'mm/dd/yyyy',
+    // beforeShowDay: function(date){
+    //     dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
+    //     if(disableDates.indexOf(dmy) != -1){
+    //          return true,'highlight';
+    //     }
+    //         return true;
+        
+    // }
+});
+
   $(document).ready(function(){
       var $d7input = $('input', '#DateTimeMultiCity1').focus(function() {
           var $dropdown = $('<div class="dropdown"/>')

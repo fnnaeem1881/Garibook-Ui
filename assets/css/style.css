@@ -1342,3 +1342,55 @@ section#booking_page_wrap {
 #footer{
     margin-top:20px;
 }
+button.DepositList.booking_button.bnt {
+    padding: 5px 0px;
+    color: #000;
+    font-weight: 500;
+}
+/* Wallet Deposit */
+section#WalletDepositSection {
+    padding-top: 150px;
+}
+.wallet_deposit_wrap {
+    border: solid 1px #ddd;
+    padding: 20px 150px;
+    border-radius: 6px;
+}
+.wallet_deposit_form input , select {
+    font-size: 12px !important;
+}
+.form-group.wallet_deposit_bank_slip p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.wallet_deposit_submit_button {
+    margin: auto;
+    display: block;
+    padding: 5px 35px;
+    border-radius: 6px;
+    background: #0366FB !important;
+}
+label.cusotm_deposit_file_upload {
+    display: flex;
+    background: #A1C2F3;
+    color: #fff;
+    padding: 5px 35px 5px 5px;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.custom_fil_input_icon img {
+    width: 18px;
+}
+.brouseFileButton {
+    background: #0366FB;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+p#custom_fil_input_value {
+    padding: 0;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 2px;
+}

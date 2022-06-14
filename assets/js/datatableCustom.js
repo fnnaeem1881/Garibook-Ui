@@ -1,6 +1,7 @@
 $(document).ready(function () {
       $('#AllBookingTable').DataTable();
       $('#DraftBookingTable').DataTable();
+      $('#DepositList').DataTable();
 });
 $('.draftBookingTableWrap').hide();
 

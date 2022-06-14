@@ -739,3 +739,53 @@ for (var i = 0; i < btns.length; i++) {
 });
 $("#changeSelectionForm").hide();
 
+// Upload File Show
+// $("#uploadFile").change(function() {
+//   filename = this.files[0].name;
+//   console.log(filename);
+// });
+//       const filesInput = document.getElementById("uploadFile");
+//   filesInput.addEventListener("change", function (event) {
+//     const files = event.target.files; //FileList object
+//     const output = document.getElementById("output");
+//     for (let i = 0; i < files.length; i++) {
+//       const file = files[i];
+//       //Only pics
+//       if (!file.type.match("image")) continue;
+//       const picReader = new FileReader();
+//       picReader.addEventListener("load", function (event) {
+//         const picFile = event.target;
+//         const div = document.createElement("div");
+//         div.innerHTML =
+//           `
+//           <img class='thumbnail' src='${picFile.result}'/>
+//             <p>${file.name}</p>
+//           `;
+//         output.insertBefore(div, null);
+//         console.log(file);
+//       });
+//       //Read the image
+//       picReader.readAsDataURL(file);
+//     }
+//   });
+     
+  $('.wallet_deposit_slip').bind('change', function() {
+      var a=(this.files[0].size);
+     // alert(a);
+      if(a > 2000000) {
+        $('.wallet_deposit_bank_slip_alart').show();
+        $('.wallet_deposit_slip').val('');
+        $('#custom_fil_input_value').hide();
+          // alert('large');
+      }else {
+        $('.wallet_deposit_bank_slip_alart').hide();
+      };
+  });
+$('.wallet_deposit_bank_slip_alart').hide();
+
+$('.wallet_deposit_slip').change(function(e) {
+  var file = e.target.files[0].name;
+  // alert('The file "' + file + '" has been selected.');
+  $('#custom_fil_input_value').html(file);
+  $('#custom_fil_input_value').show();
+});

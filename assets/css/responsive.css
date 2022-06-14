@@ -1048,6 +1048,10 @@ label#AddMultiCityRow {
         font-size: 10px;
         text-align: center;
     }
+    .wallet_deposit_wrap {
+      border: solid 1px #ddd;
+      padding: 20px 10px;
+  }
 }
 /*-----------------------768---------------------------------*/
 /*--------------------------------------------------------*/
