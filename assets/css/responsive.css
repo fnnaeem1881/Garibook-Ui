@@ -366,19 +366,17 @@
   }
   .CarRentalMobileView2 {
         background: #f9f9f9;
-        padding: 15px 20px;
+        padding: 10px 20px;
         border: solid #0393fb 1px;
         margin-top: 5px;
         border-radius: 10px 0px 0px 10px;
-
-
     }
     .CarRentalMobileView1{
         border-radius: 0px 10px 10px 0px;
     }
     .CarRentalMobileView3 {
         background: #f9f9f9;
-        padding: 15px 20px;
+        padding: 10px 20px;
         border: solid #0393fb 1px;
         margin-top: 5px;
         border-radius: 0px 10px 10px 0px;
@@ -962,7 +960,7 @@ label#AddMultiCityRow {
   }
   .CarRentalMobileView {
         background: #f9f9f9;
-        padding: 15px 10px;
+        padding: 10px 10px;
         border-radius: 10px 0px 0px 10px;
         border-left: solid 1px #0393fb;
         border-top: solid 1px #0393fb;
@@ -970,7 +968,7 @@ label#AddMultiCityRow {
     }
     .CarRentalMobileView1 {
         background: #f9f9f9;
-        padding: 15px 8px;
+        padding: 10px 8px;
         border: solid 1px #0393fb;
     }
     .insideDhakaCarRental {
@@ -992,6 +990,7 @@ label#AddMultiCityRow {
         background: #f9f9f9;
         border: solid 1px #0393fb;
         border-left: none;
+        width: 50%;
         border-radius: 0px 10px 10px 0px;
     }
     .multiCityAirportToThanaLabelWrap {
@@ -999,6 +998,7 @@ label#AddMultiCityRow {
         background: #f9f9f9;
         border: solid 1px #0393fb;
         border-radius: 10px 0px 0px 10px;
+        width: 50%;
     }
     .d_mobile_none{
         display: none !important;
@@ -1155,12 +1155,12 @@ label#AddMultiCityRow {
         }
         .CarRentalMobileView1 {
               background: #f9f9f9;
-              padding: 15px 2px;
+              padding: 10px 2px;
               border: solid 1px #0393fb;
           }
           .CarRentalMobileView {
               background: #f9f9f9;
-              padding: 15px 2px;
+              padding: 10px 2px;
               border-radius: 10px 0px 0px 10px;
               border-left: solid 1px #0393fb;
               border-top: solid 1px #0393fb;
@@ -1326,7 +1326,7 @@ label#AddMultiCityRow {
     }
     .booking_form_label_option2 label {
         margin-right: 0;
-        font-weight: 500;
+        font-weight: 700;
         font-size: 10px !important;
     }
     div#CarRental .col-md-6:last-child .col-md-6 label {
@@ -1426,7 +1426,7 @@ label#AddMultiCityRow {
     }
     label#AddMultiCityRow {
         position: absolute;
-        top: 125px;
+        top: 134px;
         text-align: right;
         cursor: pointer;
         display: inline;
@@ -1456,7 +1456,7 @@ label#AddMultiCityRow {
         font-size: 12px !important;
     }
     .CarRentalMobileView , .CarRentalMobileView1 , .CarRentalMobileView2 , .CarRentalMobileView3{
-          padding: 8px 2px;
+          padding: 8px 0px;
     }
     .insideDhakaCarRental {
         width: 50%;
@@ -1600,7 +1600,7 @@ label#AddMultiCityRow {
     }
     
     span.CarRentalMobileView1 label {
-        width: 80%;
+        width: 83%;
         float: left;
     }
     div#CarRental .col-md-6:last-child .col-md-6 input {
@@ -1609,7 +1609,7 @@ label#AddMultiCityRow {
     }
     .booking_form_label_option2 label {
         margin-right: 0;
-        font-weight: 500;
+        font-weight: 700;
         font-size: 10px;
     }
     div#CarRentalFooterCheckbox {
@@ -1710,6 +1710,9 @@ label#AddMultiCityRow {
         padding: 8px 10px;
         font-size: 11px;
     }
+     .CarRentalMobileView2, .CarRentalMobileView3 {
+      padding: 4px 2px;
+  }
     
   
 }
@@ -1750,8 +1753,8 @@ label#AddMultiCityRow {
     }
     .booking_form_label_option2 label {
         margin-right: 0;
-        font-weight: 500;
-        font-size: 9px !important;
+        font-weight: 700;
+        font-size: 10px !important;
     }
     div#offer img {
         width: 225px;

@@ -366,6 +366,7 @@ label.booking_form_label img {
 
 .booking_form_label_option2 input {
     margin-right: 6px;
+    display: none;
 }
 
 .booking_form_label_option2 label {
@@ -632,7 +633,7 @@ div#services {
 }
 .CarRentalMobileView  {
     background: #f9f9f9;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 10px 0px 0px 10px;
     border-left: solid 1px #0393fb;
     border-top: solid 1px #0393fb;
@@ -640,18 +641,18 @@ div#services {
 }
 .CarRentalMobileView3  {
     background: #f9f9f9;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: solid #0393fb 1px;
     border-radius: 0px 10px 10px 0px;
 }
 .CarRentalMobileView1  {
     background: #f9f9f9;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border: solid 1px #0393fb;
 }
 .CarRentalMobileView2  {
     background: #f9f9f9;
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-top: solid #0393fb 1px;
     border-bottom: solid 1px #0393fb;
 }
@@ -682,14 +683,14 @@ div#CarRentalFooterCheckbox {
 }
 
 .multiCityAirportToThanaLabelWrap {
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: #f9f9f9;
     border: solid 1px #0393fb;
     border-radius: 10px 0px 0px 10px;
 }
 
 .multicityThanaToArportLabelWrap {
-    padding: 15px 20px;
+    padding: 10px 20px;
     background: #f9f9f9;
     border: solid 1px #0393fb;
     border-left: none;
@@ -1883,4 +1884,11 @@ div#booking_form_label_option label {
     margin: auto;
     text-align: center;
     display: block;
+}
+.multiCityAirportToThanaLabelWrap input {
+    display: none;
+}
+
+.multicityThanaToArportLabelWrap input {
+    display: none;
 }
