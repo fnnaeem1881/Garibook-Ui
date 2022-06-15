@@ -1763,9 +1763,10 @@ img.sendSuccessImg {
     opacity: 0;
   }
   .SinginSingupWrap .form_wrapper a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.3s linear;
+    font-size: 12px;
   }
   .SinginSingupWrap .form_wrapper a:hover {
     color: #fff;
@@ -1870,4 +1871,7 @@ img.sendSuccessImg {
   }
   .modal-backdrop.fade.show {
     z-index: 100000;
+}
+.not_mem label {
+    background: #fff;
 }
