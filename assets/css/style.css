@@ -309,7 +309,7 @@ li.nav-item.booking_form_active button {
     display: inline-block !important;
 }
 .booking_form_village_name{
-    padding: 14px 18px !important;
+    padding: 16px 18px !important;
     border: none;
     color: #0393FB !important;
 }
@@ -357,7 +357,7 @@ label.booking_form_label img {
 
 #booking_form_label_option label {
     margin-right: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 .booking_form_label_option2 {
     margin-bottom: 20px;
@@ -386,7 +386,7 @@ label.booking_form_label img {
 }
 .booking_form_button {
     position: absolute;
-    top: 165px;
+    top: 145px;
     font-size: 16px;
     border: solid 1px #DDD;
     border-radius: 48px;
@@ -602,7 +602,7 @@ div#services {
     width: 20%;
     float: left;
     background: #f7f7f7;
-    padding: 15px 28px;
+    padding: 10px 28px;
     border: solid 1px #0393fb;
     border-radius: 10px 0px 0px 10px;
 }
@@ -610,7 +610,7 @@ div#services {
 .roundTripHeaderWrap2 {
     width: 20%;
     float: left;
-    padding: 15px 27px;
+    padding: 10px 27px;
     border: solid 1px #0393fb;
     border-radius: 0px 10px 10px 0px;
     background: #f7f7f7;
@@ -1356,8 +1356,8 @@ section#WalletDepositSection {
     padding: 20px 150px;
     border-radius: 6px;
 }
-.wallet_deposit_form input , select {
-    font-size: 12px !important;
+.wallet_deposit_form input, select ,input {
+    font-size: 14px !important;
 }
 .form-group.wallet_deposit_bank_slip p {
     font-size: 10px;
@@ -1874,4 +1874,13 @@ img.sendSuccessImg {
 }
 .not_mem label {
     background: #fff;
+}
+div#booking_form_label_option input {
+    display: none;
+}
+
+div#booking_form_label_option label {
+    margin: auto;
+    text-align: center;
+    display: block;
 }

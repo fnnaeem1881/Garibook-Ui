@@ -28,14 +28,14 @@
         width: 25%;
         float: left;
         background: #f7f7f7;
-        padding: 15px 28px;
+        padding: 10px 28px;
         border: solid 1px #0393fb;
         border-radius: 10px 0px 0px 10px;
   }
   .roundTripHeaderWrap2 {
         width: 25%;
         float: left;
-        padding: 15px 27px;
+        padding: 10px 27px;
         border: solid 1px #0393fb;
         border-radius: 0px 10px 10px 0px;
         background: #f7f7f7;
@@ -122,14 +122,14 @@
         width: 27%;
         float: left;
         background: #f7f7f7;
-        padding: 15px 28px;
+        padding: 10px 28px;
         border: solid 1px #0393fb;
         border-radius: 10px 0px 0px 10px;
   }
   .roundTripHeaderWrap2 {
         width: 27%;
         float: left;
-        padding: 15px 27px;
+        padding: 10px 27px;
         border: solid 1px #0393fb;
         border-radius: 0px 10px 10px 0px;
         background: #f7f7f7;
@@ -278,7 +278,7 @@
         font-size: 12px;
   }
   .booking_form_village_name {
-        padding: 18px 18px !important;
+        padding: 16px 18px !important;
         border: none;
         color: #0393FB !important;
         font-size: 12px;
@@ -352,14 +352,14 @@
         width: 35%;
         float: left;
         background: #f7f7f7;
-        padding: 15px 28px;
+        padding: 10px 28px;
         border: solid 1px #0393fb;
         border-radius: 10px 0px 0px 10px;
   }
   .roundTripHeaderWrap2 {
         width: 35%;
         float: left;
-        padding: 15px 27px;
+        padding: 10px 27px;
         border: solid 1px #0393fb;
         border-radius: 0px 10px 10px 0px;
         background: #f7f7f7;
@@ -948,14 +948,14 @@ label#AddMultiCityRow {
         width: 45%;
         float: left;
         background: #f7f7f7;
-        padding: 15px 28px;
+        padding: 10px 28px;
         border: solid 1px #0393fb;
         border-radius: 10px 0px 0px 10px;
   }
   .roundTripHeaderWrap2 {
         width: 45%;
         float: left;
-        padding: 15px 27px;
+        padding: 10px 27px;
         border: solid 1px #0393fb;
         border-radius: 0px 10px 10px 0px;
         background: #f7f7f7;
@@ -1141,14 +1141,14 @@ label#AddMultiCityRow {
               width: 45%;
               float: left;
               background: #f7f7f7;
-              padding: 15px 10px;
+              padding: 10px;
               border: solid 1px #0393fb;
               border-radius: 10px 0px 0px 10px;
         }
         .roundTripHeaderWrap2 {
               width: 45%;
               float: left;
-              padding: 15px 10px;
+              padding: 10px;
               border: solid 1px #0393fb;
               border-radius: 0px 10px 10px 0px;
               background: #f7f7f7;
