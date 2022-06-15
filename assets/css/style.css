@@ -1652,3 +1652,222 @@ img.sendSuccessImg {
 #resetSuccessMessage{
     padding: 120px 0px;
 }
+
+/* sing in - Sing up */
+
+.SinginSingupWrap {
+    background: white;
+    border-radius: 3px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 80%;
+  }
+  .SinginSingupWrap .form_wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .SinginSingupWrap .form_wrapper .tile {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .SinginSingupWrap .form_wrapper .tile h3 {
+    font-size: 22px;
+    margin: 0px;
+    transition: all 0.3s ease;
+  }
+  .SinginSingupWrap .form_wrapper .radio {
+    display: none;
+  }
+  .SinginSingupWrap .form_wrapper .tab {
+    width: 50%;
+    border: solid 2px #f1f1f1;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    user-select: none;
+    /* background: #E8E8E8; */
+    /* border-radius: 25px; */
+  }
+  .SinginSingupWrap .form_wrapper .tab.login_tab {
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .SinginSingupWrap .form_wrapper .tab.signup_tab {
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .SinginSingupWrap .form_wrapper .shape {
+    background: #0366FB;
+    width: 50%;
+    height: calc(40px - 1px);
+    border-radius: 5px;
+    position: absolute;
+    top: 47.5px;
+    left: 0px;
+    opacity: 0.9;
+    transition: all 0.4s ease;
+    color: #fff;
+  }
+  .SinginSingupWrap .form_wrapper .shape:hover {
+    background: #0366FB;
+  }
+  .SinginSingupWrap .form_wrapper #login:checked ~ .shape {
+    left: 0px;
+  }
+  .SinginSingupWrap .form_wrapper #login:checked ~ .login_tab {
+    border-color: transparent;
+    z-index: 1;
+    color: white;
+  }
+  .SinginSingupWrap .form_wrapper #login:checked ~ .tile .signup {
+    display: none;
+  }
+  .SinginSingupWrap .form_wrapper #login:checked ~ .form_wrap {
+    transform: translateX(0);
+  }
+  .SinginSingupWrap .form_wrapper #login:checked ~ .form_wrap .signup_form {
+    opacity: 0;
+  }
+  .SinginSingupWrap .form_wrapper #signup:checked ~ .shape {
+    left: 50%;
+  }
+  .SinginSingupWrap .form_wrapper #signup:checked ~ .signup_tab {
+    border-color: transparent;
+    z-index: 1;
+    color: white;
+  }
+  .SinginSingupWrap .form_wrapper #signup:checked ~ .tile .login {
+    display: none;
+  }
+  .SinginSingupWrap .form_wrapper #signup:checked ~ .form_wrap {
+    transform: translateX(-100%);
+  }
+  .SinginSingupWrap .form_wrapper #signup:checked ~ .form_wrap .login_form {
+    opacity: 0;
+  }
+  .SinginSingupWrap .form_wrapper a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  .SinginSingupWrap .form_wrapper a:hover {
+    color: #fff;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap {
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    transition: transform 0.3s ease, opacity 0.2s ease;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild {
+    width: 100%;
+    flex: 0 0 100%;
+    transition: all 0.5s ease;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .input_group {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .input_group .input {
+    border: solid #f1f1f1 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    transition: all 0.3s linear;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .input_group .input::placeholder {
+    color: #adadad;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .input_group .input:hover {
+    border-color: rgba(248, 66, 151, 0.3);
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .input_group .input:focus {
+    border-color: rgba(248, 66, 151, 0.3);
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .forgot {
+    display: block;
+    margin-bottom: 15px;
+    padding: 0px 2px;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .btn {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: white;
+    background: #0366FB;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .btn:hover {
+    background: #0366FB;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .btn:active {
+    transform: scale(0.95);
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .not_mem {
+    text-align: center;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .not_mem label {
+    pointer-events: none;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .not_mem label span {
+    pointer-events: all;
+    color: #f84298;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  .SinginSingupWrap .form_wrapper .form_wrap .form_fild .not_mem label span:hover {
+    color: #a547b1;
+  }
+  button.btn-close.login_close_button {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    border: solid 1px #5a5757;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 6px;
+    z-index: 2;
+}
+.login_form_footer img {
+    width: 100%;
+}
+.login_active {
+    background: #E8E8E8;
+}
+ .modal {
+    /* margin-top: 3%; */
+    z-index: 100001 !important;
+  }
+  .modal-backdrop.fade.show {
+    z-index: 100000;
+}

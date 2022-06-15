@@ -3,6 +3,9 @@
 
 $('#reset_new_password_open_eye').hide();
 $('#reset_confirm_password_open_eye').hide();
+$('#login_password_open_eye').hide();
+$('#singup_password_open_eye').hide();
+$('#Singupconfirm_password_open_eye').hide();
 
 
 $('#reset_new_password_close_eye').on('click', function(){
@@ -22,6 +25,35 @@ $('#reset_confirm_password_open_eye').on('click', function(){
   $('#reset_confirm_password_open_eye').hide();
   $('#reset_confirm_password_close_eye').show();
 });
+
+$('#login_password_close_eye').on('click', function(){
+  $('#login_password_open_eye').show();
+  $('#login_password_close_eye').hide();
+});
+$('#login_password_open_eye').on('click', function(){
+  $('#login_password_open_eye').hide();
+  $('#login_password_close_eye').show();
+});
+
+
+$('#singup_password_close_eye').on('click', function(){
+  $('#singup_password_open_eye').show();
+  $('#singup_password_close_eye').hide();
+});
+$('#singup_password_open_eye').on('click', function(){
+  $('#singup_password_open_eye').hide();
+  $('#singup_password_close_eye').show();
+});
+
+$('#Singupconfirm_password_close_eye').on('click', function(){
+  $('#Singupconfirm_password_open_eye').show();
+  $('#Singupconfirm_password_close_eye').hide();
+});
+$('#Singupconfirm_password_open_eye').on('click', function(){
+  $('#Singupconfirm_password_open_eye').hide();
+  $('#Singupconfirm_password_close_eye').show();
+});
+
 
 // Profile Upload File Show
 
@@ -54,6 +86,30 @@ function newPassword() {
 }
 function confirm_password() {
   var confirm_password = document.getElementById("confirm_password");
+  if (confirm_password.type === "password") {
+    confirm_password.type = "text";
+  } else {
+    confirm_password.type = "password";
+  }
+}
+function passwordShow() {
+  var confirm_password = document.getElementById("Loginpassword");
+  if (confirm_password.type === "password") {
+    confirm_password.type = "text";
+  } else {
+    confirm_password.type = "password";
+  }
+}
+function PasswordShowSingup() {
+  var confirm_password = document.getElementById("SingUpPassword");
+  if (confirm_password.type === "password") {
+    confirm_password.type = "text";
+  } else {
+    confirm_password.type = "password";
+  }
+}
+function confirm_passwordSingup() {
+  var confirm_password = document.getElementById("Singup_confirm_password");
   if (confirm_password.type === "password") {
     confirm_password.type = "text";
   } else {

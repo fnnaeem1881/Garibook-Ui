@@ -762,10 +762,15 @@ $('.wallet_deposit_slip').change(function(e) {
   $('#custom_fil_input_value').show();
 });
 
+$('.signup_tab').on('click', function(){
+  $('.login_tab').addClass('login_active');
+  $('.signup_tab ').removeClass('login_active');
+});
+$('.login_tab').on('click', function(){
+  $('.login_tab').removeClass('login_active');
+  $('.signup_tab ').addClass('login_active');
+});
 
 
 
-
-
-// password Show
 

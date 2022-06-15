@@ -1055,6 +1055,9 @@ label#AddMultiCityRow {
       border: solid 1px #ddd;
       padding: 20px 10px;
   }
+  section#SingInSingUpModal .modal {
+    margin-top: 10%;
+  }
 }
 /*-----------------------768---------------------------------*/
 /*--------------------------------------------------------*/
@@ -1219,6 +1222,16 @@ label#AddMultiCityRow {
           .profile_info_update {
             padding: 0 !important;
         }
+        .SinginSingupWrap {
+          background: white;
+          border-radius: 3px;
+          padding: 30px;
+          position: relative;
+          display: flex;
+          margin: auto;
+          width: 100%;
+      }
+    
 }
 
 /*--------------------------------------------------------*/
