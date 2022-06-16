@@ -6,7 +6,9 @@
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/materialicons/v130/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
   }
-  
+  p{
+    font-size: 14px;
+  }
   .material-icons {
     font-family: 'Material Icons' !important;
     font-weight: normal;
