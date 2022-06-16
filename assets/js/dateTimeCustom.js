@@ -4,6 +4,7 @@
       
   $('.datepicker').datepicker({
       format: 'mm/dd/yyyy',
+      autoclose: true,
       beforeShowDay: function(date){
           dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
           if(disableDates.indexOf(dmy) != -1){
@@ -16,6 +17,7 @@
 
   $('.wallet_deposit_date').datepicker({
     format: 'mm/dd/yyyy',
+    autoclose: true
     // beforeShowDay: function(date){
     //     dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
     //     if(disableDates.indexOf(dmy) != -1){
