@@ -23,7 +23,9 @@
     direction: ltr;
     -webkit-font-smoothing: antialiased;
   }
-
+  li#Regular.PackageActive {
+    font-weight: 700;
+}
 .form-group{
     overflow: hidden;
 }
