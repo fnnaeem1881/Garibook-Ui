@@ -483,7 +483,7 @@
       overflow: hidden;
       border-top-right-radius: 15px;
       border-top-left-radius: 15px;
-      z-index: 2;
+      z-index: 99;
   }
   
   .bottom_nav__link {
