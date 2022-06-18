@@ -5,6 +5,7 @@
   $('.datepicker').datepicker({
       format: 'mm/dd/yyyy',
       autoclose: true,
+      dropupAuto: false,
       beforeShowDay: function(date){
           dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
           if(disableDates.indexOf(dmy) != -1){
