@@ -1160,6 +1160,17 @@ label#AddMultiCityRow {
   .my_earning_body_title.commissions_body_title {
     height: 125px;
   }
+    @-moz-document url-prefix() {
+      #stepSection .wizard .nav-tabs > li > a i {
+          color: #00000052;
+          position: absolute;
+          top: 60px;
+          width: 150px !important;
+          left: -50px;
+          font-size: 12px;
+          text-align: center;
+      }
+  }
 }
 /*-----------------------768---------------------------------*/
 /*--------------------------------------------------------*/
@@ -1333,6 +1344,17 @@ label#AddMultiCityRow {
           margin: auto;
           width: 100%;
       }
+      @-moz-document url-prefix() {
+        #stepSection .wizard .nav-tabs > li > a i {
+          color: #00000052;
+          position: absolute;
+          top: 50px;
+          width: 75px !important;
+          left: -24px;
+          font-size: 11px;
+          text-align: center;
+        }
+    }
     
 }
 
@@ -1631,6 +1653,17 @@ label#AddMultiCityRow {
     font-weight: 700;
     padding: 10px 13px;
   }
+  @-moz-document url-prefix() {
+    #stepSection .wizard .nav-tabs > li > a i {
+      color: #00000052;
+      position: absolute;
+      top: 50px;
+      width: 75px !important;
+      left: -24px;
+      font-size: 11px;
+      text-align: center;
+    }
+  }
 }
 
 /*--------------------------------------------------------*/
@@ -1828,6 +1861,17 @@ label#AddMultiCityRow {
   .booking_form_label_option2 label {
     font-weight: 700;
     padding: 10px 10px;
+  }
+  @-moz-document url-prefix() {
+    #stepSection .wizard .nav-tabs > li > a i {
+      color: #00000052;
+      position: absolute;
+      top: 50px;
+      width: 50px !important;
+      left: -10px;
+      font-size: 10px;
+      text-align: center;
+    }
   }
     
   
