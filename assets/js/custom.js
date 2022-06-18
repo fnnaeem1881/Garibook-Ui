@@ -771,6 +771,40 @@ $('.login_tab').on('click', function(){
   $('.signup_tab ').addClass('login_active');
 });
 
+$('#bkash').on('click', function(){
+  $('.nagad').removeClass('payment_active');
+  $('.master_card').removeClass('payment_active');
+  $('.visa').removeClass('payment_active');
+  $('.garibook_wallet ').removeClass('payment_active');
+  $('.bkash').addClass('payment_active');
+});
+$('#nagad').on('click', function(){
+  $('.nagad').addClass('payment_active');
+  $('.master_card').removeClass('payment_active');
+  $('.visa').removeClass('payment_active');
+  $('.garibook_wallet ').removeClass('payment_active');
+  $('.bkash').removeClass('payment_active');
+});
+$('#master_card').on('click', function(){
+  $('.nagad').removeClass('payment_active');
+  $('.master_card').addClass('payment_active');
+  $('.visa').removeClass('payment_active');
+  $('.garibook_wallet ').removeClass('payment_active');
+  $('.bkash').removeClass('payment_active');
+});
 
-
+$('#visa').on('click', function(){
+  $('.nagad').removeClass('payment_active');
+  $('.master_card').removeClass('payment_active');
+  $('.visa').addClass('payment_active');
+  $('.garibook_wallet ').removeClass('payment_active');
+  $('.bkash').removeClass('payment_active');
+});
+$('#garibook_wallet').on('click', function(){
+  $('.nagad').removeClass('payment_active');
+  $('.master_card').removeClass('payment_active');
+  $('.visa').removeClass('payment_active');
+  $('.garibook_wallet ').addClass('payment_active');
+  $('.bkash').removeClass('payment_active');
+});
 

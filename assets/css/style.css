@@ -1996,14 +1996,21 @@ label#CarRentalInsideDhakaLabel {
     text-align: center;
 }
 .passengerDetailsFormWrap  .form-check-label img {
-    border: solid 1px #ddd;
-    padding: 5px 3px;
-    width: 100px;
-    height: 54px;
+    width: 80px;
+    height: 50px;
     object-fit: contain;
+    border: solid 1px #ddd;
+    padding: 7px 8px;
+    border-radius: 6px;
+    margin-bottom: 5px;
 }
-.passengerDetailsFormWrap .form-check{
+.passengerDetailsFormWrap .form-check-section{
     display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.payment_method_wrap input {
+    display: none;
 }
 @-moz-document url-prefix() {
     #stepSection .wizard .nav-tabs > li > a i {
@@ -2015,4 +2022,14 @@ label#CarRentalInsideDhakaLabel {
         font-size: 12px;
         text-align: center;
     }
+}
+
+.payment_active{
+    display: block;
+}
+img.payment_check_mark {
+    width: 15px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
 }

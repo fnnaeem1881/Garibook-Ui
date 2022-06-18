@@ -1377,6 +1377,15 @@ label#AddMultiCityRow {
         font-weight: 500;
         font-size: 11px;
   }  
+  .passengerDetailsFormWrap  .form-check-label img {
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+    border: solid 1px #ddd;
+    padding: 7px 8px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
 }
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
@@ -1664,6 +1673,20 @@ label#AddMultiCityRow {
       text-align: center;
     }
   }
+  .passengerDetailsFormWrap  .form-check-label img {
+    width: 57px;
+    height: 50px;
+    object-fit: contain;
+    border: solid 1px #ddd;
+    padding: 6px 1px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+  .passengerDetailsFormWrap .form-check-section {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+  }
 }
 
 /*--------------------------------------------------------*/
@@ -1873,6 +1896,21 @@ label#AddMultiCityRow {
       text-align: center;
     }
   }
+  .passengerDetailsFormWrap .form-check-label img {
+    width: 50px;
+    height: 40px;
+    object-fit: contain;
+    border: solid 1px #ddd;
+    padding: 4px 3px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
+  img.payment_check_mark {
+    width: 10px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+  }
     
   
 }
@@ -1919,6 +1957,20 @@ label#AddMultiCityRow {
     div#offer img {
         width: 225px;
     }
+    .passengerDetailsFormWrap .form-check-label img {
+      width: 47px;
+      height: 32px;
+      object-fit: contain;
+      border: solid 1px #ddd;
+      padding: 1px 3px;
+      border-radius: 6px;
+      margin-bottom: 5px;
+  }
+  .passengerDetailsFormWrap .form-check-section {
+    display: inline-block;
+    position: relative;
+    margin-right: 3px;
+  }
 }
 
 /*--------------------------------------------------------*/
