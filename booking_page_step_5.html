@@ -52,9 +52,7 @@
                                           </div>
                                           <div class="nav_apps_download display_inline_block">
                                                 <a href="#">
-                                                      <button class="bg-transparent border-0 p-1" type="button">
-                                                           <img src="assets/image/icon/app_store.png" class="app_store_icon" alt=""> Apps Download
-                                                      </button>
+                                                      <img src="assets/image/icon/google_play.png"
                                                 </a>
                                           </div>
                                           <div class="nav_select_language display_inline_block">
@@ -100,6 +98,7 @@
                   </nav>
             </div>
       </header>
+      
 
       <!-- Apps Download  -->
       <section id="bookingFormApsDownload">
@@ -199,11 +198,19 @@
                                                                   <div class="row">
                                                                         <div class="col-md-6 mb-3">
                                                                               <div class="form-group">
-                                                                                    <label>Payment Method <b style="color:red">*</b> </label>
-                                                                                    <select class="form-control form-select" name="payment_method">
-                                                                                          <option>Select Payment Method</option>
-                                                                                          <option value="BD">Bangladesh</option>
-                                                                                    </select>
+                                                                                    <label class="d-block">Payment Method <b style="color:red">*</b> </label>
+                                                                                    <div class="form-check">
+                                                                                          <input class="form-check-input" type="radio" name="paymet_method" value="bkash" id="bkash">
+                                                                                          <label class="form-check-label" for="bkash">
+                                                                                                <img src="assets/image/bkash.png" alt="">
+                                                                                          </label>
+                                                                                        </div>
+                                                                                        <div class="form-check">
+                                                                                          <input class="form-check-input" type="radio" name="paymet_method" id="nagad" value="nagad" >
+                                                                                          <label class="form-check-label" for="nagad">
+                                                                                                <img src="assets/image/nagad.png" alt="">
+                                                                                          </label>
+                                                                                        </div>
                                                                               </div>
                                                                         </div>
                                                                         
@@ -282,7 +289,7 @@
 
 
 
-      <!-- footer -->
+         <!-- footer -->
 
       <div id="footer">
             <footer>
@@ -371,7 +378,7 @@
                                                 </p>
                                                 <span class="footer_aps_download">
                                                       <a href="#">
-                                                            <img src="assets/image/icon/app_store.png" alt="">Apps Download
+                                                            <img src="assets/image/icon/google_play.png" alt="">
                                                       </a>
                                                 </span>
                                           </div>
@@ -381,6 +388,33 @@
                   </div>
             </footer>
       </div>
+     <section id="footer_menu_section">
+            <div id="bottom_nav_wrap" class="dispaly-none bottom_nav_wrap">
+                  <nav class="bottom_nav">
+                        <a href="#vehicles" class="bottom_nav__link ">
+                              <span class="material-icons bottom_nav__icon">directions_car </span>
+                              <span class="bottom_nav__text">Vehicles</span>
+                        </a>
+                        <a href="#locations" class="bottom_nav__link ">
+                              <span class="material-icons bottom_nav__icon">map </span>
+                              <span class="bottom_nav__text">Location</span>
+                        </a>
+                        <a href="#" class="bottom_nav__link active">
+                              <span class="material-icons bottom_nav__icon ">home</span>
+                              <span class="bottom_nav__text">Home</span>
+                        </a>
+                        <a href="#contact" class="bottom_nav__link ">
+                              <span class="material-icons bottom_nav__icon">contact_mail </span>
+                              <span class="bottom_nav__text">Contact</span>
+                        </a>
+                        <a href="#" data-toggle="modal" data-target="#modal-with-tab" class="bottom_nav__link">
+                              <span class="material-icons bottom_nav__icon">person</span>
+                              <span class="bottom_nav__text">Login</span>
+                        </a>
+                  </nav>
+            </div>
+     </section>
+
       
 
       <!-- Jquery Version 3.6.0 Link -->

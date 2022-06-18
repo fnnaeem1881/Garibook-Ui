@@ -1995,3 +1995,13 @@ label#CarRentalInsideDhakaLabel {
 .app_download_section_button {
     text-align: center;
 }
+.passengerDetailsFormWrap  .form-check-label img {
+    border: solid 1px #ddd;
+    padding: 5px 3px;
+    width: 100px;
+    height: 54px;
+    object-fit: contain;
+}
+.passengerDetailsFormWrap .form-check{
+    display: inline-block;
+}
