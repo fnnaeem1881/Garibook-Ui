@@ -1295,6 +1295,9 @@ ul.otherBookingdateList .slick-dots {
 div#PassengerDetails input, select ,label {
     font-size: 13px !important;
 }
+div#PassengerDetails input, select {
+    height: 50px;
+}
 
 .form-control:disabled, .form-control[readonly] {
     background-color: #fff !important;
@@ -1302,9 +1305,11 @@ div#PassengerDetails input, select ,label {
 }
 .couponSubmitButton {
     background: #32B9AE !important;
-    border:none  !important;
+    border:
+    none  !important;
     color: #fff  !important;
     text-transform: uppercase;
+    height: 50px;
 }
 .couponSubmitButton:hover{
     border:none !important;
@@ -2007,8 +2012,33 @@ label#CarRentalInsideDhakaLabel {
 .passengerDetailsFormWrap .form-check-section{
     display: inline-block;
     position: relative;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
+.form-check-section.bkash {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.form-check-section.nagad {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.form-check-section.master_card {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.form-check-section.visa {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.form-check-section.garibook_wallet {
+    margin-left: 5px;
+}
+
+
 .payment_method_wrap input {
     display: none;
 }
@@ -2039,4 +2069,7 @@ img.payment_check_mark {
 }
 .passengerDetailsFormWrap .form-check-section img:hover {
     box-shadow: 3px 4px 13px rgba(188, 188, 188, 0.63);
+}
+.contactFormWrap input, select {
+    height: 46px;
 }
