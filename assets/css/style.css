@@ -393,7 +393,8 @@ label.booking_form_label img {
 
 #booking_form_label_option label {
     margin-right: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    color: #0393fb;
 }
 .booking_form_label_option2 {
     margin-bottom: 20px;
@@ -408,6 +409,7 @@ label.booking_form_label img {
 .booking_form_label_option2 label {
     font-weight: 500;
     padding: 10px 20px;
+    color: #0366fb;
 }
 #booking_form_label_option2 {
     margin-bottom: 13px;

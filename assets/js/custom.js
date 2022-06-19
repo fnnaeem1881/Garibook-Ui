@@ -201,7 +201,7 @@ $("#booking_form_check1").click(function() {
           //alert('asd');
           //$('input[type=checkbox]').prop('checked', true);
           document.getElementById("booking_form_checkLabel1").style.color = "#0393FB";
-          document.getElementById("booking_form_checkLabel2").style.color = "#000";
+          document.getElementById("booking_form_checkLabel2").style.color = "#0393fb";
           document.getElementById("Round_trip_pickUp_titleDivision").innerHTML = "Division";
           document.getElementById("Round_trip_pickUp_titleDistrict").innerHTML = "District";
           document.getElementById("Round_trip_pickUp_titleThana").innerHTML = "Thana";
@@ -212,8 +212,8 @@ $("#booking_form_check1").click(function() {
       } else {
          //alert('uncheck');
         //   $('input[type=checkbox]').prop('checked', false);
-          document.getElementById("booking_form_checkLabel1").style.color = "#000";
-          document.getElementById("booking_form_checkLabel2").style.color = "#000";
+          document.getElementById("booking_form_checkLabel1").style.color = "#0393fb";
+          document.getElementById("booking_form_checkLabel2").style.color = "#0393fb";
   
   
       }
@@ -227,7 +227,7 @@ $("#booking_form_check2").click(function() {
           $('.roundTripHeaderWrap').removeClass("labelActive");
 
           document.getElementById("booking_form_checkLabel2").style.color = "#0393FB";
-          document.getElementById("booking_form_checkLabel1").style.color = "#000";
+          document.getElementById("booking_form_checkLabel1").style.color = "#0393fb";
       //     $('#Round_trip_pickUp_title').css("display", "none");
             //alert(conceptName);
             document.getElementById("Round_trip_pickUp_titleDivision").innerHTML = "Division";
@@ -239,8 +239,8 @@ $("#booking_form_check2").click(function() {
       } else {
          //alert('uncheck');
          // $('input[type=checkbox]').prop('checked', false);
-          document.getElementById("booking_form_checkLabel2").style.color = "#000";
-          document.getElementById("booking_form_checkLabel1").style.color = "#000";
+          document.getElementById("booking_form_checkLabel2").style.color = "#0393fb";
+          document.getElementById("booking_form_checkLabel1").style.color = "#0393fb";
 
       }
   });
@@ -308,10 +308,10 @@ $("#multicityAirportToThanaCheck").click(function() {
     $('.multicityThanaToArportLabelWrap1 ').removeClass("labelActive");
     $('#multicityThanaToAirportSection').removeClass("multicityThanaToAirportSection");
       document.getElementById("multicityAirportToThanalabel").style.color = "#0393FB";
-      document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#0393fb";
   } else {
-      document.getElementById("booking_form_checkLabel1").style.color = "#000";
-      document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
+      document.getElementById("booking_form_checkLabel1").style.color = "#0393fb";
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#0393fb";
   }
 });
 $("#multicityThanaToAirportCheck").click(function() {
@@ -321,10 +321,10 @@ $("#multicityThanaToAirportCheck").click(function() {
     $('#multicityAirportToThanaSection').removeClass("multicityAirportToThanaSection");
     $('#multicityThanaToAirportSection').addClass("multicityThanaToAirportSection");
       document.getElementById("multicityThanaToAirportLabel").style.color = "#0393FB";
-      document.getElementById("multicityAirportToThanalabel").style.color = "#000";
+      document.getElementById("multicityAirportToThanalabel").style.color = "#0393fb";
   } else {
-      document.getElementById("multicityThanaToAirportLabel").style.color = "#000";
-      document.getElementById("multicityAirportToThanalabel").style.color = "#000";
+      document.getElementById("multicityThanaToAirportLabel").style.color = "#0393fb";
+      document.getElementById("multicityAirportToThanalabel").style.color = "#0393fb";
   }
 });
 $("#multicityAirportToThanaCheck1").click(function() {
@@ -334,10 +334,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection1').addClass("multicityAirportToThanaSection1");
         $('#multicityThanaToAirportSection1').removeClass("multicityThanaToAirportSection1");
         document.getElementById("multicityAirportToThanalabel1").style.color = "#0393FB";
-        document.getElementById("multicityThanaToAirportLabel1").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel1").style.color = "#0393fb";
     } else {
-        document.getElementById("booking_form_checkLabel11").style.color = "#000";
-        document.getElementById("multicityThanaToAirportLabel1").style.color = "#000";
+        document.getElementById("booking_form_checkLabel11").style.color = "#0393fb";
+        document.getElementById("multicityThanaToAirportLabel1").style.color = "#0393fb";
     }
   });
   $("#multicityThanaToAirportCheck1").click(function() {
@@ -347,10 +347,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection1').removeClass("multicityAirportToThanaSection1");
         $('#multicityThanaToAirportSection1').addClass("multicityThanaToAirportSection1");
         document.getElementById("multicityThanaToAirportLabel1").style.color = "#0393FB";
-        document.getElementById("multicityAirportToThanalabel1").style.color = "#000";
+        document.getElementById("multicityAirportToThanalabel1").style.color = "#0393fb";
     } else {
-        document.getElementById("multicityThanaToAirportLabel1").style.color = "#000";
-        document.getElementById("multicityAirportToThanalabel1").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel1").style.color = "#0393fb";
+        document.getElementById("multicityAirportToThanalabel1").style.color = "#0393fb";
     }
   });
   $("#multicityAirportToThanaCheck2").click(function() {
@@ -360,10 +360,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection2').addClass("multicityAirportToThanaSection2");
         $('#multicityThanaToAirportSection2').removeClass("multicityThanaToAirportSection2"); 
         document.getElementById("multicityAirportToThanalabel2").style.color = "#0393FB";
-        document.getElementById("multicityThanaToAirportLabel2").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel2").style.color = "#0393fb";
     } else {
-        document.getElementById("booking_form_checkLabel12").style.color = "#000";
-        document.getElementById("multicityThanaToAirportLabel2").style.color = "#000";
+        document.getElementById("booking_form_checkLabel12").style.color = "#0393fb";
+        document.getElementById("multicityThanaToAirportLabel2").style.color = "#0393fb";
     }
   });
   $("#multicityThanaToAirportCheck2").click(function() {
@@ -373,10 +373,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection2').removeClass("multicityAirportToThanaSection2");
         $('#multicityThanaToAirportSection2').addClass("multicityThanaToAirportSection2");  
         document.getElementById("multicityThanaToAirportLabel2").style.color = "#0393FB";
-        document.getElementById("multicityAirportToThanalabel2").style.color = "#000";
+        document.getElementById("multicityAirportToThanalabel2").style.color = "#0393fb";
     } else {
-        document.getElementById("multicityThanaToAirportLabel2").style.color = "#000";
-        document.getElementById("multicityAirportToThanalabel2").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel2").style.color = "#0393fb";
+        document.getElementById("multicityAirportToThanalabel2").style.color = "#0393fb";
     }
   });
   $("#multicityAirportToThanaCheck3").click(function() {
@@ -386,10 +386,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection3').addClass("multicityAirportToThanaSection3");
         $('#multicityThanaToAirportSection3').removeClass("multicityThanaToAirportSection3");
         document.getElementById("multicityAirportToThanalabel3").style.color = "#0393FB";
-        document.getElementById("multicityThanaToAirportLabel3").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel3").style.color = "#0393fb";
     } else {
-        document.getElementById("booking_form_checkLabel13").style.color = "#000";
-        document.getElementById("multicityThanaToAirportLabel3").style.color = "#000";
+        document.getElementById("booking_form_checkLabel13").style.color = "#0393fb";
+        document.getElementById("multicityThanaToAirportLabel3").style.color = "#0393fb";
     }
   });
   $("#multicityThanaToAirportCheck3").click(function() {
@@ -399,10 +399,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection3').removeClass("multicityAirportToThanaSection3");
         $('#multicityThanaToAirportSection3').addClass("multicityThanaToAirportSection3");
         document.getElementById("multicityThanaToAirportLabel3").style.color = "#0393FB";
-        document.getElementById("multicityAirportToThanalabel3").style.color = "#000";
+        document.getElementById("multicityAirportToThanalabel3").style.color = "#0393fb";
     } else {
-        document.getElementById("multicityThanaToAirportLabel3").style.color = "#000";
-        document.getElementById("multicityAirportToThanalabel3").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel3").style.color = "#0393fb";
+        document.getElementById("multicityAirportToThanalabel3").style.color = "#0393fb";
     }
   });
   $("#multicityAirportToThanaCheck4").click(function() {
@@ -412,10 +412,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection4').addClass('multicityAirportToThanaSection4');
         $('#multicityThanaToAirportSection4').removeClass("multicityThanaToAirportSection4");
         document.getElementById("multicityAirportToThanalabel4").style.color = "#0393FB";
-        document.getElementById("multicityThanaToAirportLabel4").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel4").style.color = "#0393fb";
     } else {
-        document.getElementById("booking_form_checkLabel14").style.color = "#000";
-        document.getElementById("multicityThanaToAirportLabel4").style.color = "#000";
+        document.getElementById("booking_form_checkLabel14").style.color = "#0393fb";
+        document.getElementById("multicityThanaToAirportLabel4").style.color = "#0393fb";
     }
   });
   $("#multicityThanaToAirportCheck4").click(function() {
@@ -425,10 +425,10 @@ $("#multicityAirportToThanaCheck1").click(function() {
         $('#multicityAirportToThanaSection4').removeClass("multicityAirportToThanaSection4");
         $('#multicityThanaToAirportSection4').addClass('multicityThanaToAirportSection4');
         document.getElementById("multicityThanaToAirportLabel4").style.color = "#0393FB";
-        document.getElementById("multicityAirportToThanalabel4").style.color = "#000";
+        document.getElementById("multicityAirportToThanalabel4").style.color = "#0393fb";
     } else {
-        document.getElementById("multicityThanaToAirportLabel4").style.color = "#000";
-        document.getElementById("multicityAirportToThanalabel4").style.color = "#000";
+        document.getElementById("multicityThanaToAirportLabel4").style.color = "#0393fb";
+        document.getElementById("multicityAirportToThanalabel4").style.color = "#0393fb";
     }
   });
 $('#multiCityRow1').css("display", "none");
@@ -492,9 +492,9 @@ $('#CarRentalFullDayCheck').click(function(){
         $('.CarRentalMobileView2').removeClass("labelActive");
         $('.CarRentalMobileView3').removeClass("labelActive");
           document.getElementById("CarRentalFullDayLabel").style.color = "#0393FB";
-          document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
-          document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
-          document.getElementById("CarRentalMonthlyLabel").style.color = "#000";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#0393fb";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#0393fb";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#0393fb";
     }
 });
 $('#CarRentalHalfDayCheck').click(function(){
@@ -503,10 +503,10 @@ $('#CarRentalHalfDayCheck').click(function(){
         $('.CarRentalMobileView1').addClass("labelActive");
         $('.CarRentalMobileView2').removeClass("labelActive");
         $('.CarRentalMobileView3').removeClass("labelActive");
-          document.getElementById("CarRentalFullDayLabel").style.color = "#000";
+          document.getElementById("CarRentalFullDayLabel").style.color = "#0393fb";
           document.getElementById("CarRentalHalfDayLabel").style.color = "#0393FB";
-          document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
-          document.getElementById("CarRentalMonthlyLabel").style.color = "#000";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#0393fb";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#0393fb";
     }
 });
 $('#CarRentalWeeklyCheck').click(function(){
@@ -515,10 +515,10 @@ $('#CarRentalWeeklyCheck').click(function(){
         $('.CarRentalMobileView1').removeClass("labelActive");
         $('.CarRentalMobileView2').addClass("labelActive");
         $('.CarRentalMobileView3').removeClass("labelActive");
-          document.getElementById("CarRentalFullDayLabel").style.color = "#000";
-          document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
+          document.getElementById("CarRentalFullDayLabel").style.color = "#0393fb";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#0393fb";
           document.getElementById("CarRentalWeeklyLabel").style.color = "#0393FB";
-          document.getElementById("CarRentalMonthlyLabel").style.color = "#000";
+          document.getElementById("CarRentalMonthlyLabel").style.color = "#0393fb";
     }
 });
 $('#CarRentalMonthlyCheck').click(function(){
@@ -527,9 +527,9 @@ $('#CarRentalMonthlyCheck').click(function(){
         $('.CarRentalMobileView1').removeClass("labelActive");
         $('.CarRentalMobileView2').removeClass("labelActive");
         $('.CarRentalMobileView3').addClass("labelActive");
-          document.getElementById("CarRentalFullDayLabel").style.color = "#000";
-          document.getElementById("CarRentalHalfDayLabel").style.color = "#000";
-          document.getElementById("CarRentalWeeklyLabel").style.color = "#000";
+          document.getElementById("CarRentalFullDayLabel").style.color = "#0393fb";
+          document.getElementById("CarRentalHalfDayLabel").style.color = "#0393fb";
+          document.getElementById("CarRentalWeeklyLabel").style.color = "#0393fb";
           document.getElementById("CarRentalMonthlyLabel").style.color = "#0393FB";
     }
 });
@@ -539,14 +539,14 @@ $('#CarRentalInsideDhakaCheck').click(function(){
         $('.insideDhakaCarRental').addClass("labelActive");
         $('.outsideDhakaCarRental').removeClass("labelActive");
           document.getElementById("CarRentalInsideDhakaLabel").style.color = "#0393FB";
-          document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#000";
+          document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#0393fb";
     }
 });
 $('#CarRentalOutsideDhakaCheck').click(function(){
     if ($(this).is(':checked')) {
         $('.insideDhakaCarRental').removeClass("labelActive");
         $('.outsideDhakaCarRental').addClass("labelActive");
-          document.getElementById("CarRentalInsideDhakaLabel").style.color = "#000";
+          document.getElementById("CarRentalInsideDhakaLabel").style.color = "#0393fb";
           document.getElementById("CarRentalOutsideDhakaLabel").style.color = "#0393FB";
     }
 });
