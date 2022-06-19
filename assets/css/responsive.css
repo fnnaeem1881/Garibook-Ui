@@ -1630,18 +1630,25 @@ label#AddMultiCityRow {
         /* border-radius: 0px 10px 10px 0px; */
     }
     button.becomeAgentButton {
-        padding: 5px 10px;
+        padding: 3px 6px;
         background: #fff;
         border-radius: 10px;
         color: #000;
+        height: 46px;
+        font-size: 14px;
+        margin-left: 0;
+        width: 130px;
         border: solid 1px rgba(0, 173, 238, 1);
     }
     button.contactUsButton {
-        padding: 5px 10px;
+        padding: 3px 6px;
         background: #fff;
         border-radius: 10px;
         color: #000;
+        height: 46px;
+        width: 130px;
         border: solid 1px rgba(0, 173, 238, 1);
+        font-size: 14px;
     }
     #stepSection .wizard > div.wizard-inner {
         position: relative;
@@ -1712,7 +1719,7 @@ label#AddMultiCityRow {
     position: relative;
     margin-right: 2px;
   }
-  div#PassengerDetails input, select {
+  div#PassengerDetails input, #PassengerDetails select {
     height: 40px;
   }
   .form-check-section.bkash {
@@ -1871,19 +1878,23 @@ label#AddMultiCityRow {
         border-radius: 10px 0px 0px 10px;
     }
     button.becomeAgentButton {
-        padding: 5px 10px;
+        padding: 2px;
         background: #fff;
         border-radius: 10px;
         color: #000;
         font-size: 12px;
+        height: 32px;
+        width: 100px;
         border: solid 1px rgba(0, 173, 238, 1);
     }
     button.contactUsButton {
-        padding: 5px 10px;
+        padding: 2px;
         background: #fff;
         border-radius: 10px;
         color: #000;
         font-size: 12px;
+        height: 32px;
+        width: 100px;
         border: solid 1px rgba(0, 173, 238, 1);
     }
     .services_box_description p {
