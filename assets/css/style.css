@@ -1240,6 +1240,7 @@ border-radius: 100%;
 .nextAndPreviousButtonWrap button {
     border: solid 2px #0366FB !important;
     padding: 10px 30px;
+    width: 230px;
 }
 .nextAndPreviousButtonWrap button:hover {
     border: solid 2px #0366FB !important;
@@ -1292,10 +1293,10 @@ ul.otherBookingdateList .slick-dots {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-div#PassengerDetails input, #PassengerDetails input select , #PassengerDetails input label {
+div#PassengerDetails input, select ,label {
     font-size: 13px !important;
 }
-div#PassengerDetails input, #PassengerDetails input select {
+div#PassengerDetails input, select {
     height: 50px;
 }
 
@@ -2070,6 +2071,6 @@ img.payment_check_mark {
 .passengerDetailsFormWrap .form-check-section img:hover {
     box-shadow: 3px 4px 13px rgba(188, 188, 188, 0.63);
 }
-.contactFormWrap input, .contactFormWrap input select {
+.contactFormWrap input, select {
     height: 46px;
 }

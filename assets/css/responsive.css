@@ -1404,6 +1404,11 @@ label#AddMultiCityRow {
     border-radius: 6px;
     margin-bottom: 5px;
   }
+  .nextAndPreviousButtonWrap button {
+    border: solid 2px #0366FB !important;
+    padding: 10px 20px;
+    width: 200px;
+  }
 
 }
 /*--------------------------------------------------------*/
@@ -1657,6 +1662,7 @@ label#AddMultiCityRow {
         border: solid 2px #0366FB !important;
         padding: 8px 10px;
         font-size: 13px;
+        width: 151px;
     }
     .changeSelectionButton button {
       background: #32B9AE;
@@ -1712,26 +1718,33 @@ label#AddMultiCityRow {
   .form-check-section.bkash {
     /* margin-right: 8px; */
     margin-left: 3px;
-}
+  }
 
-.form-check-section.nagad {
-    /* margin-right: 8px; */
-    margin-left: 3px;
-}
+  .form-check-section.nagad {
+      /* margin-right: 8px; */
+      margin-left: 3px;
+  }
 
-.form-check-section.master_card {
-    /* margin-right: 8px; */
-    margin-left: 3px;
-}
+  .form-check-section.master_card {
+      /* margin-right: 8px; */
+      margin-left: 3px;
+  }
 
-.form-check-section.visa {
-    /* margin-right: 8px; */
-    margin-left: 3px;
-}
+  .form-check-section.visa {
+      /* margin-right: 8px; */
+      margin-left: 3px;
+  }
 
-.form-check-section.garibook_wallet {
-    margin-left: 3px;
-}
+  .form-check-section.garibook_wallet {
+      margin-left: 3px;
+  }
+  .couponSubmitButton {
+    background: #32B9AE !important;
+    border: none  !important;
+    color: #fff  !important;
+    text-transform: uppercase;
+    height: 40px;
+  }
 
 }
 
@@ -1923,6 +1936,7 @@ label#AddMultiCityRow {
         border: solid 2px #0366FB !important;
         padding: 8px 10px;
         font-size: 11px;
+        width: 131px;
     }
      .CarRentalMobileView2, .CarRentalMobileView3 {
       padding: 4px 2px;
@@ -2021,6 +2035,13 @@ label#AddMultiCityRow {
     height: 32px;
   }
   .contactFormWrap input, .contactFormWrap input select {
+    height: 32px;
+  }
+  .couponSubmitButton {
+    background: #32B9AE !important;
+    border: none  !important;
+    color: #fff  !important;
+    text-transform: uppercase;
     height: 32px;
   }
 }
