@@ -728,15 +728,15 @@ div#CarRentalFooterCheckbox {
     /* padding: 10px 20px; */
     background: #f9f9f9;
     border: solid 1px #0393fb;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .multicityThanaToArportLabelWrap {
     /* padding: 10px 20px; */
     background: #f9f9f9;
     border: solid 1px #0393fb;
-    border-left: none;
-    border-radius: 0px 10px 10px 0px;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
 }
 .services_box_ico.services_box_ico4 img {
     width: 45px !important;

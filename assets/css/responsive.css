@@ -1083,15 +1083,15 @@ label#AddMultiCityRow {
         /* padding: 10px 4px; */
         background: #f9f9f9;
         border: solid 1px #0393fb;
-        border-left: none;
+        border-right: none;
         width: 50%;
-        border-radius: 0px 10px 10px 0px;
+        border-radius: 10px 0px 0px 10px;
     }
     .multiCityAirportToThanaLabelWrap {
         /* padding: 10px 4px; */
         background: #f9f9f9;
         border: solid 1px #0393fb;
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 0px 10px 10px 0px;
         width: 50%;
     }
     .d_mobile_none{
@@ -1868,14 +1868,14 @@ label#AddMultiCityRow {
         /* padding: 8px 2px; */
         background: #f9f9f9;
         border: solid 1px #0393fb;
-        border-left: none;
-        border-radius: 0px 10px 10px 0px;
+        border-right: none;
+        border-radius: 10px 0px 0px 10px;
     }
     .multiCityAirportToThanaLabelWrap {
         /* padding: 8px 2px; */
         background: #f9f9f9;
         border: solid 1px #0393fb;
-        border-radius: 10px 0px 0px 10px;
+        border-radius: 0px 10px 10px 0px;
     }
     button.becomeAgentButton {
         padding: 2px;

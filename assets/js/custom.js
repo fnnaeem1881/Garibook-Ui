@@ -437,11 +437,11 @@ $('#multiCityRow3').css("display", "none");
 $('#multiCityRow4').css("display", "none");
 
 
-$('#multicityThanaToAirportSection').removeClass("multicityThanaToAirportSection");
-$('#multicityThanaToAirportSection1').removeClass("multicityThanaToAirportSection1");
-$('#multicityThanaToAirportSection2').removeClass("multicityThanaToAirportSection2e");
-$('#multicityThanaToAirportSection3').removeClass("multicityThanaToAirportSection3");
-$('#multicityThanaToAirportSection4').removeClass("multicityThanaToAirportSection4");
+$('#multicityAirportToThanaSection').removeClass("multicityAirportToThanaSection");
+$('#multicityAirportToThanaSection1').removeClass("multicityAirportToThanaSection1");
+$('#multicityAirportToThanaSection2').removeClass("multicityAirportToThanaSection2");
+$('#multicityAirportToThanaSection3').removeClass("multicityAirportToThanaSection3");
+$('#multicityAirportToThanaSection4').removeClass("multicityAirportToThanaSection4");
 
 
 $(".AddMultiCityRow").click(function() {
