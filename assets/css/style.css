@@ -59,7 +59,7 @@ li{
     color: white !important;
 }
 .active_menu{
-    background: #0393FB !important;
+    background: #0366FB!important;
     color: white !important;
     border-radius: 5px;
 }
@@ -201,7 +201,7 @@ header#header {height: 100px;background: #fff;box-shadow: 3px 8px 11px -11px #00
 .nav_select_language.display_inline_block button {
     width: 150px;
     border-radius: 10px;
-    background: #0393FB;
+    background: #0366FB;
     padding: 5px 0px;
 }
  .nav_select_language.display_inline_block img {
@@ -215,7 +215,7 @@ select.form-select.default_bg.text-light {
 
 .nav_select_country.text-light.display_inline_block button {
   padding: 5px 25px;
-  background: #0393FB;
+  background: #0366FB;
   border-radius: 10px;
 }
 .main_nav ul li a {
@@ -2117,4 +2117,11 @@ img.payment_check_mark {
 
 input.form-control.fileInpputContactForm.text-field {
     line-height: 2.5;
+}
+.form-control:focus {
+    color: rgb(33, 37, 41);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(3 102 251) !important;
+    outline: 0px;
+    box-shadow: none !important;
 }

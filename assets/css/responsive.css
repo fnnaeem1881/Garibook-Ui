@@ -77,14 +77,14 @@
   }
   .nav_select_country.text-light.display_inline_block button {
         padding: 5px 10px;
-        background: #0393FB;
+        background: #0366FB;
         border-radius: 10px;
         font-size: 12px;
   }
   .nav_select_language.display_inline_block button {
         width: 120px;
         border-radius: 10px;
-        background: #0393FB;
+        background: #0366FB;
         padding: 5px 0px;
         font-size: 12px;
   }
