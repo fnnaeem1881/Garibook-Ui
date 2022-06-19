@@ -766,6 +766,7 @@ div#apps_download img {
     background: #fff;
     padding: 18px 30px;
     border-radius: 10px;
+    padding-bottom: 3px;
     margin-top: 10px;
     box-shadow: 5px 8px 25px #CED3D8;
 }
