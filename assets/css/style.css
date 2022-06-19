@@ -576,7 +576,7 @@ div#offer img {
 }
 div#services {
     background: #D8EEFF;
-    padding: 0px 0px 40px 0px;
+    padding: 25px 0px 70px 0px;
 }
 
 .section_title h4 {
@@ -751,20 +751,21 @@ div#apps_download img {
 }
 /* Contact */
 #contact{
-    background: #E5F2FC;
+    background: #ffffff;
     padding: 30px 0px;
 }
 .contatctFormTabButtonWrap {
     margin: auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .contactFormWrap {
     background: #fff;
-    padding: 30px;
+    padding: 18px 30px;
     border-radius: 10px;
     margin-top: 10px;
+    box-shadow: 5px 8px 25px #CED3D8;
 }
 
 button.contactUsButton {
@@ -795,6 +796,7 @@ button.ccontactSubmitButton {border: none;padding: 8px 40px;background: #0366FB;
     padding: 25px;
     border-radius: 10px;
     margin-top: 10px;
+    box-shadow: 5px 8px 25px #CED3D8;
 }
 .hotlineHeaderImage img {
     width: 100px;
@@ -844,6 +846,7 @@ button.ccontactSubmitButton {border: none;padding: 8px 40px;background: #0366FB;
     color: #fff;
     text-align: center;
     margin-top: -20px;
+    box-shadow: 5px 8px 25px #CED3D8;
 }
 .contactFormFooterWrap h4 {
     font-size: 20px;
@@ -855,11 +858,9 @@ button.ccontactSubmitButton {border: none;padding: 8px 40px;background: #0366FB;
 .contactFormFooteinfo {
     margin-top: 10px;
 }
-.ContactSubmutButtonWrap{
-    padding-top: 25px;
-}
+.ContactSubmutButtonWrap{padding-top: 0;}
 .contact_form_wrap textarea {
-    height: 255px;
+    height: 290px;
 }
 
 /* Footer */
@@ -2113,3 +2114,7 @@ img.payment_check_mark {
     opacity: .25;
     display: block;
 } */
+
+input.form-control.fileInpputContactForm.text-field {
+    line-height: 2.5;
+}
