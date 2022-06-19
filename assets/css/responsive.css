@@ -1171,6 +1171,15 @@ label#AddMultiCityRow {
           text-align: center;
       }
   }
+  .passengerDetailsFormWrap  .form-check-label img {
+    width: 89px;
+    height: 50px;
+    object-fit: contain;
+    border: solid 1px #ddd;
+    padding: 7px 8px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+  }
 }
 /*-----------------------768---------------------------------*/
 /*--------------------------------------------------------*/
@@ -1355,6 +1364,15 @@ label#AddMultiCityRow {
           text-align: center;
         }
     }
+    .passengerDetailsFormWrap  .form-check-label img {
+      width: 80px;
+      height: 50px;
+      object-fit: contain;
+      border: solid 1px #ddd;
+      padding: 7px 8px;
+      border-radius: 6px;
+      margin-bottom: 5px;
+    }
     
 }
 
@@ -1386,6 +1404,7 @@ label#AddMultiCityRow {
     border-radius: 6px;
     margin-bottom: 5px;
   }
+
 }
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
@@ -1675,7 +1694,7 @@ label#AddMultiCityRow {
   }
   .passengerDetailsFormWrap  .form-check-label img {
     width: 57px;
-    height: 50px;
+    height: 40px;
     object-fit: contain;
     border: solid 1px #ddd;
     padding: 6px 1px;
@@ -1685,8 +1704,35 @@ label#AddMultiCityRow {
   .passengerDetailsFormWrap .form-check-section {
     display: inline-block;
     position: relative;
-    margin-right: 5px;
+    margin-right: 2px;
   }
+  div#PassengerDetails input, select {
+    height: 40px;
+  }
+  .form-check-section.bkash {
+    /* margin-right: 8px; */
+    margin-left: 3px;
+}
+
+.form-check-section.nagad {
+    /* margin-right: 8px; */
+    margin-left: 3px;
+}
+
+.form-check-section.master_card {
+    /* margin-right: 8px; */
+    margin-left: 3px;
+}
+
+.form-check-section.visa {
+    /* margin-right: 8px; */
+    margin-left: 3px;
+}
+
+.form-check-section.garibook_wallet {
+    margin-left: 3px;
+}
+
 }
 
 /*--------------------------------------------------------*/
@@ -1969,7 +2015,13 @@ label#AddMultiCityRow {
   .passengerDetailsFormWrap .form-check-section {
     display: inline-block;
     position: relative;
-    margin-right: 3px;
+    margin-right: 1px;
+  }
+  div#PassengerDetails input, #PassengerDetails input select {
+    height: 32px;
+  }
+  .contactFormWrap input, .contactFormWrap input select {
+    height: 32px;
   }
 }
 
