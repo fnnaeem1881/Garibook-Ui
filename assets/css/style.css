@@ -1128,7 +1128,7 @@ ul.PackageList li {
     background: #fff;
     border: solid 1px #ddd;
     margin-left: -5px;
-    width: 33%;
+    width: 33.3%;
     text-align: center;
     cursor: pointer;
 }
@@ -1154,6 +1154,7 @@ ul.otherBookingdateList li {
     border: solid 1px #ddd;
     text-align: center;
     border-radius: 6px;
+    font-size: 15px;
 }
 .otherBookingdate {
     margin-left: -12px;
@@ -1276,7 +1277,21 @@ ul.otherBookingdateList .slick-dots {
     display: inline-block !important;
 }
 .otherBookingdateList .slick-prev {
-    left: -10px !important;
+    left: -20px !important;
+    width: 25px;
+    border: solid 1px #e7cdcd;
+    height: 100%;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.otherBookingdateList .slick-next {
+    right: -25px !important;
+    width: 25px;
+    border: solid 1px #e7cdcd;
+    height: 100%;
+    padding: 4px;
+    border-radius: 6px;
 }
 #Standard.PackageActive {
     background: #A1C2F3!important;
@@ -1293,10 +1308,10 @@ ul.otherBookingdateList .slick-dots {
     justify-content: space-between;
     margin-bottom: 20px;
 }
-div#PassengerDetails input, select ,label {
+div#PassengerDetails input, #PassengerDetails select ,#PassengerDetails label {
     font-size: 13px !important;
 }
-div#PassengerDetails input, select {
+div#PassengerDetails input, #PassengerDetails select {
     height: 50px;
 }
 
@@ -2071,6 +2086,6 @@ img.payment_check_mark {
 .passengerDetailsFormWrap .form-check-section img:hover {
     box-shadow: 3px 4px 13px rgba(188, 188, 188, 0.63);
 }
-.contactFormWrap input, select {
+.contactFormWrap input, .contactFormWrap  select {
     height: 46px;
 }

@@ -60,10 +60,24 @@
     display: none;
 }
 
-.slick-prev:before,
+/* .slick-prev:before,
 .slick-next:before
 {
     font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+.slick-prev:before,
+.slick-next:before
+{
+    /* font-family: 'slick'; */
     font-size: 20px;
     line-height: 1;
 
@@ -85,11 +99,13 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    /* content: '←'; */
+    content: '<';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: '>';
+    /* content: '→'; */
 }
 
 .slick-next
@@ -103,11 +119,13 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: '>';
+    /* content: '→'; */
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: '<';
+    /* content: '←'; */
 }
 
 /* Dots */
