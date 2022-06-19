@@ -2024,7 +2024,7 @@ label#CarRentalInsideDhakaLabel {
     }
 }
 
-.payment_active{
+.payment_active .payment_check_mark{
     display: block;
 }
 img.payment_check_mark {
@@ -2032,4 +2032,11 @@ img.payment_check_mark {
     position: absolute;
     top: -5px;
     right: -5px;
+}
+.payment_active label img {
+    background: #E3FFED;
+    border: solid 2px #4BD37B !important;
+}
+.passengerDetailsFormWrap .form-check-section img:hover {
+    box-shadow: 3px 4px 13px rgba(188, 188, 188, 0.63);
 }
