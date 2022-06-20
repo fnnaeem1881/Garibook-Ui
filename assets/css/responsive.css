@@ -561,6 +561,26 @@
     border-radius: 0px 10px 10px 0px;
     width: 100%;
   }
+  .m_carousel {
+    position: relative;
+    margin: 0 auto;
+    width: 700px !important;
+    height: auto;
+    border: none;
+    overflow: hidden !important;
+    padding: 40px 0px;
+  }
+  .m_carousel .slides {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    width: 100% !important;
+  }
 }
 
 
