@@ -582,7 +582,7 @@ div#services {
 }
 
 .section_title h4 {
-    background: linear-gradient(294.55deg, #00ADEE 3.94%, #32B9AE 47.56%, #C3D82E 123.93%);
+    background: linear-gradient(294.55deg, #00ADEE 3.94%, #0366fb 47.56%, #C3D82E 123.93%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
@@ -748,9 +748,9 @@ div#CarRentalFooterCheckbox {
     width: 40px !important;
     margin-top: 18px !important;
 }
-div#apps_download img {
+/* div#apps_download img {
     width: 100%;
-}
+} */
 /* Contact */
 #contact{
     background: #ffffff;
@@ -2008,12 +2008,12 @@ label#CarRentalInsideDhakaLabel {
     background: #0366FB;
 }
 
-.app_download_banner img {
+/* .app_download_banner img {
     width: 50% !important;
     margin: auto;
     display: block;
     padding: 3% 0  1% 0;
-}
+} */
 
 .app_download_section_button img {
     width: 150px !important;
@@ -2128,3 +2128,4 @@ input.form-control.fileInpputContactForm.text-field {
     outline: 0px;
     box-shadow: none !important;
 }
+

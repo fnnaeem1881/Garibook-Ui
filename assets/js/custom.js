@@ -808,3 +808,47 @@ $('#garibook_wallet').on('click', function(){
   $('.bkash').removeClass('payment_active');
 });
 
+$('.apps_slide').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+		
+$(document).ready(function () {
+  
+  $('.m_carousel').m_carousel({
+    m_carouselWidth: 760,
+    m_carouselHeight: 500,
+    directionNav: false,
+    reflection: false,
+    shadow: false,
+    speed: 1500,
+    slidesPerScroll: 1,
+    pauseOnHover: false,
+    autoplay: true,
+    autoplayInterval: 3000,
+
+
+  });
+});
