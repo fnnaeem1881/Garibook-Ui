@@ -1780,6 +1780,12 @@ label#AddMultiCityRow {
     text-transform: uppercase;
     height: 40px;
   }
+  .brouseFileButton {
+    background: #0366FB;
+    padding: 2px 15px;
+    border-radius: 4px;
+    line-height: 30px;
+  }
 
 }
 
@@ -2070,10 +2076,10 @@ label#AddMultiCityRow {
     position: relative;
     margin-right: 1px;
   }
-  div#PassengerDetails input, #PassengerDetails input select {
+  div#PassengerDetails input, #PassengerDetails  select {
     height: 32px;
   }
-  .contactFormWrap input, .contactFormWrap input select {
+  .contactFormWrap input, .contactFormWrap  select {
     height: 32px;
   }
   .couponSubmitButton {
@@ -2105,6 +2111,12 @@ label#AddMultiCityRow {
     }
     input.form-control.fileInpputContactForm.text-field {
       line-height: 1.5;
+  }
+  .brouseFileButton {
+    background: #0366FB;
+    padding: 2px 15px;
+    border-radius: 4px;
+    line-height: 25px;
   }
 }
 
