@@ -846,7 +846,7 @@ $(document).ready(function () {
     speed: 1500,
     slidesPerScroll: 1,
     pauseOnHover: false,
-    autoplay: false,
+    autoplay: true,
     autoplayInterval: 3000,
 
 
