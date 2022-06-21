@@ -2022,6 +2022,7 @@ label#CarRentalInsideDhakaLabel {
 }
 .app_download_section_button {
     text-align: center;
+    margin-top: 20px;
 }
 .passengerDetailsFormWrap  .form-check-label img {
     width: 80px;
