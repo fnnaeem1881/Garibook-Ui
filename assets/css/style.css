@@ -2131,12 +2131,12 @@ input.form-control.fileInpputContactForm.text-field {
 }
 
 .phone_frame {
-    width: 260px;
+    width: 256px;
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 99;
-    transform: translate(-50% , -51%);
+    transform: translate(-49% , -51%);
 }
 
 .phone_frame img {
