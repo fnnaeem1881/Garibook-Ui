@@ -838,7 +838,7 @@ $('.apps_slide').slick({
 $(document).ready(function () {
   
   $('.m_carousel').m_carousel({
-    m_carouselWidth: 760,
+    m_carouselWidth: 940,
     m_carouselHeight: 500,
     directionNav: false,
     reflection: false,
