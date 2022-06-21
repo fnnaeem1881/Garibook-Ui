@@ -423,17 +423,22 @@ label.booking_form_label img {
     margin-right: 20px;
     font-weight: 500;
 }
+.row.g-2.mb-4.sort_item_round_trip {
+    margin-bottom: 50px !important;
+}
 .booking_form_button {
     position: absolute;
-    top: 145px;
-    font-size: 16px;
+    top: 155px;
+    font-size: 12px;
     border: solid 1px #DDD;
     border-radius: 48px;
-    width: 26px;
+    width: 30px;
     text-align: center;
-    color: #0393FB;
+    color: #fff;
     left: 1%;
     font-weight: 500;
+    background: #0393FB;
+    padding: 5px;
 }
 .booking_form_button_single_trip {
     margin-bottom: 10px;

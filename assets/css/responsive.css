@@ -300,13 +300,13 @@
   }
   .booking_form_button {
         position: absolute;
-        top: 155px;
-        font-size: 16px;
+        top: 150px;
+        font-size: 12px;
         border: solid 1px #DDD;
         border-radius: 48px;
-        width: 26px;
+        width: 30px;
         text-align: center;
-        color: #0393FB;
+        color: #fff;
         left: 1%;
         font-weight: 500;
   }
@@ -828,13 +828,13 @@ background: transparent;
 }
 .booking_form_button {
   position: absolute;
-  top: 225px;
-  font-size: 16px;
+  top: 220px;
+  font-size: 12px;
   border: solid 1px #DDD;
   border-radius: 48px;
-  width: 26px;
+  width: 30px;
   text-align: center;
-  color: #0393FB;
+  color: #fff;
   left: 1%;
   font-weight: 500;
 }
@@ -1288,7 +1288,7 @@ label#AddMultiCityRow {
               width: 90%;
           }
           .roundTripHeaderWrap {
-              width: 45%;
+              width: 50%;
               float: left;
               background: #f7f7f7;
               /* padding: 10px; */
@@ -1296,7 +1296,7 @@ label#AddMultiCityRow {
               border-radius: 10px 0px 0px 10px;
         }
         .roundTripHeaderWrap2 {
-              width: 45%;
+              width: 50%;
               float: left;
               /* padding: 10px; */
               border: solid 1px #0393fb;
@@ -1492,13 +1492,13 @@ label#AddMultiCityRow {
   }   
   .booking_form_button {
         position: absolute;
-        top: 200px;
-        font-size: 16px;
+        top: 215px;
+        font-size: 12px;
         border: solid 1px #DDD;
         border-radius: 48px;
-        width: 26px;
+        width: 30px;
         text-align: center;
-        color: #0393FB;
+        color: #fff;
         left: 1%;
         font-weight: 500;
       }
