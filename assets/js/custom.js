@@ -840,13 +840,13 @@ $(document).ready(function () {
   $('.m_carousel').m_carousel({
     m_carouselWidth: 940,
     m_carouselHeight: 500,
-    directionNav: false,
+    directionNav: true,
     reflection: false,
     shadow: false,
-    speed: 1500,
+    speed: 200,
     slidesPerScroll: 1,
     pauseOnHover: false,
-    autoplay: true,
+    autoplay: false,
     autoplayInterval: 3000,
 
 
